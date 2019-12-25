@@ -1,0 +1,26 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "react-native/react-native": true,
+    "browser": true
+  },
+  "plugins": ["react", "react-native", "flowtype", "prettier", "standard"],
+  "extends": [
+    "airbnb",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "prettier",
+    "prettier/flowtype",
+    "prettier/react",
+    "prettier/standard"
+  ],
+  "rules": {
+    "react-native/no-unused-styles": "warn",
+    "react-native/no-inline-styles": "warn",
+    "react-native/no-color-literals": "warn",
+    "react/jsx-filename-extension": [0],
+    "react/no-multi-comp": [0],
+    "react/prefer-stateless-function": [0],
+    "react/display-name": [0]
+  }
+}
