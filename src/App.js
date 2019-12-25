@@ -1,7 +1,6 @@
 import 'react-native-gesture-handler'
 import { enableScreens } from 'react-native-screens'
 import React, { PureComponent } from 'react'
-import theme from './styles'
 import { NavigationNativeContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs'
@@ -9,6 +8,8 @@ import Icon from 'react-native-vector-icons/FontAwesome5'
 import Transit from './screens/Transit'
 import Ecobici from './screens/Ecobici'
 import Vehicles from './screens/Vehicles'
+import { RNLocalize, translate, setI18nConfig } from './i18n'
+import theme from './styles'
 
 const iconSize = 20
 
@@ -40,7 +41,11 @@ const tabOptions = (tabName, iconName) => {
 const TransitStack = () => {
   return (
     <Stack.Navigator initialRouteName="Transit">
-      <Stack.Screen name="Transit" component={Transit} options={stackOptions('Transporte CDMX')} />
+      <Stack.Screen
+        name="Transit"
+        component={Transit}
+        options={stackOptions(translate('transit_cdmx'))}
+      />
     </Stack.Navigator>
   )
 }
@@ -48,7 +53,11 @@ const TransitStack = () => {
 const EcobiciStack = () => {
   return (
     <Stack.Navigator initialRouteName="Ecobici">
-      <Stack.Screen name="Ecobici" component={Ecobici} options={stackOptions('Ecobici')} />
+      <Stack.Screen
+        name="Ecobici"
+        component={Ecobici}
+        options={stackOptions(translate('ecobici'))}
+      />
     </Stack.Navigator>
   )
 }
@@ -56,12 +65,34 @@ const EcobiciStack = () => {
 const VehiclesStack = () => {
   return (
     <Stack.Navigator initialRouteName="Vehicles">
-      <Stack.Screen name="Vehicles" component={Vehicles} options={stackOptions('Vehículos')} />
+      <Stack.Screen
+        name="Vehicles"
+        component={Vehicles}
+        options={stackOptions(translate('vehicles'))}
+      />
     </Stack.Navigator>
   )
 }
 
 class App extends PureComponent {
+  constructor(props) {
+    super(props)
+    setI18nConfig() // set initial config
+  }
+
+  componentDidMount() {
+    RNLocalize.addEventListener('change', this.handleLocalizationChange)
+  }
+
+  componentWillUnmount() {
+    RNLocalize.removeEventListener('change', this.handleLocalizationChange)
+  }
+
+  handleLocalizationChange = () => {
+    setI18nConfig()
+    this.forceUpdate()
+  }
+
   render() {
     return (
       <NavigationNativeContainer theme={theme}>
@@ -69,17 +100,17 @@ class App extends PureComponent {
           <Tab.Screen
             name="Transit"
             component={TransitStack}
-            options={tabOptions('Transporte', 'subway')}
+            options={tabOptions(translate('transit'), 'subway')}
           />
           <Tab.Screen
             name="Ecobici"
             component={EcobiciStack}
-            options={tabOptions('Ecobici', 'bicycle')}
+            options={tabOptions(translate('ecobici'), 'bicycle')}
           />
           <Tab.Screen
             name="Vehicles"
             component={VehiclesStack}
-            options={tabOptions('Vehículos', 'car')}
+            options={tabOptions(translate('vehicles'), 'car')}
           />
         </Tab.Navigator>
       </NavigationNativeContainer>
