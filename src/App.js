@@ -1,114 +1,90 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- */
+import 'react-native-gesture-handler'
+import { enableScreens } from 'react-native-screens'
+import React, { PureComponent } from 'react'
+import theme from './styles'
+import { NavigationNativeContainer } from '@react-navigation/native'
+import { createNativeStackNavigator } from '@react-navigation/native-stack'
+import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs'
+import Icon from 'react-native-vector-icons/FontAwesome5'
+import Transit from './screens/Transit'
+import Ecobici from './screens/Ecobici'
+import Vehicles from './screens/Vehicles'
 
-import React from 'react';
-import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  StatusBar,
-} from 'react-native';
+const iconSize = 20
 
-import {
-  Header,
-  LearnMoreLinks,
-  Colors,
-  DebugInstructions,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+enableScreens()
+const Stack = createNativeStackNavigator()
+const Tab = createMaterialBottomTabNavigator()
 
-const App: () => React$Node = () => {
+const commonStackOptions = {
+  headerLargeTitle: true,
+  headerHideShadow: true,
+  headerTintColor: theme.colors.accent,
+  headerStyle: {
+    backgroundColor: theme.colors.primary,
+  },
+}
+
+const stackOptions = title => ({
+  ...commonStackOptions,
+  title: title,
+})
+
+const tabOptions = (tabName, iconName) => {
+  return {
+    tabBarLabel: tabName,
+    tabBarIcon: ({ color }) => <Icon name={iconName} size={iconSize} color={color} solid />,
+  }
+}
+
+const TransitStack = () => {
   return (
-    <>
-      <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
-        <ScrollView
-          contentInsetAdjustmentBehavior="automatic"
-          style={styles.scrollView}>
-          <Header />
-          {global.HermesInternal == null ? null : (
-            <View style={styles.engine}>
-              <Text style={styles.footer}>Engine: Hermes</Text>
-            </View>
-          )}
-          <View style={styles.body}>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Step One</Text>
-              <Text style={styles.sectionDescription}>
-                Edit <Text style={styles.highlight}>App.js</Text> to change this
-                screen and then come back to see your edits.
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>See Your Changes</Text>
-              <Text style={styles.sectionDescription}>
-                <ReloadInstructions />
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Debug</Text>
-              <Text style={styles.sectionDescription}>
-                <DebugInstructions />
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Learn More</Text>
-              <Text style={styles.sectionDescription}>
-                Read the docs to discover what to do next:
-              </Text>
-            </View>
-            <LearnMoreLinks />
-          </View>
-        </ScrollView>
-      </SafeAreaView>
-    </>
-  );
-};
+    <Stack.Navigator initialRouteName="Transit">
+      <Stack.Screen name="Transit" component={Transit} options={stackOptions('Transporte CDMX')} />
+    </Stack.Navigator>
+  )
+}
 
-const styles = StyleSheet.create({
-  scrollView: {
-    backgroundColor: Colors.lighter,
-  },
-  engine: {
-    position: 'absolute',
-    right: 0,
-  },
-  body: {
-    backgroundColor: Colors.white,
-  },
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-    color: Colors.black,
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-    color: Colors.dark,
-  },
-  highlight: {
-    fontWeight: '700',
-  },
-  footer: {
-    color: Colors.dark,
-    fontSize: 12,
-    fontWeight: '600',
-    padding: 4,
-    paddingRight: 12,
-    textAlign: 'right',
-  },
-});
+const EcobiciStack = () => {
+  return (
+    <Stack.Navigator initialRouteName="Ecobici">
+      <Stack.Screen name="Ecobici" component={Ecobici} options={stackOptions('Ecobici')} />
+    </Stack.Navigator>
+  )
+}
 
-export default App;
+const VehiclesStack = () => {
+  return (
+    <Stack.Navigator initialRouteName="Vehicles">
+      <Stack.Screen name="Vehicles" component={Vehicles} options={stackOptions('Vehículos')} />
+    </Stack.Navigator>
+  )
+}
+
+class App extends PureComponent {
+  render() {
+    return (
+      <NavigationNativeContainer theme={theme}>
+        <Tab.Navigator activeColor={theme.colors.accent}>
+          <Tab.Screen
+            name="Transit"
+            component={TransitStack}
+            options={tabOptions('Transporte', 'subway')}
+          />
+          <Tab.Screen
+            name="Ecobici"
+            component={EcobiciStack}
+            options={tabOptions('Ecobici', 'bicycle')}
+          />
+          <Tab.Screen
+            name="Vehicles"
+            component={VehiclesStack}
+            options={tabOptions('Vehículos', 'car')}
+          />
+        </Tab.Navigator>
+      </NavigationNativeContainer>
+    )
+  }
+}
+
+export default App
