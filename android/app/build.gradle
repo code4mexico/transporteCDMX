@@ -1,5 +1,12 @@
 apply plugin: "com.android.application"
 
+// TODO: Remember to change me if environments are provided. We are using production ¯\_(ツ)_/¯
+project.ext.envConfigFiles = [
+    debug: ".env",
+    release: ".env"
+]
+apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.gradle"
+
 import com.android.build.OutputFile
 
 /**
@@ -183,6 +190,8 @@ dependencies {
     implementation "com.facebook.react:react-native:+"  // From node_modules
     implementation 'androidx.appcompat:appcompat:1.1.0-rc01'
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02'
+    implementation 'com.google.android.gms:play-services-base:17.0.0' // DEPENDENCY: rn-maps
+    implementation 'com.google.android.gms:play-services-maps:17.0.0' // DEPENDENCY: rn-maps
 
     if (enableHermes) {
         def hermesPath = "../../node_modules/hermes-engine/android/";

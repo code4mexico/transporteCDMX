@@ -1,4 +1,5 @@
 import 'react-native-gesture-handler'
+import Config from 'react-native-config'
 import { enableScreens } from 'react-native-screens'
 import React, { PureComponent } from 'react'
 import { NavigationNativeContainer } from '@react-navigation/native'
@@ -78,6 +79,7 @@ class App extends PureComponent {
   constructor(props) {
     super(props)
     setI18nConfig() // set initial config
+    console.log(Config.GOOGLE_MAPS_API_KEY)
   }
 
   componentDidMount() {
