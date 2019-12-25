@@ -1,14 +1,14 @@
 import React, { PureComponent, Fragment } from 'react'
-import { Text, StatusBar, ScrollView } from 'react-native'
+import MapView from 'react-native-maps'
+import { StatusBar } from 'react-native'
+import { DEFAULT_MAP_REGION } from '../utils/location'
 
 class Transit extends PureComponent {
   render() {
     return (
       <Fragment>
-        <ScrollView>
-          <StatusBar barStyle="light-content" backgroundColor={'blue'} />
-          <Text>Home</Text>
-        </ScrollView>
+        <StatusBar barStyle="light-content" backgroundColor={'blue'} />
+        <MapView initialRegion={DEFAULT_MAP_REGION} style={{ flex: 1 }} />
       </Fragment>
     )
   }
