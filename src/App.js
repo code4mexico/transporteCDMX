@@ -1,26 +1,27 @@
 import 'react-native-gesture-handler'
-import Config from 'react-native-config'
 import { enableScreens } from 'react-native-screens'
 import React, { PureComponent } from 'react'
+import { PixelRatio } from 'react-native'
 import { NavigationNativeContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs'
 import Icon from 'react-native-vector-icons/FontAwesome5'
+import { DEVICE_HAS_NOTCH } from './utils/device'
 import Transit from './screens/Transit'
 import Ecobici from './screens/Ecobici'
 import Vehicles from './screens/Vehicles'
+import Acknowledgments from './screens/Acknowledgments'
 import { RNLocalize, translate, setI18nConfig } from './i18n'
 import theme from './styles'
 
-const iconSize = 20
+const iconSize = 18
 
 enableScreens()
 const Stack = createNativeStackNavigator()
 const Tab = createMaterialBottomTabNavigator()
 
 const commonStackOptions = {
-  headerLargeTitle: true,
-  headerHideShadow: true,
+  headerLargeTitle: PixelRatio.get() >= 3 || DEVICE_HAS_NOTCH,
   headerTintColor: theme.colors.accent,
   headerStyle: {
     backgroundColor: theme.colors.primary,
@@ -75,11 +76,22 @@ const VehiclesStack = () => {
   )
 }
 
+const SupportUsStack = () => {
+  return (
+    <Stack.Navigator initialRouteName="Acknowledgments">
+      <Stack.Screen
+        name="Acknowledgments"
+        component={Acknowledgments}
+        options={stackOptions(translate('acknowledgments'))}
+      />
+    </Stack.Navigator>
+  )
+}
+
 class App extends PureComponent {
   constructor(props) {
     super(props)
     setI18nConfig() // set initial config
-    console.log(Config.GOOGLE_MAPS_API_KEY)
   }
 
   componentDidMount() {
@@ -104,15 +116,21 @@ class App extends PureComponent {
             component={TransitStack}
             options={tabOptions(translate('transit'), 'subway')}
           />
+          {/* // TODO: It's not implemented
           <Tab.Screen
             name="Ecobici"
             component={EcobiciStack}
             options={tabOptions(translate('ecobici'), 'bicycle')}
-          />
+          /> */}
           <Tab.Screen
             name="Vehicles"
             component={VehiclesStack}
             options={tabOptions(translate('vehicles'), 'car')}
+          />
+          <Tab.Screen
+            name="Acknowledgments"
+            component={SupportUsStack}
+            options={tabOptions(translate('acknowledgments'), 'heart')}
           />
         </Tab.Navigator>
       </NavigationNativeContainer>
