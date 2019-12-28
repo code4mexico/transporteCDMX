@@ -1,4 +1,0 @@
-diff a/src/components/VehicleSections/ImpoundLotNavigator.js b/src/components/VehicleSections/ImpoundLotNavigator.js	(rejected hunks)
-@@ -9 +8 @@ const navigationOptions = {
--  text: 'Corralón'
-+  text: 'Corralón',

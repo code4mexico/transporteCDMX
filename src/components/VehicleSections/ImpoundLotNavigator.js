@@ -6,15 +6,9 @@ import { translate } from '../../i18n'
 import { getImpoundLots } from '../../api/endpoints'
 import ImpoundLot from '../../models/ImpoundLot'
 import { HTTP_SUCCESS } from '../../api/request'
+
 // TODO: This should come from the server  ¯\_(ツ)_/¯
 const RELEASE_CODE = 2
-
-const codeDetail = {
-  0: translate('impound_lot_in_transit'),
-  1: translate('impound_lot_arrived'),
-  2: translate('impound_lot_delivered'),
-  3: translate('impound_lot_change'),
-}
 
 class ImpoundLotNavigator extends PureComponent {
   state = {
@@ -25,7 +19,7 @@ class ImpoundLotNavigator extends PureComponent {
   }
 
   _impoundLotsResponseSuccess = impoundLotsResponse => {
-    if (impoundLotsResponse?.data?.length) {
+    if (impoundLotsResponse?.data) {
       const impoundLots = impoundLotsResponse.data.map(impoundLot => {
         return new ImpoundLot(impoundLot)
       })
@@ -64,6 +58,10 @@ class ImpoundLotNavigator extends PureComponent {
     this.setState({ errorVisibility: false })
   }
 
+  _goToImpoundLots = () => {
+    this.props.navigation.navigate('Impound Lots', { impoundLots: this.state.impoundLots })
+  }
+
   getImpoundLotsInfo = async () => {
     if (this.props.plateText) {
       try {
@@ -81,7 +79,7 @@ class ImpoundLotNavigator extends PureComponent {
     return (
       <Fragment>
         <NavigationRow
-          onPress={this.state.error ? null : () => null}
+          onPress={this.state.error ? null : this._goToImpoundLots}
           iconName="car"
           iconColor="cornflowerblue"
           navigationDetail={this._getNavigationDetailLabel()}

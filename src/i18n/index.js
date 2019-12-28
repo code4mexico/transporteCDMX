@@ -1,5 +1,5 @@
 import * as RNLocalize from 'react-native-localize'
-import * as moment from 'moment'
+import moment from 'moment'
 import 'moment/locale/es'
 import i18n from 'i18n-js'
 import memoize from 'lodash/memoize'

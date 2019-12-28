@@ -49,10 +49,12 @@ class Vehicles extends PureComponent {
         <ImpoundLotNavigator
           ref={ref => (this.impoundLotsNavigator = ref)}
           plateText={this.state.plateText}
+          navigation={this.props.navigation}
         />
         <TrafficTicketsNavigator
           ref={ref => (this.trafficTicketsNavigator = ref)}
           plateText={this.state.plateText}
+          navigation={this.props.navigation}
         />
       </View>
     )

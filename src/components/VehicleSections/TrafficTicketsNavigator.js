@@ -16,9 +16,9 @@ class TrafficTicketsNavigator extends PureComponent {
   }
 
   _trafficTicketsResponseSuccess = trafficTicketsResponse => {
-    if (trafficTicketsResponse?.data?.response?.length) {
+    if (trafficTicketsResponse?.data?.response) {
       const trafficTickets = trafficTicketsResponse.data.response.map(ticketResponse => {
-        return new TrafficTicket(ticketResponse)
+        return new TrafficTicket(ticketResponse, this.props.plateText)
       })
       this.setState({ trafficTickets, error: false })
     } else {
@@ -27,6 +27,7 @@ class TrafficTicketsNavigator extends PureComponent {
   }
 
   _trafficTicketsHandler = trafficTicketsResponse => {
+    console.log(trafficTicketsResponse)
     if (trafficTicketsResponse?.data?.code === HTTP_SUCCESS) {
       this._trafficTicketsResponseSuccess(trafficTicketsResponse)
     } else if (trafficTicketsResponse?.data?.code === HTTP_NO_CONTENT) {
@@ -56,6 +57,10 @@ class TrafficTicketsNavigator extends PureComponent {
     this.setState({ errorVisibility: false })
   }
 
+  _goToInfractions = () => {
+    this.props.navigation.navigate('Traffic Tickets', { trafficTickets: this.state.trafficTickets })
+  }
+
   getTrafficTicketsInfo = async () => {
     if (this.props.plateText) {
       try {
@@ -73,7 +78,7 @@ class TrafficTicketsNavigator extends PureComponent {
     return (
       <Fragment>
         <NavigationRow
-          onPress={this.state.error ? null : () => null}
+          onPress={this.state.error ? null : this._goToInfractions}
           iconName="gavel"
           iconColor="peru"
           navigationDetail={this._getNavigationDetailLabel()}

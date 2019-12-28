@@ -60,8 +60,10 @@ const layout = {
   // Positioning
   positionAbsolute: 'absolute',
   alignItemsCenter: { alignItems: 'center' },
+  alignSelfEnd: { alignSelf: 'flex-end' },
   textAlignCenter: { textAlign: 'center' },
   justifyContentCenter: { justifyContent: 'center' },
+  flexEnd: { justifyContent: 'flex-end' },
   spaceBetween: { justifyContent: 'space-between' },
   centerChild: {
     justifyContent: 'center',

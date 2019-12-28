@@ -1,11 +1,15 @@
-import * as moment from 'moment'
+import moment from 'moment'
+
+// TODO: We need to create a dictionary of year -> UMA relationship
+const UMA = 84.49
 
 export default class TrafficTicket {
-  constructor(trafficTicketResponse) {
+  constructor(trafficTicketResponse, carPlate) {
     this._folio = trafficTicketResponse.folio
+    this._carPlate = carPlate
     this._date = trafficTicketResponse.fecha
     this._status = trafficTicketResponse.status
-    this._charge = trafficTicketResponse.unidad_cuenta
+    this._fine = trafficTicketResponse.unidad_cuenta
     this._detail = {
       article: trafficTicketResponse.articulo,
       fraction: trafficTicketResponse.fraccion,
@@ -23,8 +27,8 @@ export default class TrafficTicket {
     return this.formatDate()
   }
 
-  get chargedAmount() {
-    return this.formatChargedAmount()
+  get fine() {
+    return this.formatFineAmount()
   }
 
   get folio() {
@@ -35,16 +39,20 @@ export default class TrafficTicket {
     return this.formatStatus()
   }
 
+  get carPlate() {
+    return this.formatCarPlate()
+  }
+
   generateCauseDetail() {
-    return `Artículo ${this._detail.article}, fracción ${this._detail.fraction}, párrafo ${this._detail.article}, ​​​inciso ${this._detail.subsection}`
+    return this._detail.cause.toLowerCase().replace(/^\w/, c => c.toUpperCase())
   }
 
   formatDate() {
-    return moment(this._date)
+    return moment(this._date).format('L')
   }
 
-  formatChargedAmount() {
-    return this._charge
+  formatFineAmount() {
+    return parseFloat(this._fine) * UMA
   }
 
   formatFolio() {
@@ -53,5 +61,9 @@ export default class TrafficTicket {
 
   formatStatus() {
     return this._status
+  }
+
+  formatCarPlate() {
+    return this._carPlate
   }
 }

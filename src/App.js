@@ -10,6 +10,8 @@ import { DEVICE_HAS_NOTCH } from './utils/device'
 import Transit from './screens/Transit'
 import Ecobici from './screens/Ecobici'
 import Vehicles from './screens/Vehicles'
+import ImpoundLots from './screens/ImpoundLots'
+import TrafficTickets from './screens/TrafficTickets'
 import Acknowledgments from './screens/Acknowledgments'
 import { RNLocalize, translate, setI18nConfig } from './i18n'
 import theme from './styles'
@@ -71,6 +73,16 @@ const VehiclesStack = () => {
         name="Vehicles"
         component={Vehicles}
         options={stackOptions(translate('vehicles'))}
+      />
+      <Stack.Screen
+        name="Impound Lots"
+        component={ImpoundLots}
+        options={stackOptions(translate('impound_lot'))}
+      />
+      <Stack.Screen
+        name="Traffic Tickets"
+        component={TrafficTickets}
+        options={stackOptions(translate('traffic_tickets'))}
       />
     </Stack.Navigator>
   )
