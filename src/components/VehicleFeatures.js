@@ -18,14 +18,14 @@ const VehicleFeatures = props => {
   return (
     <SwiperFlatList style={styles.swiperFlatList} pagingEnabled={false}>
       <Card style={styles.card} onPress={_goToImpoundLotsMap}>
-        <Card.Cover style={styles.cover} source={{ uri: 'https://picsum.photos/500/300' }} />
+        <Card.Cover style={styles.cover} source={require('../assets/images/impoundLot.jpg')} />
         <Card.Content>
           <Subheading style={styles.cardSubheading}>{translate('impound_lots')}</Subheading>
           <Caption>{translate('impound_lots_description')}</Caption>
         </Card.Content>
       </Card>
       <Card style={styles.card} onPress={_goToVerificentrosMap}>
-        <Card.Cover style={styles.cover} source={{ uri: 'https://picsum.photos/500/300' }} />
+        <Card.Cover style={styles.cover} source={require('../assets/images/verificentros.jpg')} />
         <Card.Content>
           <Subheading style={styles.cardSubheading}>{translate('verificentros')}</Subheading>
           <Caption>{translate('verificentros_description')}</Caption>

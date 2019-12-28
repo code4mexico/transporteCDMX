@@ -18,4 +18,6 @@ class Acknowledgments extends PureComponent {
   }
 }
 
+// instagram.com/ndetito
+
 export default Acknowledgments

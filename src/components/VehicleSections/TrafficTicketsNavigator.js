@@ -86,6 +86,7 @@ class TrafficTicketsNavigator extends PureComponent {
           navigationDetail={this._getNavigationDetailLabel()}
           text={translate('traffic_tickets')}
           isLoading={this.state.isLoading}
+          hideBorder
         />
         <Snackbar
           visible={this.state.errorVisibility}
