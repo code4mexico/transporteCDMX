@@ -6,7 +6,7 @@ import { responsiveHeight } from 'react-native-responsive-dimensions'
 import { DEFAULT_MAP_REGION, openMapApp } from '../utils/location'
 import theme, { sharedStyles } from '../styles'
 import VERIFICENTROS_JSON from '../assets/datasets/VerificentrosLocation.json'
-import { Button, Paragraph, Title } from 'react-native-paper'
+import { Button, Paragraph, Title, Subheading } from 'react-native-paper'
 import { translate } from '../i18n'
 
 // TODO: We can use their API but we will MVP like this
@@ -102,10 +102,11 @@ class VerificentrosMap extends PureComponent {
           ref={ref => {
             this.RBSheet = ref
           }}
-          height={responsiveHeight(65)}
+          height={responsiveHeight(70)}
           closeOnDragDown>
           <View style={[sharedStyles.m3, sharedStyles.mb6]}>
-            <Title style={styles.section}>{this.state.activeMarker.gasType}</Title>
+            <Title style={styles.section}>{`${translate('car_types')}:`}</Title>
+            <Subheading style={styles.section}>{this.state.activeMarker.gasType}</Subheading>
             <Paragraph>{this.state.activeMarker.address}</Paragraph>
             <View style={sharedStyles.mt3}>
               {this._renderPhoneButton()}

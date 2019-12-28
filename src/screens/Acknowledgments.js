@@ -18,6 +18,9 @@ class Acknowledgments extends PureComponent {
   }
 }
 
+// Dan Pliego
+
 // instagram.com/ndetito
+// https://unsplash.com/@alexistostado
 
 export default Acknowledgments
