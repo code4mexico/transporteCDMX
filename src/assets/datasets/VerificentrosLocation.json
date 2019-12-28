@@ -1,0 +1,592 @@
+[
+  {
+    "id": "CJ36",
+    "name": "GRUPO CONTADERO, S. A. DE C. V.",
+    "address": "Prolongación 16 de Septiembre, Número 487, colonia El Contadero, C.P. 05500.",
+    "phoneNumbers": "55 5160 0980; 55 7823 1718",
+    "county": "Cuajimalpa de Morelos",
+    "gasType": "Gasolina",
+    "latitude": 19.3492648,
+    "longitude": -99.3043745
+  },
+  {
+    "id": "IZ37",
+    "name": "MAC 2, S.A DE C.V.",
+    "address": "Bajo Puente Rio Churubusco Locales 06-07 H(Cruce Vía Láctea eje 8 Sur), colonia Sinatel, C.P. 09470.",
+    "phoneNumbers": "5086 4085; 5615 6853",
+    "county": "Iztapalapa",
+    "gasType": "Gasolina y Revista Vehicular",
+    "latitude": 19.3608342,
+    "longitude": -99.1299367
+  },
+  {
+    "id": "IZ38",
+    "name": "MAC 3, S.A DE C.V.",
+    "address": "Avenida Ermita Iztapalapa, Número 4054, colonia Santa Martha Acatitla, C.P. 09510.",
+    "phoneNumbers": "2237 1072; 6286 3733",
+    "county": "Iztapalapa",
+    "gasType": "Gasolina y Revista Vehicular",
+    "latitude": 19.3563331,
+    "longitude": -99.0057653
+  },
+  {
+    "id": "IZ39",
+    "name": "MAC 4, S.A DE C.V.",
+    "address": "Avenida Taxqueña, Número 2395, colonia San Francisco Culhuacán, C.P. 09800.",
+    "phoneNumbers": "5087 6960; 5087 6964",
+    "county": "Iztapalapa",
+    "gasType": "Gasolina y Revista Vehicular",
+    "latitude": 19.3384683,
+    "longitude": -99.112252
+  },
+  {
+    "id": "CU40",
+    "name": "VERIFICENTROS PROVIDA, S. A. DE C. V.",
+    "address": "Calle Manuel María Contreras, Número 16, colonia San Rafael, C.P. 06470.",
+    "phoneNumbers": "9155 2832; 5086 2888",
+    "county": "Cuauhtémoc",
+    "gasType": "Gasolina y Revista Vehicular",
+    "latitude": 19.4416191,
+    "longitude": -99.163929
+  },
+  {
+    "id": "AO41",
+    "name": "IMPULSORA ECOLÓGICA SANTA FE S.A. DE C.V.",
+    "address": "Av Vasco de Quiroga Número 1845, colonia Santa Fe, C.P. 01210.",
+    "phoneNumbers": "55 5647 4131",
+    "county": "Álvaro Obregón",
+    "gasType": "Gasolina y Revista Vehicular",
+    "latitude": 19.3798121,
+    "longitude": -99.2480751
+  },
+  {
+    "id": "XO43",
+    "name": "CONSULTORÍA PRO AMBIENTAL, S.A. DE C.V.",
+    "address": "Calle Guadalupe I. Ramírez, Número 679, 675, 673, colonia Potrero de San Bernardino, C.P. 16030.",
+    "phoneNumbers": "5555 7546; 5555 7464",
+    "county": "Xochimilco",
+    "gasType": "Gasolina y Revista Vehicular",
+    "latitude": 19.2685139,
+    "longitude": -99.1266339
+  },
+  {
+    "id": "TL44",
+    "name": "MECANICA AMBIENTAL, S.A. DE C.V.",
+    "address": "San Juan Bosco, Número 19, colonia Huipulco, C.P. 14370.",
+    "phoneNumbers": "5655 0764; 5160 6743; 5160 6745",
+    "county": "Tlalpan",
+    "gasType": "Gasolina y Revista Vehicular",
+    "latitude": 19.2975155,
+    "longitude": -99.1496868
+  },
+  {
+    "id": "IZ45",
+    "name": "COMPAÑÍA EMPRESARIAL VEDOZA, S.A. DE C.V.",
+    "address": "Calzada Ermita Iztapalapa, Número 1624, colonia San Miguel Iztapalapa, C.P. 09360.",
+    "phoneNumbers": "55 6584 6578; 55 7261 1107; 55 7823 1716",
+    "county": "Iztapalapa",
+    "gasType": "Gasolina",
+    "latitude": 19.3534522,
+    "longitude": -99.0801276
+  },
+  {
+    "id": "CO46",
+    "name": "COMPAÑÍA EMPRESARIAL VEDOZA, S.A. DE C.V.",
+    "address": "Calle 28 de Diciembre, Número 17 y 21, colonia Emiliano Zapata, C.P. 04850.",
+    "phoneNumbers": "55 5678 3090; 55 7823 1716",
+    "county": "Coyoacán",
+    "gasType": "Gasolina",
+    "latitude": 19.3277639,
+    "longitude": -99.1372439
+  },
+  {
+    "id": "TH47",
+    "name": "SUMINISTROS Y MAQUINARIA KEBEC, S.A. DE C.V.",
+    "address": "Avenida Tláhuac, Número 5789, colonia Miguel Hidalgo, C.P. 13200.",
+    "phoneNumbers": "55 5673 9445; 55 5673 8115; 55 5673 8113; 55 7823 1716",
+    "county": "Tláhuac",
+    "gasType": "Gasolina y Diésel (Ligeros y Pesados)",
+    "latitude": 19.2997039,
+    "longitude": -99.0444041
+  },
+  {
+    "id": "IT48",
+    "name": "SUMINISTROS Y MAQUINARIA KEBEC, S.A. DE C.V.",
+    "address": "Avenida La Viga, Número 453, colonia Viaducto Piedad, C.P. 08200.",
+    "phoneNumbers": "55 5929 0329; 55 7823 1716",
+    "county": "Iztacalco",
+    "gasType": "Gasolina y Diésel (Ligeros)",
+    "latitude": 19.4024613,
+    "longitude": -99.1253901
+  },
+  {
+    "id": "AZ49",
+    "name": "ESTACIONAMIENTO RICE, S. A.",
+    "address": "Calle Sicomoro, Número 14, colonia Ampliación del Gas, C.P. 02970.",
+    "phoneNumbers": "5543 7756; 5669 2393",
+    "county": "Azcapotzalco",
+    "gasType": "Gasolina y Revista Vehicular",
+    "latitude": 19.4645096,
+    "longitude": -99.158086
+  },
+  {
+    "id": "BJ50",
+    "name": "VICENTE SERGIO PEREA FLORES",
+    "address": "Calle Cumbres de Maltrata, Número 422, colonia Narvarte, C.P. 03020.",
+    "phoneNumbers": "5682 0133; 5682 0258",
+    "county": "Benito Juárez",
+    "gasType": "Gasolina",
+    "latitude": 19.3887941,
+    "longitude": -99.1484857
+  },
+  {
+    "id": "VC51",
+    "name": "ALEJANDRO MARTÍNEZ BRIBIESCA",
+    "address": "Avenida Ferrocarril, Número 126, colonia Moctezuma, C.P. 15530.",
+    "phoneNumbers": "7678 6102",
+    "county": "Venustiano Carranza",
+    "gasType": "Gasolina, Diésel (Ligeros y Pesados) y Revista Vehicular",
+    "latitude": 19.4361857,
+    "longitude": -99.1022964
+  },
+  {
+    "id": "GM52",
+    "name": "INGENIERÍA Y VERIFICACIÓN PANTITLÁN, S.A. DE C.V.",
+    "address": "Calle Fray Bernardino de la Torre, Número 9, colonia Pueblo de Santiago Atzacoalco, C.P. 07040.",
+    "phoneNumbers": "5767 6063",
+    "county": "Gustavo A. Madero",
+    "gasType": "Gasolina y Revista Vehicular",
+    "latitude": 19.4981901,
+    "longitude": -99.0956947
+  },
+  {
+    "id": "CU53",
+    "name": "GESTIÓN DEL AIRE, S.A. DE C.V.",
+    "address": "Calle Chilpancingo, Número 142, colonia Roma Sur, C.P. 06760.",
+    "phoneNumbers": "5264 6174; 5574 1175",
+    "county": "Cuauhtémoc",
+    "gasType": "Gasolina y Revista Vehicular",
+    "latitude": 19.4021269,
+    "longitude": -99.1682316
+  },
+  {
+    "id": "CU54",
+    "name": "DIAGNOSTICO DE EMISIONES, S.A. DE C.V.",
+    "address": "Avenida Guerrero, Número 55, colonia Guerrero, C.P. 06300.",
+    "phoneNumbers": "5546 4593",
+    "county": "Cuauhtémoc",
+    "gasType": "Gasolina y Revista Vehicular",
+    "latitude": 19.4404876,
+    "longitude": -99.1485259
+  },
+  {
+    "id": "AO58",
+    "name": "ASEROEMPRESA, S.A DE C.V.",
+    "address": "Avenida Río Mixcoac Numero 343, colonia Axotla, C.P. 01030.",
+    "phoneNumbers": "55 5131 6341; 55 7098 5556; 55 7823 1717",
+    "county": "Álvaro Obregón",
+    "gasType": "Gasolina y Revista Vehicular",
+    "latitude": 19.3593258,
+    "longitude": -99.1747686
+  },
+  {
+    "id": "IT32",
+    "name": "CIUDAD MAXIPLUS, S. A. DE C. V.",
+    "address": "Calle Oriente 229, Número 382, colonia Agrícola Oriental, C.P. 08500.",
+    "phoneNumbers": "8620 4369",
+    "county": "Iztacalco",
+    "gasType": "Gasolina y Diésel (Ligeros)",
+    "latitude": 19.394051,
+    "longitude": -99.0813887
+  },
+  {
+    "id": "AO33",
+    "name": "CIUDAD MAXIPLUS, S. A. DE C. V.",
+    "address": "Prolongación San Antonio, Número 16, colonia Sacramento, C.P. 01080.",
+    "phoneNumbers": "8190 8250; 8190 8251",
+    "county": "Álvaro Obregón",
+    "gasType": "Gasolina y Diésel (Ligeros)",
+    "latitude": 19.3847424,
+    "longitude": -99.1924325
+  },
+  {
+    "id": "MC34",
+    "name": "COORDINACIÓN AMBIENTAL, S. A. DE C. V.",
+    "address": "Avenida México, Número 1249, colonia La Cruz, C.P. 10800.",
+    "phoneNumbers": "4431 6001",
+    "county": "Magdalena Contreras",
+    "gasType": "Gasolina y Revista Vehicular",
+    "latitude": 19.309111,
+    "longitude": -99.231279
+  },
+  {
+    "id": "MH35",
+    "name": "SERVICIO DE MEDICIÓN ORGANIZADA DE GASES, S. A. DE C. V.",
+    "address": "Calzada de los Gallos, Número 1, colonia Agricultura, C.P. 11360.",
+    "phoneNumbers": "5341 8930",
+    "county": "Miguel Hidalgo",
+    "gasType": "Gasolina y Revista Vehicular",
+    "latitude": 19.4558938,
+    "longitude": -99.1642776
+  },
+  {
+    "id": "MH01",
+    "name": "CONTROL ATMOSFÉRICO DE MÉXICO, S.A. DE C.V.",
+    "address": "Rodolfo Gaona, Número 86, Local \"A\", colonia Lomas de Sotelo, C.P. 11200.",
+    "phoneNumbers": "5557 4043",
+    "county": "Miguel Hidalgo",
+    "gasType": "Gasolina y Revista Vehicular",
+    "latitude": 19.4521111,
+    "longitude": -99.2179735
+  },
+  {
+    "id": "GM02",
+    "name": "MAC 1, S.A DE C.V.",
+    "address": "Avenida 510, Eje 4 Norte, Número 340, colonia San Juan de Aragón, C.P. 07920.",
+    "phoneNumbers": "1114 0052; 1114 0544; 5760 6608",
+    "county": "Gustavo A. Madero",
+    "gasType": "Gasolina y Revista Vehicular",
+    "latitude": 19.4647343,
+    "longitude": -99.0840572
+  },
+  {
+    "id": "CU03",
+    "name": "ECO AMBIENTAL CUAUHTÉMOC, S.A DE C.V.",
+    "address": "Manuel J. Othón, Número 193, colonia Tránsito, C.P. 06820.",
+    "phoneNumbers": "5514 5544",
+    "county": "Cuauhtémoc",
+    "gasType": "Gasolina y Revista Vehicular",
+    "latitude": 19.4142886,
+    "longitude": -99.1324994
+  },
+  {
+    "id": "AZ04",
+    "name": "VERIFICACIÓN INTEGRAL DE EMISIONES, S.A. DE C.V.",
+    "address": "Calle Centeotl, Número 267 \"D\", colonia Fraccionamiento Industrial San Antonio, C.P. 02760.",
+    "phoneNumbers": "5353 0797",
+    "county": "Azcapotzalco",
+    "gasType": "Gasolina, Diésel (Ligeros) y Revista Vehicular",
+    "latitude": 19.4790081,
+    "longitude": -99.1959989
+  },
+  {
+    "id": "GM05",
+    "name": "RONI, S.A DE C.V.",
+    "address": "Insurgentes Norte, Número 1322 y/o José Urbano Fonseca, Número 311, colonia Capultitlán, C.P. 07370.",
+    "phoneNumbers": "5577 2557",
+    "county": "Gustavo A. Madero",
+    "gasType": "Gasolina y Revista Vehicular",
+    "latitude": 19.4800266,
+    "longitude": -99.1312633
+  },
+  {
+    "id": "AO06",
+    "name": "VERIFICACIONES CENTENARIO, S.A. DE C.V.",
+    "address": "Calle de Milpa Alta, Número 11 (actualmente número 467), colonia Merced Gómez, C.P. 01600.",
+    "phoneNumbers": "5660 3069",
+    "county": "Álvaro Obregón",
+    "gasType": "Gasolina y Revista Vehicular",
+    "latitude": 19.3653982,
+    "longitude": -99.2067469
+  },
+  {
+    "id": "TL07",
+    "name": "VERIFICACIONES CENTENARIO, S.A. DE C.V.",
+    "address": "Tzinal Lote 5, Mza 325, colonia Héroes de Padierna, C.P. 14200.",
+    "phoneNumbers": "7261 3648",
+    "county": "Tlalpan",
+    "gasType": "Gasolina y Revista Vehicular",
+    "latitude": 19.2831406,
+    "longitude": -99.2173807
+  },
+  {
+    "id": "XO08",
+    "name": "VERIFICACIONES CENTENARIO, S.A. DE C.V.",
+    "address": "Avenida Acueducto, Número 419, colonia La Concha, Santiago Tapalcatlalpan, C.P. 16200.",
+    "phoneNumbers": "5801 7216",
+    "county": "Xochimilco",
+    "gasType": "Gasolina y Revista Vehicular",
+    "latitude": 19.2548463,
+    "longitude": -99.1179779
+  },
+  {
+    "id": "VC09",
+    "name": "VERIFICACIONES CENTENARIO, S.A. DE C.V.",
+    "address": "Calle Balboas Número 219, colonia Aquiles Serdán, C.P. 15430.",
+    "phoneNumbers": "8626 2938",
+    "county": "Venustiano Carranza",
+    "gasType": "Gasolina y Revista Vehicular",
+    "latitude": 19.4446709,
+    "longitude": -99.0908205
+  },
+  {
+    "id": "CO10",
+    "name": "ARTE AUTOMOTRÍZ, S. DE R.L. DE C.V.",
+    "address": "Avenida Pacífico, Número 293, colonia Los Reyes, C.P. 04380.",
+    "phoneNumbers": "5619 3980; 5544 0339",
+    "county": "Coyoacán",
+    "gasType": "Gasolina y Revista Vehicular",
+    "latitude": 19.3357372,
+    "longitude": -99.1485353
+  },
+  {
+    "id": "CU11",
+    "name": "VERIFICENTRO, S.A. DE C.V.",
+    "address": "Avenida Eje Central Lázaro Cárdenas, Número 177, colonia Guerrero, C.P. 06300.",
+    "phoneNumbers": "5669 3950; 5669 3951",
+    "county": "Cuauhtémoc",
+    "gasType": "Gasolina y Revista Vehicular",
+    "latitude": 19.4459065,
+    "longitude": -99.1389256
+  },
+  {
+    "id": "IT12",
+    "name": "INGENIERÍA Y VERIFICACIÓN PANTITLÁN, S.A. DE C.V.",
+    "address": "Calle Prosperidad, Número 220, colonia Pantitlán, C.P. 08100.",
+    "phoneNumbers": "5700 8665",
+    "county": "Iztacalco",
+    "gasType": "Gasolina y Revista Vehicular",
+    "latitude": 19.4193776,
+    "longitude": -99.0574428
+  },
+  {
+    "id": "IZ13",
+    "name": "POWER CARS MUNDO, S. A. DE C. V.",
+    "address": "Antiguo Camino Real San Lorenzo, Número 21, colonia El Molino, C.P. 09821.",
+    "phoneNumbers": "7680 4613; 7680 4614",
+    "county": "Iztapalapa",
+    "gasType": "Gasolina y Diésel (Ligeros)",
+    "latitude": 19.35535,
+    "longitude": -99.0853635
+  },
+  {
+    "id": "TL14",
+    "name": "MARÍA CAROLINA AGOFF",
+    "address": "Calzada de los Tenorios, Número 318, colonia Rinconada Coapa, C.P. 14330.",
+    "phoneNumbers": "55 5160 4545; 55 5929 9490; 55 7823 1718",
+    "county": "Tlalpan",
+    "gasType": "Gasolina y Revista Vehicular",
+    "latitude": 19.290118,
+    "longitude": -99.1156821
+  },
+  {
+    "id": "IT16",
+    "name": "POWER CARS MUNDO, S. A. DE C. V.",
+    "address": "Calle Pascual Orozco, Número 120, colonia Barrio Los Reyes, C.P. 08640.",
+    "phoneNumbers": "7690 5455",
+    "county": "Iztacalco",
+    "gasType": "Gasolina",
+    "latitude": 19.3946609,
+    "longitude": -99.1169329
+  },
+  {
+    "id": "AZ17",
+    "name": "POWER CARS MUNDO, S. A. DE C. V.",
+    "address": "Calle Cuauhtémoc, Número 58, colonia Francisco Xocotitla, C.P. 02940.",
+    "phoneNumbers": "8624 3565; 8624 3564",
+    "county": "Azcapotzalco",
+    "gasType": "Gasolina y Diésel (Ligeros)",
+    "latitude": 19.4692653,
+    "longitude": -99.1463078
+  },
+  {
+    "id": "MH19",
+    "name": "EXCELENCIA REFACCIONARIA AVE FENIX, S. A. DE C. V.",
+    "address": "Calle Cañito, Número 122, colonia Huichapan, C.P. 11290.",
+    "phoneNumbers": "7258 1404; 7258 3879",
+    "county": "Miguel Hidalgo",
+    "gasType": "Gasolina",
+    "latitude": 19.4638048,
+    "longitude": -99.1932017
+  },
+  {
+    "id": "AZ20",
+    "name": "EXCELENCIA REFACCIONARIA AVE FENIX, S. A. DE C. V.",
+    "address": "Calle Poniente 146, Número 710 A, colonia Industrial Vallejo, C.P. 02300.",
+    "phoneNumbers": "8624 2255",
+    "county": "Azcapotzalco",
+    "gasType": "Gasolina y Diésel (Ligeros)",
+    "latitude": 19.5006499,
+    "longitude": -99.1617603
+  },
+  {
+    "id": "BJ21",
+    "name": "EXCELENCIA REFACCIONARIA AVE FENIX, S. A. DE C. V.",
+    "address": "Calzada Santa Cruz, Número 138, colonia Portales Norte, C.P. 03300.",
+    "phoneNumbers": "7680 3294",
+    "county": "Benito Juárez",
+    "gasType": "Gasolina",
+    "latitude": 19.3722132,
+    "longitude": -99.1468196
+  },
+  {
+    "id": "MH22",
+    "name": "JET VAN CAR RENTAL S.A. DE C.V.",
+    "address": "Av. Calzada México - Tacuba, Número 1073, colonia Huichapan, C.P. 11240.",
+    "phoneNumbers": "86204482; 86204483; 86204487; 86204488",
+    "county": "Miguel Hidalgo",
+    "gasType": "Gasolina y Revista Vehicular",
+    "latitude": 19.4593967,
+    "longitude": -99.1971377
+  },
+  {
+    "id": "IZ23",
+    "name": "DISTRIBUIDORA MIVEP S.A. DE C.V.",
+    "address": "Eje 5, Sur, Mz 5, Lote 3 de la zona complementaria Central de Abastos, colonia Central de Abastos, C.P. 09040.",
+    "phoneNumbers": "55 5694 0734; 55 7823 1718",
+    "county": "Iztapalapa",
+    "gasType": "Gasolina y Revista Vehicular",
+    "latitude": 19.3804027,
+    "longitude": -99.0900989
+  },
+  {
+    "id": "CO24",
+    "name": "CONTROL ATMOSFÉRICO DE MÉXICO, S.A. DE C.V.",
+    "address": "Calle Privada Monserrat, Número 20 actualmente 120, de la calle Prolongación Eje Central Lázaro Cárdenas, colonia La Candelaria, C.P. 04380.",
+    "phoneNumbers": "5610 6585",
+    "county": "Coyoacán",
+    "gasType": "Gasolina y Revista Vehicular",
+    "latitude": 19.3336032,
+    "longitude": -99.1512955
+  },
+  {
+    "id": "AZ25",
+    "name": "CONTROL ATMOSFÉRICO DE MÉXICO, S.A. DE C.V.",
+    "address": "Avenida Coltongo, Número 67, colonia Coltongo, C.P. 02630.",
+    "phoneNumbers": "5719 1023",
+    "county": "Azcapotzalco",
+    "gasType": "Gasolina, Diésel (Ligeros y Pesados) y Revista Vehicular",
+    "latitude": 19.4803419,
+    "longitude": -99.1488127
+  },
+  {
+    "id": "TH26",
+    "name": "CONTROL ATMOSFÉRICO DE MÉXICO, S.A. DE C.V.",
+    "address": "Calle La Turba, Número 68 Manzana 208 Lote 52, colonia Granjas Cabrera, C.P. 13230.",
+    "phoneNumbers": "5859 5395",
+    "county": "Tláhuac",
+    "gasType": "Gasolina, Diésel (Ligeros) y Revista Vehicular",
+    "latitude": 19.3035256,
+    "longitude": -99.0641866
+  },
+  {
+    "id": "BJ27",
+    "name": "CONTROL ATMOSFÉRICO DE MÉXICO, S.A. DE C.V.",
+    "address": "Calle Gabriel Mancera, Número 305, colonia Del Valle, C.P. 03100.",
+    "phoneNumbers": "5639 6616",
+    "county": "Benito Juárez",
+    "gasType": "Gasolina y Revista Vehicular",
+    "latitude": 19.393931,
+    "longitude": -99.1624481
+  },
+  {
+    "id": "AO28",
+    "name": "CONTROL ATMOSFÉRICO DE MÉXICO, S.A. DE C.V.",
+    "address": "Avenida Toluca, Número 147, colonia Olivar de los Padres, C.P. 01780.",
+    "phoneNumbers": "5595 5363",
+    "county": "Álvaro Obregón",
+    "gasType": "Gasolina y Revista Vehicular",
+    "latitude": 19.3411415,
+    "longitude": -99.2071883
+  },
+  {
+    "id": "XO29",
+    "name": "CIUDAD MAXIPLUS, S. A. DE C. V.",
+    "address": "Calle Rio Santiago, Fracción 2 Bodega 20, colonia Rancho Olmedo, Pueblo de Santiago Tepalcatlalpan, C.P. 16200.",
+    "phoneNumbers": "5161 6449",
+    "county": "Xochimilco",
+    "gasType": "Gasolina y Diésel (Ligeros)",
+    "latitude": 19.2493816,
+    "longitude": -99.1132081
+  },
+  {
+    "id": "AO30",
+    "name": "CIUDAD MAXIPLUS, S. A. DE C. V.",
+    "address": "Calle Rosa Blanca, Número 36, colonia Las Minas de Cristo, C.P. 01419.",
+    "phoneNumbers": "7261 6433; 7258 6220",
+    "county": "Álvaro Obregón",
+    "gasType": "Gasolina y Diésel (Ligeros)",
+    "latitude": 19.3801587,
+    "longitude": -99.1994721
+  },
+  {
+    "id": "IZ31",
+    "name": "CIUDAD MAXIPLUS, S. A. DE C. V.",
+    "address": "Lote de Terreno uno, de la Manzana 435, Zona 67, del Ejido de San Lorenzo Tezonco 1, en Avenida de las Torres, S/N, actualmente José Clemente Orozco, colonia Barrio de San Antonio, C.P. 09900.",
+    "phoneNumbers": "7261 9443; 7261 5890",
+    "county": "Iztapalapa",
+    "gasType": "Gasolina y Diésel (Ligeros)",
+    "latitude": 19.3083047,
+    "longitude": -99.0762779
+  },
+  {
+    "id": "IZ57",
+    "name": "MEDINDUSTRIAS, S.A. DE C.V.",
+    "address": "Eje Vial 6 Trabajadores Sociales, Número 1059, colonia Barrio San Pedro, C.P. 09000.",
+    "phoneNumbers": "55 5087 1186; 55 5087 1189; 55 7823 1717",
+    "county": "Iztapalapa",
+    "gasType": "Gasolina y Revista Vehicular",
+    "latitude": 19.3699384,
+    "longitude": -99.0839469
+  },
+  {
+    "id": "IZ59",
+    "name": "SOLUCIONES EMPRESARIALES DRAKO, S DE R.L. DE C.V.",
+    "address": "Pedro Aceves, Número 70, esquina Cayetando Andrade, colonia Santa Martha Acatitla, C.P. 09510.",
+    "phoneNumbers": "55 5085 1317; 55 5085 1318; 55 7823 1717",
+    "county": "Iztapalapa",
+    "gasType": "Gasolina, Diésel (Ligeros y Pesados) y Revista Vehicular",
+    "latitude": 19.3651887,
+    "longitude": -99.0189563
+  },
+  {
+    "id": "GM60",
+    "name": "JOSÉ RAFAEL OCAÑA UMBRAL",
+    "address": "Calle Henry Ford, Número 257-K, colonia Bondojito, C.P. 07850.",
+    "phoneNumbers": "5759 4202",
+    "county": "Gustavo A. Madero",
+    "gasType": "Gasolina y Diésel (Ligeros)",
+    "latitude": 19.4680556,
+    "longitude": -99.1128076
+  },
+  {
+    "id": "TH61",
+    "name": "SOLUCIONES EMPRESARIALES DRAKO, S DE R.L. DE C.V.",
+    "address": "Mar del Néctar Mz 115 Lt 1, colonia El Triángulo, C.P. 13460.",
+    "phoneNumbers": "55 7261 3894; 55 2594 3560; 55 7823 1718",
+    "county": "Tláhuac",
+    "gasType": "Gasolina",
+    "latitude": 19.2831549,
+    "longitude": -99.0109563
+  },
+  {
+    "id": "IT62",
+    "name": "DESARROLLO Y ASESORÍA APLICADA NOVO, S.A. DE C.V.",
+    "address": "Azafrán N°581, colonia Granjas México, C.P. 08400.",
+    "phoneNumbers": "55 7159 7462;  55 7159 0477; 55 7823 1715",
+    "county": "Iztacalco",
+    "gasType": "Gasolina y Diésel (Ligeros)",
+    "latitude": 19.4001129,
+    "longitude": -99.0941066
+  },
+  {
+    "id": "CU63",
+    "name": "DESARROLLO Y ASESORÍA APLICADA NOVO, S.A. DE C.V.",
+    "address": "Lucas Alamán N°111, colonia Obrera, C.P. 06800.",
+    "phoneNumbers": "7160 4103;    7159 6670",
+    "county": "Cuauhtémoc",
+    "gasType": "Gasolina",
+    "latitude": 19.4208067,
+    "longitude": -99.1369636
+  },
+  {
+    "id": "BJ67",
+    "name": "AUTO SERVICIO ESPINO, S.A.",
+    "address": "Antonio Maura N°107, colonia Moderna, C.P. 03510.",
+    "phoneNumbers": "5696 4834",
+    "county": "Benito Juárez",
+    "gasType": "Gasolina y Revista Vehicular",
+    "latitude": 19.3951034,
+    "longitude": -99.1366867
+  }
+]

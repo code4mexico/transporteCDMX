@@ -13,7 +13,7 @@ const _renderEmptyPlaceholder = () => (
   </View>
 )
 
-const ImpoundLots = props => {
+const ImpoundLotsDetail = props => {
   const { impoundLots } = props.route.params
   return (
     <FlatList
@@ -26,4 +26,4 @@ const ImpoundLots = props => {
   )
 }
 
-export default ImpoundLots
+export default ImpoundLotsDetail

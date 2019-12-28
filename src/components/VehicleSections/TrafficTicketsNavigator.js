@@ -58,7 +58,9 @@ class TrafficTicketsNavigator extends PureComponent {
   }
 
   _goToInfractions = () => {
-    this.props.navigation.navigate('Traffic Tickets', { trafficTickets: this.state.trafficTickets })
+    this.props.navigation.navigate('Traffic Tickets Detail', {
+      trafficTickets: this.state.trafficTickets,
+    })
   }
 
   getTrafficTicketsInfo = async () => {

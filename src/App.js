@@ -10,8 +10,10 @@ import { DEVICE_HAS_NOTCH } from './utils/device'
 import Transit from './screens/Transit'
 import Ecobici from './screens/Ecobici'
 import Vehicles from './screens/Vehicles'
-import ImpoundLots from './screens/ImpoundLots'
-import TrafficTickets from './screens/TrafficTickets'
+import VerificentrosMap from './screens/VerificentrosMap'
+import ImpoundLotsMap from './screens/ImpoundLotsMap'
+import ImpoundLotsDetail from './screens/ImpoundLotsDetail'
+import TrafficTicketsDetail from './screens/TrafficTicketsDetail'
 import Acknowledgments from './screens/Acknowledgments'
 import { RNLocalize, translate, setI18nConfig } from './i18n'
 import theme from './styles'
@@ -75,14 +77,24 @@ const VehiclesStack = () => {
         options={stackOptions(translate('vehicles'))}
       />
       <Stack.Screen
-        name="Impound Lots"
-        component={ImpoundLots}
+        name="Impound Lots Detail"
+        component={ImpoundLotsDetail}
         options={stackOptions(translate('impound_lot'))}
       />
       <Stack.Screen
-        name="Traffic Tickets"
-        component={TrafficTickets}
+        name="Traffic Tickets Detail"
+        component={TrafficTicketsDetail}
         options={stackOptions(translate('traffic_tickets'))}
+      />
+      <Stack.Screen
+        name="Impound Lots Map"
+        component={ImpoundLotsMap}
+        options={stackOptions(translate('impound_lots'))}
+      />
+      <Stack.Screen
+        name="Verificentros Map"
+        component={VerificentrosMap}
+        options={stackOptions(translate('verificentros'))}
       />
     </Stack.Navigator>
   )

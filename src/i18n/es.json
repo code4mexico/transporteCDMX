@@ -5,6 +5,7 @@
   "code_for_mexico_project": "Este es un proyecto creado por Code for Mexico",
   "date": "Fecha",
   "description": "Descripción",
+  "directions": "Cómo llegar",
   "ecobici": "Ecobici",
   "error": "Hubo un error",
   "fine": "Sanción",
@@ -24,6 +25,7 @@
   "one_traffic_ticket": "Tienes una infracción",
   "pay": "Pagar",
   "retry": "Reintentar",
+  "schedule_appointment": "Agendar cita",
   "there_was_an_error": "Hubo un error, intenta de nuevo",
   "traffic_tickets": "Multas",
   "transit": "Transporte",
@@ -33,5 +35,5 @@
   "vehicles": "Vehículos",
   "verificentros": "Verificentros",
   "verificentros_description": "Busca y agenda citas en el verificentro más cercano",
-  "without_traffic_tickets": "Sin multas"
+  "without_traffic_tickets": "Sin multas",
 }

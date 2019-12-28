@@ -1,0 +1,332 @@
+[
+  {
+    "name": "Centro Histórico",
+    "address": "Nezahualcóyotl S/N entre Isabel La Católica y 5 de Febrero, Col. Centro, Alcaldía Cuauhtémoc",
+    "phoneNumber": "57169301",
+    "coordinates": {
+      "latitude": 19.4251245,
+      "longitude": -99.1385779,
+      "latitudeDelta": 0.01,
+      "longitudeDelta": 0.01
+    }
+  },
+  {
+    "name": "Obrera",
+    "address": "Av del Taller No. 18 entre San Antonio Abad y callejon Agustín Delgado, Col.Tránsito, Alcaldía Cuauhtémoc",
+    "phoneNumber": "57414244",
+    "coordinates": {
+      "latitude": 19.413325,
+      "longitude": -99.134242,
+      "latitudeDelta": 0.01,
+      "longitudeDelta": 0.01
+    }
+  },
+  {
+    "name": "Zarco",
+    "address": "Av.Talismán s/n esq. Av Gran Canal, Col. San Juan de Aragón, Alcaldía Gustavo A. Madero",
+    "phoneNumber": "57717855 ",
+    "coordinates": {
+      "latitude": 19.4670702,
+      "longitude": -99.0971625,
+      "latitudeDelta": 0.01,
+      "longitudeDelta": 0.01
+    }
+  },
+  {
+    "name": "Indios Verdes",
+    "address": "Insurgentes Norte s/n esq Acueducto de Guadalupe, Col Sta Isabel Tola, Alcaldía Gustavo A. Madero",
+    "phoneNumber": "57481757",
+    "coordinates": {
+      "latitude": 19.5007451,
+      "longitude": -99.1199599,
+      "latitudeDelta": 0.01,
+      "longitudeDelta": 0.01
+    }
+  },
+  {
+    "name": "Culturas",
+    "address": "Av. Culturas entre 5 Nte. y Francisco Márquez, Col. Sn Pablo Xalpa Alcaldía Azcapotzalco",
+    "phoneNumber": "53187013",
+    "coordinates": {
+      "latitude": 19.5098794,
+      "longitude": -99.1914599,
+      "latitudeDelta": 0.01,
+      "longitudeDelta": 0.01
+    }
+  },
+  {
+    "name": "Las Armas",
+    "address": "Cda. de Francisco Villa s/n entre Las Armas y Mariano Gaxiola, Col. San Pedro Xalpa, Alcaldía Azcapotzalco",
+    "phoneNumber": "53572512",
+    "coordinates": {
+      "latitude": 19.4849162,
+      "longitude": -99.2167098,
+      "latitudeDelta": 0.01,
+      "longitudeDelta": 0.01
+    }
+  },
+  {
+    "name": "Salinillas",
+    "address": "Presa Salinillas s/n casi esq. Ings. Militares, Col. Irrigación, Alcaldía Miguel Hidalgo",
+    "phoneNumber": "53958781",
+    "coordinates": {
+      "latitude": 19.444414,
+      "longitude": -99.216638,
+      "latitudeDelta": 0.01,
+      "longitudeDelta": 0.01
+    }
+  },
+  {
+    "name": "Canarios",
+    "address": "Calle Canarios s/n esq Div. Del Norte, Col. Bellavista, Alcaldía Álvaro Obregón",
+    "phoneNumber": "52734443",
+    "coordinates": {
+      "latitude": 19.393674,
+      "longitude": -99.192761,
+      "latitudeDelta": 0.01,
+      "longitudeDelta": 0.01
+    }
+  },
+  {
+    "name": "Grutas",
+    "address": "Calle Grutas s/n esq Av. Central, Col. 8 de Agosto, Alcaldía Álvaro Obregón",
+    "phoneNumber": "52731029",
+    "coordinates": {
+      "latitude": 19.393099,
+      "longitude": -99.189609,
+      "latitudeDelta": 0.01,
+      "longitudeDelta": 0.01
+    }
+  },
+  {
+    "name": "Las Águilas",
+    "address": "Rómulo O'Farril esq. Alfonso Caso (antes Luz y Fuerza), Col. Las Águilas, Alcaldía Álvaro Obregón",
+    "phoneNumber": "55936891",
+    "coordinates": {
+      "latitude": 19.3523729,
+      "longitude": -99.2071363,
+      "latitudeDelta": 0.01,
+      "longitudeDelta": 0.01
+    }
+  },
+  {
+    "name": "Xochimilco",
+    "address": "Calle Capulines s/n entre Calle La Presa y Prolongación 16 de Septiembre, Alcaldía Jaltocan, Del. Xochimilco",
+    "phoneNumber": "55555090",
+    "coordinates": {
+      "latitude": 19.2504011,
+      "longitude": -99.1087501,
+      "latitudeDelta": 0.01,
+      "longitudeDelta": 0.01
+    }
+  },
+  {
+    "name": "Tláhuac",
+    "address": "Calle Juan Mendoza s/n esq Tierra y Libertad, Col. Tierra y Libertad, Col. San José Tlahuac, Alcaldía Tlahuac",
+    "phoneNumber": "58429356",
+    "coordinates": {
+      "latitude": 19.2794286,
+      "longitude": -99.0008488,
+      "latitudeDelta": 0.01,
+      "longitudeDelta": 0.01
+    }
+  },
+  {
+    "name": "Piraña",
+    "address": "Piraña s/n entre Leandro Valle y Langosta, Col. Del Mar (en el interior del Agrupamiento de Fuerza de Tarea ), Alcaldía Tláhuac",
+    "phoneNumber": "58591918",
+    "coordinates": {
+      "latitude": 19.28298,
+      "longitude": -99.064421,
+      "latitudeDelta": 0.01,
+      "longitudeDelta": 0.01
+    }
+  },
+  {
+    "name": "Piraña II",
+    "address": "Calle Leandro Valle y Piraña s/n, Col. del Mar, Alcaldía Tláhuac",
+    "phoneNumber": "50044165",
+    "coordinates": {
+      "latitude": 19.285224,
+      "longitude": -99.066266,
+      "latitudeDelta": 0.01,
+      "longitudeDelta": 0.01
+    }
+  },
+  {
+    "name": "Santa Cruz Meyehualco",
+    "address": "Av. Fuerte Loreto s/n esq. Juan Carlos Pacheco, Col. Ejército de Oriente 4a Sección Alcaldía Iztapalapa",
+    "phoneNumber": "26336772",
+    "coordinates": {
+      "latitude": 19.3659531,
+      "longitude": -99.028889,
+      "latitudeDelta": 0.01,
+      "longitudeDelta": 0.01
+    }
+  },
+  {
+    "name": "Módulo 39",
+    "address": "Av. Enrique Contel, Unidad Hab. Ejército Constitucionalista, entre Emilio Balli y Emilio Azcárraga (dentro del Módulo 39, ex ruta 100) Alcaldía Iztapalapa",
+    "phoneNumber": "26336772",
+    "coordinates": {
+      "latitude": 19.384471,
+      "longitude": -99.0467398,
+      "latitudeDelta": 0.01,
+      "longitudeDelta": 0.01
+    }
+  },
+  {
+    "name": "Fuerte Loreto",
+    "address": "Eje 5 Sur s/n esq. Plan de Ayala, Col. Sta María Aztahuacan, entre Av. Circunvalación y José Aguilar, Alcaldía Iztapalapa",
+    "phoneNumber": "26089471",
+    "coordinates": {
+      "latitude": 19.444414,
+      "longitude": -99.216638,
+      "latitudeDelta": 0.01,
+      "longitudeDelta": 0.01
+    }
+  },
+  {
+    "name": "Central de Abastos",
+    "address": "Calle Lenguas Indígenas S/N esquina Río Churubusco, Colonia Carlos Zapata Vela, Alcaldía Iztacalco, C.P. 08040",
+    "phoneNumber": "57688554",
+    "coordinates": {
+      "latitude": 19.3819019,
+      "longitude": -99.0994487,
+      "latitudeDelta": 0.01,
+      "longitudeDelta": 0.01
+    }
+  },
+  {
+    "name": "Añil",
+    "address": "Eje 3 Sur s/n casi esq. Viaducto Frente al estacionamiento de Palacio de los Deportes Puerta 7 y 8, Col. Granjas México Alcaldía Iztacalco",
+    "phoneNumber": "56484170",
+    "coordinates": {
+      "latitude": 19.406591,
+      "longitude": -99.1029429,
+      "latitudeDelta": 0.01,
+      "longitudeDelta": 0.01
+    }
+  },
+  {
+    "name": "Troncoso",
+    "address": "Francisco del Paso y Troncoso s/n esq. Oriente 110, Col. Barrio San Miguel , Alcaldía Iztacalco",
+    "phoneNumber": "55908041",
+    "coordinates": {
+      "latitude": 19.392448,
+      "longitude": -99.114376,
+      "latitudeDelta": 0.01,
+      "longitudeDelta": 0.01
+    }
+  },
+  {
+    "name": "La Viga",
+    "address": "Juan Álvarez esq. Calz. La Viga , Col. Benito Juárez, Alcaldía Iztacalco",
+    "phoneNumber": "56331400",
+    "coordinates": {
+      "latitude": 19.386063,
+      "longitude": -99.121506,
+      "latitudeDelta": 0.01,
+      "longitudeDelta": 0.01
+    }
+  },
+  {
+    "name": "Cuemánco",
+    "address": "Boulevard Adolfo Ruiz Cortines (anillo Periférico Sur-lateral), Frente a la Calle Hacienda de Cristo, Col. San Lorenzo La Cebada, Alcaldía Xochimilco",
+    "phoneNumber": "55948129",
+    "coordinates": {
+      "latitude": 19.2919075,
+      "longitude": -99.108113,
+      "latitudeDelta": 0.01,
+      "longitudeDelta": 0.01
+    }
+  },
+  {
+    "name": "La Noria",
+    "address": "Carretera vieja a San Pablo s/n y Calle Acueducto, Col. Ampliación La Noria, Alcaldía Xochimilco",
+    "phoneNumber": "55558878",
+    "coordinates": {
+      "latitude": 19.262145,
+      "longitude": -99.125684,
+      "latitudeDelta": 0.01,
+      "longitudeDelta": 0.01
+    }
+  },
+  {
+    "name": "Río San Joaquín",
+    "address": "Lago Ginebra Esq. con Lago Hielmar Col. San Joaquín, Alcaldía Miguel Hidalgo (a una Cuadra del Metro San Joaquín).",
+    "phoneNumber": "52505202",
+    "coordinates": {
+      "latitude": 19.262145,
+      "longitude": -99.125684,
+      "latitudeDelta": 0.01,
+      "longitudeDelta": 0.01
+    }
+  },
+  {
+    "name": "Cien Metros",
+    "address": "Eje Central Lázaro Cárdenas (camellón central) entre Cda. de 100 Metros y Puente Fortuna, Col. Nueva Industrial Vallejo",
+    "phoneNumber": "57194368",
+    "coordinates": {
+      "latitude": 19.5058857,
+      "longitude": -99.1508433,
+      "latitudeDelta": 0.01,
+      "longitudeDelta": 0.01
+    }
+  },
+  {
+    "name": "Velódromo",
+    "address": "Genaro García Esq. Luis de Rosa, Col. Jardín Balbuena, Alcaldía Venustiano Carranza",
+    "phoneNumber": "57641099",
+    "coordinates": {
+      "latitude": 19.3523729,
+      "longitude": -99.2071363,
+      "latitudeDelta": 0.01,
+      "longitudeDelta": 0.01
+    }
+  },
+  {
+    "name": "Santa Fé",
+    "address": "Av. Santa Fe s/n entre Javier Barros y Vasco de Quiroga, Col. Peña Blanca, Alcaldía Álvaro Obregón",
+    "phoneNumber": "52923227",
+    "coordinates": {
+      "latitude": 19.3685849,
+      "longitude": -99.2579902,
+      "latitudeDelta": 0.01,
+      "longitudeDelta": 0.01
+    }
+  },
+  {
+    "name": "Coyoacán",
+    "address": "Viaducto Tlalpan 3333 esquina Acoxpan, Col. Ejido de Santa Ursula Coapa, Alcaldía Coyoacán",
+    "phoneNumber": "",
+    "coordinates": {
+      "latitude": 19.3007996,
+      "longitude": -99.1445559,
+      "latitudeDelta": 0.01,
+      "longitudeDelta": 0.01
+    }
+  },
+  {
+    "name": "Fresno",
+    "address": "Fresno s/n, Col. Atlalpa Alcaldía Cuauhtémoc C.P. 06450",
+    "phoneNumber": "55413747",
+    "coordinates": {
+      "latitude": 19.462035,
+      "longitude": -99.15726,
+      "latitudeDelta": 0.01,
+      "longitudeDelta": 0.01
+    }
+  },
+  {
+    "name": "Tierra Unida",
+    "address": "Andador Principal S/N entre Andador 12 y Andador 9 Col. Tierra Unida Alcaldía Magdalena Contreras, C.P. 10369",
+    "phoneNumber": "",
+    "coordinates": {
+      "latitude": 19.3020093,
+      "longitude": -99.2719374,
+      "latitudeDelta": 0.01,
+      "longitudeDelta": 0.01
+    }
+  }
+]

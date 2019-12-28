@@ -59,7 +59,7 @@ class ImpoundLotNavigator extends PureComponent {
   }
 
   _goToImpoundLots = () => {
-    this.props.navigation.navigate('Impound Lots', { impoundLots: this.state.impoundLots })
+    this.props.navigation.navigate('Impound Lots Detail', { impoundLots: this.state.impoundLots })
   }
 
   getImpoundLotsInfo = async () => {

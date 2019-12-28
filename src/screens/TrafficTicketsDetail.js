@@ -21,32 +21,33 @@ const _getCountText = ticketsCount => {
   return translate('multiple_traffic_tickets').replace('_', ticketsCount)
 }
 
-// TODO: We need to create a dictionary of year -> UMA relationship
-const _renderTotalInfractions = ticketsCount => {
-  if (ticketsCount) {
-    return (
-      <Fragment>
-        <View style={[sharedStyles.alignItemsCenter, sharedStyles.py2]}>
-          <Caption>{_getCountText(ticketsCount)}</Caption>
-          <Caption>{translate('fine_calculation')}</Caption>
-        </View>
-      </Fragment>
-    )
-  }
-  return null
-}
-
-const TrafficTickets = props => {
+const TrafficTicketsDetail = props => {
   const { trafficTickets } = props.route.params
+
+  // TODO: We need to create a dictionary of year -> UMA relationship
+  const _renderTotalInfractions = () => {
+    if (trafficTickets?.length) {
+      return (
+        <Fragment>
+          <View style={[sharedStyles.alignItemsCenter, sharedStyles.py2]}>
+            <Caption>{_getCountText(trafficTickets.length)}</Caption>
+            <Caption>{translate('fine_calculation')}</Caption>
+          </View>
+        </Fragment>
+      )
+    }
+    return null
+  }
+
   return (
     <FlatList
       data={trafficTickets}
       renderItem={_renderItem}
       keyExtractor={keyExtractor}
-      ListHeaderComponent={_renderTotalInfractions(trafficTickets.length)}
+      ListHeaderComponent={_renderTotalInfractions}
       ListEmptyComponent={_renderEmptyPlaceholder}
     />
   )
 }
 
-export default TrafficTickets
+export default TrafficTicketsDetail

@@ -94,7 +94,7 @@ class Vehicles extends PureComponent {
             <Caption>{translate('vehicle_search_description')}</Caption>
           )}
         </View>
-        {this._featuresShouldBeVisible() && <VehicleFeatures />}
+        {this._featuresShouldBeVisible() && <VehicleFeatures navigation={this.props.navigation} />}
         {this._renderVehicleSections()}
         <Loader visible={this.state.isLoading} />
       </View>
