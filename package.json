@@ -25,6 +25,8 @@
     "prettier": "prettier --write"
   },
   "dependencies": {
+    "@react-native-community/async-storage": "2.0.0-rc.1",
+    "@react-native-community/async-storage-backend-legacy": "2.0.0-rc.1",
     "@react-native-community/masked-view": "0.1.5",
     "@react-navigation/material-bottom-tabs": "5.0.0-alpha.27",
     "@react-navigation/native": "5.0.0-alpha.21",

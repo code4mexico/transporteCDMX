@@ -27,7 +27,6 @@ class TrafficTicketsNavigator extends PureComponent {
   }
 
   _trafficTicketsHandler = trafficTicketsResponse => {
-    console.log(trafficTicketsResponse)
     if (trafficTicketsResponse?.data?.code === HTTP_SUCCESS) {
       this._trafficTicketsResponseSuccess(trafficTicketsResponse)
     } else if (trafficTicketsResponse?.data?.code === HTTP_NO_CONTENT) {

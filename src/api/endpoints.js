@@ -20,18 +20,11 @@ const getImpoundLots = data => {
   })
 }
 
-const getVerificationCenters = () => {
+const getMetroBusLines = () => {
   return request({
-    url: `${Config.VERIFICATION_CENTERS_API}`,
+    url: `${Config.METROBUS_LINES_API}`,
     method: GET,
   })
 }
 
-const getVerificationCenter = (verificationCenterId, fuelType) => {
-  return request({
-    url: `${Config.VERIFICATION_CENTER_API}verificentro=${verificationCenterId}&combustible=${fuelType}`,
-    method: GET,
-  })
-}
-
-export { getTrafficTickets, getImpoundLots, getVerificationCenters, getVerificationCenter }
+export { getTrafficTickets, getImpoundLots, getMetroBusLines }
