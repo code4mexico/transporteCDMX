@@ -4,4 +4,8 @@ const safeRefFuncCall = (ref, func) => {
   }
 }
 
-export { safeRefFuncCall }
+const capitalizeString = string => {
+  return string.replace(/(?:^|\s)\S/g, letter => letter.toUpperCase())
+}
+
+export { safeRefFuncCall, capitalizeString }

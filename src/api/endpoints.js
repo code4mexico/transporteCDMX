@@ -27,4 +27,12 @@ const getMetroBusLines = () => {
   })
 }
 
-export { getTrafficTickets, getImpoundLots, getMetroBusLines }
+const getMetrobusStationSchedule = (id, maxBuses = 6) => {
+  return request({
+    url: `${Config.METROBUS_LINE_SCHEDULE_API}`,
+    method: GET,
+    params: { id, num_metrobuses: maxBuses },
+  })
+}
+
+export { getTrafficTickets, getImpoundLots, getMetroBusLines, getMetrobusStationSchedule }

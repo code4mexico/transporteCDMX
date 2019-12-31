@@ -12,6 +12,7 @@ import Ecobici from './screens/Ecobici'
 import Vehicles from './screens/Vehicles'
 import VerificentrosMap from './screens/VerificentrosMap'
 import ImpoundLotsMap from './screens/ImpoundLotsMap'
+import MetrobusStationDetail from './screens/MetrobusStationDetail'
 import ImpoundLotsDetail from './screens/ImpoundLotsDetail'
 import TrafficTicketsDetail from './screens/TrafficTicketsDetail'
 import Acknowledgments from './screens/Acknowledgments'
@@ -50,6 +51,11 @@ const TransitStack = () => {
       <Stack.Screen
         name="Transit"
         component={Transit}
+        options={stackOptions(translate('transit_cdmx'))}
+      />
+      <Stack.Screen
+        name="Station Detail"
+        component={MetrobusStationDetail}
         options={stackOptions(translate('transit_cdmx'))}
       />
     </Stack.Navigator>

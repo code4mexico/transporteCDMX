@@ -62,7 +62,11 @@ class Transit extends PureComponent {
     }
   }
 
-  _stationPressed = () => {}
+  _stationPressed = station => {
+    return () => {
+      this.props.navigation.navigate('Station Detail', { station })
+    }
+  }
 
   _renderLinesMarkers = () => {
     return this.state.metrobusLines?.map(line => {
@@ -70,10 +74,9 @@ class Transit extends PureComponent {
         return (
           <Marker
             key={station.id}
-            title={station.name}
             pinColor={line.color}
             coordinate={station.coordinates}
-            onPress={this._stationPressed}
+            onPress={this._stationPressed(station)}
           />
         )
       })

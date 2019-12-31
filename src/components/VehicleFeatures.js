@@ -40,10 +40,10 @@ const styles = StyleSheet.create({
   swiperFlatList: {
     ...sharedStyles.mt3,
     ...sharedStyles.pl3,
-    ...sharedStyles.pb3,
   },
   card: {
     ...sharedStyles.mr3,
+    ...sharedStyles.mb3,
     width: responsiveWidth(80),
     height: responsiveHeight(45),
   },

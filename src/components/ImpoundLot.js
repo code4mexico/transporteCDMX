@@ -9,7 +9,7 @@ class ImpoundLot extends PureComponent {
   _onCallPressed = () => {
     Linking.openURL(`tel://${this.props.impoudLot.phone}`)
   }
-
+  // TODO: We might need to move it to a separate view or remove it. It sucks at performance
   _renderMap = () => {
     if (this.props.impoudLot.showMap) {
       return (
