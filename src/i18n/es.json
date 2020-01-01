@@ -7,6 +7,7 @@
   "date": "Fecha",
   "description": "Descripción",
   "directions": "Cómo llegar",
+  "distance": "Distancia",
   "ecobici": "Ecobici",
   "error": "Hubo un error",
   "fine": "Sanción",
@@ -23,6 +24,7 @@
   "last_updated": "Última actualización",
   "loading": "Cargando",
   "multiple_traffic_tickets": "Tienes _ infracciones",
+  "number": "Número",
   "not_impounded": "No hay registro",
   "one_traffic_ticket": "Tienes una infracción",
   "pay": "Pagar",
@@ -37,5 +39,6 @@
   "vehicles": "Vehículos",
   "verificentros": "Verificentros",
   "verificentros_description": "Busca y agenda citas en el verificentro más cercano",
-  "without_traffic_tickets": "Sin multas",
+  "view_on_map": "Ver en mapa",
+  "without_traffic_tickets": "Sin multas"
 }

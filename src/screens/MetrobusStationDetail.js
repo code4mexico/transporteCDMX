@@ -1,12 +1,13 @@
-import React, { PureComponent, Fragment } from 'react'
-import { View, Text, FlatList, StyleSheet } from 'react-native'
-import { Caption, Card, Headline, Paragraph } from 'react-native-paper'
+import React, { PureComponent } from 'react'
+import { View, Text, FlatList } from 'react-native'
 import moment from 'moment'
-import theme, { sharedStyles } from '../styles'
+import { sharedStyles } from '../styles'
 import Loader from '../components/Loader'
 import { getMetrobusStationSchedule } from '../api/endpoints'
 import { HTTP_SUCCESS } from '../api/request'
 import Metrobus from '../models/Metrobus'
+import MetrobusSchedule from '../components/MetrobusSchedule'
+import ListHeader from '../components/ListHeader'
 import { keyExtractor } from '../utils/list'
 import { translate } from '../i18n'
 
@@ -20,8 +21,8 @@ class MetrobusStationDetail extends PureComponent {
   }
 
   componentDidMount() {
-    const { station } = this.props.route.params
-    this.props.navigation.setOptions({ title: station.name })
+    const { station, lineColor } = this.props.route.params
+    this.props.navigation.setOptions({ title: station.name, headerTintColor: lineColor })
     this._requestStationSchedule(station.id)
   }
 
@@ -78,30 +79,18 @@ class MetrobusStationDetail extends PureComponent {
     )
   }
 
-  _renderItem = ({ item }) => {
-    return (
-      <Card style={sharedStyles.mb3}>
-        <Card.Content>
-          <View style={[sharedStyles.flex1, sharedStyles.spaceBetween, sharedStyles.flexDRow]}>
-            <Paragraph style={styles.section}>{item.eta}</Paragraph>
-            <Caption>{item.id}</Caption>
-          </View>
-          <Headline>{item.name}</Headline>
-        </Card.Content>
-      </Card>
-    )
-  }
+  _renderItem = ({ item }) => (
+    <MetrobusSchedule
+      metrobus={item}
+      navigation={this.props.navigation}
+      lineColor={this.props.route.params.lineColor}
+    />
+  )
 
-  _renderHeader = () => {
-    if (this.state.lastUpdate) {
-      return (
-        <View style={[sharedStyles.mb3, sharedStyles.centerChild]}>
-          <Caption>{`${translate('last_updated')} - ${this.state.lastUpdate}`}</Caption>
-        </View>
-      )
-    }
-    return null
-  }
+  _renderHeader = () =>
+    this.state.lastUpdate && (
+      <ListHeader text={`${translate('last_updated')} - ${this.state.lastUpdate}`} />
+    )
 
   // TODO: We need a nice illustration for this
   _renderEmptyPlaceholder = () => (
@@ -109,6 +98,8 @@ class MetrobusStationDetail extends PureComponent {
       <Text>Empty</Text>
     </View>
   )
+
+  _renderFooter = () => <View style={sharedStyles.mb3} />
 
   _pullToRefresh = () => {
     const { station } = this.props.route.params
@@ -126,26 +117,19 @@ class MetrobusStationDetail extends PureComponent {
     }
 
     return (
-      <View style={sharedStyles.m3}>
-        <FlatList
-          data={this.state.metrobusSchedule}
-          refreshing={this.state.refreshing}
-          onRefresh={this._pullToRefresh}
-          renderItem={this._renderItem}
-          keyExtractor={keyExtractor}
-          ListHeaderComponent={this._renderHeader}
-          ListEmptyComponent={this._renderEmptyPlaceholder}
-          style={sharedStyles.fullRelativeHeight}
-        />
-      </View>
+      <FlatList
+        data={this.state.metrobusSchedule}
+        refreshing={this.state.refreshing}
+        onRefresh={this._pullToRefresh}
+        renderItem={this._renderItem}
+        keyExtractor={keyExtractor}
+        ListHeaderComponent={this._renderHeader}
+        ListEmptyComponent={this._renderEmptyPlaceholder}
+        ListFooterComponent={this._renderFooter}
+        style={[sharedStyles.fullRelativeHeight, sharedStyles.p3]}
+      />
     )
   }
 }
-
-const styles = StyleSheet.create({
-  section: {
-    color: theme.colors.accent,
-  },
-})
 
 export default MetrobusStationDetail

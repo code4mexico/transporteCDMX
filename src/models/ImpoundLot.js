@@ -10,6 +10,7 @@ const CODE_DETAIL = () => ({
 
 const LOCATION_DELTA = 0.01
 const IN_TRANSIT_CODE = '0'
+const ARRIVED_CODE = '1'
 const RELOCATION_CODE = '3'
 
 export default class ImpoundLot {
@@ -45,6 +46,10 @@ export default class ImpoundLot {
 
   get address() {
     return this.formatAddress()
+  }
+
+  get code() {
+    return this._code
   }
 
   get coordinates() {
@@ -84,6 +89,10 @@ export default class ImpoundLot {
   }
 
   mapShouldBeVisible() {
-    return this._code === IN_TRANSIT_CODE || this._code === RELOCATION_CODE
+    return (
+      this._code === IN_TRANSIT_CODE ||
+      this._code === ARRIVED_CODE ||
+      this._code === RELOCATION_CODE
+    )
   }
 }

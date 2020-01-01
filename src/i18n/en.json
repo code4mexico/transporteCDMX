@@ -7,6 +7,7 @@
   "date": "Date",
   "description": "Description",
   "directions": "Directions",
+  "distance": "Distance",
   "ecobici": "Ecobici",
   "error": "Error",
   "fine": "Fine",
@@ -23,6 +24,7 @@
   "last_updated": "Last updated",
   "loading": "Loading",
   "multiple_traffic_tickets": "You have _ traffic tickets",
+  "number": "Number",
   "not_impounded": "Not impounded",
   "one_traffic_ticket": "You have one traffic ticket",
   "pay": "Pay",
@@ -37,5 +39,6 @@
   "vehicles": "Vehicles",
   "verificentros": "Verificentros",
   "verificentros_description": "Search and create appointments in your closest Verificentro",
+  "view_on_map": "View on map",
   "without_traffic_tickets": "Without traffic tickets"
 }

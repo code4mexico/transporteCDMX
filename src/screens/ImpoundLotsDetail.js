@@ -4,7 +4,7 @@ import { keyExtractor } from '../utils/list'
 import ImpoundLot from '../components/ImpoundLot'
 import { sharedStyles } from '../styles'
 
-const _renderItem = ({ item }) => <ImpoundLot impoudLot={item} />
+const _renderItem = ({ item }) => <ImpoundLot impoundLot={item} />
 const _renderHeader = () => <View style={sharedStyles.mb3} />
 // TODO: We need a nice illustration for this
 const _renderEmptyPlaceholder = () => (

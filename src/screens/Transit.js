@@ -62,9 +62,9 @@ class Transit extends PureComponent {
     }
   }
 
-  _stationPressed = station => {
+  _stationPressed = (station, lineColor) => {
     return () => {
-      this.props.navigation.navigate('Station Detail', { station })
+      this.props.navigation.navigate('Station Detail', { station, lineColor })
     }
   }
 
@@ -76,7 +76,7 @@ class Transit extends PureComponent {
             key={station.id}
             pinColor={line.color}
             coordinate={station.coordinates}
-            onPress={this._stationPressed(station)}
+            onPress={this._stationPressed(station, line.color)}
           />
         )
       })

@@ -8,7 +8,7 @@ import ImpoundLot from '../../models/ImpoundLot'
 import { HTTP_SUCCESS } from '../../api/request'
 
 // TODO: This should come from the server  ¯\_(ツ)_/¯
-const RELEASE_CODE = 2
+const RELEASE_CODE = '2'
 
 class ImpoundLotNavigator extends PureComponent {
   state = {

@@ -16,6 +16,7 @@ import MetrobusStationDetail from './screens/MetrobusStationDetail'
 import ImpoundLotsDetail from './screens/ImpoundLotsDetail'
 import TrafficTicketsDetail from './screens/TrafficTicketsDetail'
 import Acknowledgments from './screens/Acknowledgments'
+import MetrobusMap from './screens/MetrobusMap'
 import { RNLocalize, translate, setI18nConfig } from './i18n'
 import theme from './styles'
 
@@ -56,6 +57,11 @@ const TransitStack = () => {
       <Stack.Screen
         name="Station Detail"
         component={MetrobusStationDetail}
+        options={stackOptions(translate('transit_cdmx'))}
+      />
+      <Stack.Screen
+        name="Metrobus Map"
+        component={MetrobusMap}
         options={stackOptions(translate('transit_cdmx'))}
       />
     </Stack.Navigator>
