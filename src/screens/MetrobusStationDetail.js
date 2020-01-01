@@ -108,8 +108,9 @@ class MetrobusStationDetail extends PureComponent {
   }
 
   render() {
+    const { lineColor } = this.props.route.params
     if (this.state.isLoading) {
-      return <Loader containerStyle={sharedStyles.flex1} visible />
+      return <Loader containerStyle={sharedStyles.flex1} color={lineColor} visible />
     }
 
     if (this.state.error) {
