@@ -3,10 +3,15 @@ import { View, StyleSheet, Linking } from 'react-native'
 import { Button, Caption, Card, Paragraph } from 'react-native-paper'
 import { translate } from '../i18n'
 import theme, { sharedStyles } from '../styles'
+import { openMapApp } from '../utils/location'
 
 class ImpoundLot extends PureComponent {
   _onCallPressed = () => {
     Linking.openURL(`tel://${this.props.impoundLot.phone}`)
+  }
+
+  _onDirectionsPressed = () => {
+    openMapApp({ coordinates: this.props.impoundLot.coordinates })
   }
 
   _renderButtons = () => {
@@ -16,7 +21,7 @@ class ImpoundLot extends PureComponent {
           <Button color={theme.colors.accent} onPress={this._onCallPressed}>
             {translate('call')}
           </Button>
-          <Button color={theme.colors.accent} onPress={this._onCallPressed}>
+          <Button color={theme.colors.accent} onPress={this._onDirectionsPressed}>
             {translate('directions')}
           </Button>
         </Fragment>
