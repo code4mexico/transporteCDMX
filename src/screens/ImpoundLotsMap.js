@@ -44,7 +44,10 @@ class ImpoundLotsMap extends PureComponent {
   _renderPhoneButton = () => {
     if (this.state.activeMarker.phoneNumber) {
       return (
-        <Button color={theme.colors.accent} style={sharedStyles.mb3} onPress={this._callImpoundLot}>
+        <Button
+          color={theme.colors.accent}
+          style={[sharedStyles.mb3, styles.button]}
+          onPress={this._callImpoundLot}>
           {translate('call')}
         </Button>
       )
@@ -63,7 +66,7 @@ class ImpoundLotsMap extends PureComponent {
     return (
       <Button
         color={theme.colors.accent}
-        style={[sharedStyles.alignSelfEnd, sharedStyles.mb3]}
+        style={[sharedStyles.alignSelfEnd, sharedStyles.mb3, styles.button]}
         onPress={this._openMapApp}>
         {translate('directions')}
       </Button>
@@ -100,6 +103,9 @@ class ImpoundLotsMap extends PureComponent {
 const styles = StyleSheet.create({
   section: {
     color: theme.colors.accent,
+  },
+  button: {
+    height: 50,
   },
 })
 

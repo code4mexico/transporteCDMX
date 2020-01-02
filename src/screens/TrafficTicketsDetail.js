@@ -1,17 +1,20 @@
 import React, { Fragment } from 'react'
-import { FlatList, Text, View } from 'react-native'
+import { FlatList, View } from 'react-native'
 import { Caption } from 'react-native-paper'
 import TrafficTicket from '../components/TrafficTicket'
+import SimplePlaceholder from '../components/SimplePlaceholder'
 import { keyExtractor } from '../utils/list'
 import { sharedStyles } from '../styles'
 import { translate } from '../i18n'
 
 const _renderItem = ({ item }) => <TrafficTicket ticket={item} />
-// TODO: We need a nice illustration for this
+
 const _renderEmptyPlaceholder = () => (
-  <View>
-    <Text>Empty</Text>
-  </View>
+  <SimplePlaceholder
+    imageURL={require('../assets/images/complete_task.png')}
+    text={translate('no_traffic_tickets')}
+    fullHeight
+  />
 )
 
 const _getCountText = ticketsCount => {

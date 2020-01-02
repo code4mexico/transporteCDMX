@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
 import { TextInput, StatusBar, StyleSheet, View } from 'react-native'
-import { IconButton, Card, Caption } from 'react-native-paper'
+import { IconButton, Card, Caption, Button } from 'react-native-paper'
 import VehicleFeatures from '../components/VehicleFeatures'
 import ImpoundLotNavigator from '../components/VehicleSections/ImpoundLotNavigator'
 import TrafficTicketsNavigator from '../components/VehicleSections/TrafficTicketsNavigator'
@@ -43,6 +43,10 @@ class Vehicles extends PureComponent {
     return !this.state.isLoading && !this.state.searchActive
   }
 
+  _onGoBackPressed = () => {
+    this.setState({ plateText: '', searchActive: false })
+  }
+
   _renderVehicleSections = () => {
     return (
       <View style={!this._featuresShouldBeVisible() ? null : sharedStyles.displayNone}>
@@ -56,6 +60,12 @@ class Vehicles extends PureComponent {
           plateText={this.state.plateText}
           navigation={this.props.navigation}
         />
+        <Button
+          onPress={this._onGoBackPressed}
+          style={sharedStyles.mt3}
+          color={theme.colors.accent}>
+          {translate('go_back')}
+        </Button>
       </View>
     )
   }

@@ -1,16 +1,20 @@
 import React from 'react'
-import { FlatList, View, Text } from 'react-native'
+import { FlatList, View } from 'react-native'
 import { keyExtractor } from '../utils/list'
 import ImpoundLot from '../components/ImpoundLot'
 import { sharedStyles } from '../styles'
+import SimplePlaceholder from '../components/SimplePlaceholder'
+import { translate } from '../i18n'
 
 const _renderItem = ({ item }) => <ImpoundLot impoundLot={item} />
 const _renderHeader = () => <View style={sharedStyles.mb3} />
-// TODO: We need a nice illustration for this
+
 const _renderEmptyPlaceholder = () => (
-  <View>
-    <Text>Empty</Text>
-  </View>
+  <SimplePlaceholder
+    imageURL={require('../assets/images/eco_car.png')}
+    text={translate('no_impound_lot')}
+    fullHeight
+  />
 )
 
 const ImpoundLotsDetail = props => {

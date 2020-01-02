@@ -98,3 +98,4 @@ class Transit extends PureComponent {
 }
 
 export default Transit
+export { METROBUS_STORAGE_KEY }

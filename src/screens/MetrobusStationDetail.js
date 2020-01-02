@@ -3,6 +3,7 @@ import { View, Text, FlatList } from 'react-native'
 import moment from 'moment'
 import { sharedStyles } from '../styles'
 import Loader from '../components/Loader'
+import SimplePlaceholder from '../components/SimplePlaceholder'
 import { getMetrobusStationSchedule } from '../api/endpoints'
 import { HTTP_SUCCESS } from '../api/request'
 import Metrobus from '../models/Metrobus'
@@ -70,14 +71,12 @@ class MetrobusStationDetail extends PureComponent {
     }
   }
 
-  _renderErrorPlaceholder = () => {
-    // TODO: Error placeholder
-    return (
-      <View style={[sharedStyles.centerChild, sharedStyles.flex1]}>
-        <Text>Error</Text>
-      </View>
-    )
-  }
+  _renderErrorPlaceholder = () => (
+    <SimplePlaceholder
+      imageURL={require('../assets/images/network.png')}
+      text={translate('error')}
+    />
+  )
 
   _renderItem = ({ item }) => (
     <MetrobusSchedule
@@ -92,11 +91,12 @@ class MetrobusStationDetail extends PureComponent {
       <ListHeader text={`${translate('last_updated')} - ${this.state.lastUpdate}`} />
     )
 
-  // TODO: We need a nice illustration for this
   _renderEmptyPlaceholder = () => (
-    <View>
-      <Text>Empty</Text>
-    </View>
+    <SimplePlaceholder
+      imageURL={require('../assets/images/bus_driver.png')}
+      text={translate('no_more_buses')}
+      fullHeight
+    />
   )
 
   _renderFooter = () => <View style={sharedStyles.mb3} />
