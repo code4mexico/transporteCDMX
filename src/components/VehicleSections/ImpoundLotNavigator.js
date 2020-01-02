@@ -1,6 +1,4 @@
 import React, { PureComponent, Fragment } from 'react'
-import { Dimensions, StyleSheet } from 'react-native'
-import { Snackbar } from 'react-native-paper'
 import NavigationRow from '../NavigationRow'
 import { translate } from '../../i18n'
 import { getImpoundLots } from '../../api/endpoints'
@@ -15,7 +13,6 @@ class ImpoundLotNavigator extends PureComponent {
     impoundLots: null,
     isLoading: true,
     error: false,
-    errorVisibility: false,
   }
 
   _impoundLotsResponseSuccess = impoundLotsResponse => {
@@ -25,7 +22,7 @@ class ImpoundLotNavigator extends PureComponent {
       })
       this.setState({ impoundLots, error: false })
     } else {
-      this.setState({ impoundLots: null, error: true, errorVisibility: true })
+      this.setState({ impoundLots: null, error: true })
     }
   }
 
@@ -33,7 +30,7 @@ class ImpoundLotNavigator extends PureComponent {
     if (impoundsResponse.status === HTTP_SUCCESS) {
       this._impoundLotsResponseSuccess(impoundsResponse)
     } else {
-      this.setState({ impoundLots: null, error: true, errorVisibility: true })
+      this.setState({ impoundLots: null, error: true })
     }
   }
 
@@ -54,10 +51,6 @@ class ImpoundLotNavigator extends PureComponent {
     return translate('not_impounded')
   }
 
-  _unSetErrorVisibility = () => {
-    this.setState({ errorVisibility: false })
-  }
-
   _goToImpoundLots = () => {
     this.props.navigation.navigate('Impound Lots Detail', { impoundLots: this.state.impoundLots })
   }
@@ -65,11 +58,11 @@ class ImpoundLotNavigator extends PureComponent {
   getImpoundLotsInfo = async () => {
     if (this.props.plateText) {
       try {
-        this.setState({ isLoading: true, error: false, errorVisibility: false })
+        this.setState({ isLoading: true, error: false })
         this._impoundResponseHandler(await getImpoundLots(this.props.plateText))
         this.setState({ isLoading: false })
       } catch (e) {
-        this.setState({ isLoading: false, error: true, errorVisibility: true })
+        this.setState({ isLoading: false, error: true })
         console.log(e)
       }
     }
@@ -86,22 +79,9 @@ class ImpoundLotNavigator extends PureComponent {
           text={translate('impound_lot')}
           isLoading={this.state.isLoading}
         />
-        <Snackbar
-          visible={this.state.errorVisibility}
-          onDismiss={this._unSetErrorVisibility}
-          style={styles.snackbar}>
-          {translate('there_was_an_error')}
-        </Snackbar>
       </Fragment>
     )
   }
 }
-
-const styles = StyleSheet.create({
-  snackbar: {
-    position: 'absolute',
-    bottom: -Dimensions.get('window').height / 2.4,
-  },
-})
 
 export default ImpoundLotNavigator

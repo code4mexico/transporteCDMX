@@ -1,6 +1,8 @@
 import axios from 'axios'
 import DeviceInfo from 'react-native-device-info'
 import { Platform } from 'react-native'
+import SimpleToast from '../components/SimpleToast'
+import { translate } from '../i18n'
 
 const REQUEST_TIMEOUT = 15000
 export const HTTP_SUCCESS = 200
@@ -23,25 +25,31 @@ const client = axios.create({
 
 const handleErrorResponse = error => {
   if (error.response) {
-    console.log(error) // TODO: Delete me
-
-    // TODO: we should finish global request error handling
     switch (error.response.status) {
       case HTTP_UNAUTHORIZED_CODE:
+        SimpleToast(translate('error_unauthorized'))
         break
       case HTTP_FORBIDDEN_CODE:
+        SimpleToast(translate('error_forbidden'))
         break
       case HTTP_SERVICE_UNAVAILABLE_CODE:
+        SimpleToast(translate('error_unavailable'))
         break
       case HTTP_UNPROCESSABLE_ENTITY_CODE:
+        SimpleToast(translate('error_unprocessable'))
         break
       case HTTP_NOT_FOUND_CODE:
+        SimpleToast(translate('error_not_found'))
         break
       case HTTP_CONFLICT_CODE:
+        SimpleToast(translate('error_conflict'))
         break
       default:
+        SimpleToast(translate('error'))
         break
     }
+  } else {
+    SimpleToast(translate('error_internet'))
   }
 }
 

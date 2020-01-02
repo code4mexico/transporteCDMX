@@ -1,6 +1,4 @@
 import React, { PureComponent, Fragment } from 'react'
-import { Dimensions, StyleSheet } from 'react-native'
-import { Snackbar } from 'react-native-paper'
 import NavigationRow from '../NavigationRow'
 import { translate } from '../../i18n'
 import { getTrafficTickets } from '../../api/endpoints'
@@ -12,7 +10,6 @@ class TrafficTicketsNavigator extends PureComponent {
     trafficTickets: null,
     isLoading: true,
     error: false,
-    errorVisibility: false,
   }
 
   _trafficTicketsResponseSuccess = trafficTicketsResponse => {
@@ -22,7 +19,7 @@ class TrafficTicketsNavigator extends PureComponent {
       })
       this.setState({ trafficTickets, error: false })
     } else {
-      this.setState({ trafficTickets: null, error: true, errorVisibility: true })
+      this.setState({ trafficTickets: null, error: true })
     }
   }
 
@@ -32,7 +29,7 @@ class TrafficTicketsNavigator extends PureComponent {
     } else if (trafficTicketsResponse?.data?.code === HTTP_NO_CONTENT) {
       this.setState({ trafficTickets: [], error: false })
     } else {
-      this.setState({ trafficTickets: null, error: true, errorVisibility: true })
+      this.setState({ trafficTickets: null, error: true })
     }
   }
 
@@ -52,10 +49,6 @@ class TrafficTicketsNavigator extends PureComponent {
     return translate('without_traffic_tickets')
   }
 
-  _unSetErrorVisibility = () => {
-    this.setState({ errorVisibility: false })
-  }
-
   _goToInfractions = () => {
     this.props.navigation.navigate('Traffic Tickets Detail', {
       trafficTickets: this.state.trafficTickets,
@@ -65,11 +58,11 @@ class TrafficTicketsNavigator extends PureComponent {
   getTrafficTicketsInfo = async () => {
     if (this.props.plateText) {
       try {
-        this.setState({ isLoading: true, error: false, errorVisibility: false })
+        this.setState({ isLoading: true, error: false })
         this._trafficTicketsHandler(await getTrafficTickets(this.props.plateText))
         this.setState({ isLoading: false })
       } catch (e) {
-        this.setState({ isLoading: false, error: true, errorVisibility: true })
+        this.setState({ isLoading: false, error: true })
         console.log(e)
       }
     }
@@ -87,22 +80,9 @@ class TrafficTicketsNavigator extends PureComponent {
           isLoading={this.state.isLoading}
           hideBorder
         />
-        <Snackbar
-          visible={this.state.errorVisibility}
-          onDismiss={this._unSetErrorVisibility}
-          style={styles.snackbar}>
-          {translate('there_was_an_error')}
-        </Snackbar>
       </Fragment>
     )
   }
 }
-
-const styles = StyleSheet.create({
-  snackbar: {
-    position: 'absolute',
-    bottom: -Dimensions.get('window').height / 2.4,
-  },
-})
 
 export default TrafficTicketsNavigator
