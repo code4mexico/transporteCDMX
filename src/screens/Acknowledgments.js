@@ -12,9 +12,8 @@ import SimpleToast from '../components/SimpleToast'
 const ICON_SIZE = 18
 const BUILD_NUMBER = DeviceInfo.getBuildNumber()
 const APP_VERSION = DeviceInfo.getVersion()
-const TWITTER_BASE_URL = 'twitter://'
-const TWEET =
-  'intent/tweet?in_reply_to=1212203981080072198?text=Yo%20tambi%C3%A9n%20apoyo%20a%20Transporte%20CDMX.%20%40LaAgenciaCDMX%20y%20%40PPmerino%20deber%C3%ADan%20apoyar%20este%20proyecto'
+const TWEET_TEXT = 'Yo uso transporteCDMX. @LaAgenciaCDMX y @PPmerino deberían apoyar este proyecto'
+const TWEET = `intent/tweet?in_reply_to=1212203981080072198&text=${encodeURI(TWEET_TEXT)}`
 
 const openSourceLink = () => {
   Linking.openURL('https://github.com/code-for-mexico/transporteCDMX')
@@ -28,20 +27,8 @@ const contactTransportCDMX = () => {
   Linking.openURL('mailto:transporte@codeformexico.com?subject=Soporte%20Transporte%20CDMX')
 }
 
-const sendWebTweet = () => {
-  Linking.openURL(`https://twitter.com/${TWEET}`)
-}
-
 const supportTweet = () => {
-  Linking.canOpenURL(TWITTER_BASE_URL)
-    .then(isSupported => {
-      if (isSupported) {
-        Linking.openURL(`twitter://${TWEET}`)
-      } else {
-        sendWebTweet()
-      }
-    })
-    .catch(sendWebTweet)
+  Linking.openURL(`https://twitter.com/${TWEET}`)
 }
 
 const deleteCache = async () => {
