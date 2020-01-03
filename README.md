@@ -41,7 +41,7 @@ Our main reason is because Mexico City's capacity is under its optimal capacity.
 We want to this project to be alive for many years so we will respect all the developers that work at Mexico City's government.
 Just put yourself in their position. You don't want any ugly boss yelling at you because city services are down.
 
-On the other hand, you can find our endpoints mocks in order to contribute. If you create other open source solution with this information we will evaluate along with the government if we can give you access to our endpoints.
+On the other hand, you can find our mocks endpoints in our [contribution guide](CONTRIBUTE.md). If you create other open source solution with this information we will evaluate along with the government if we can give you access to our endpoints.
 
 ### License
 You can find our code license [here](LICENSE).

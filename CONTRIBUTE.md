@@ -43,4 +43,15 @@ git clone git@github.com:<your-account>/transporteCDMX.git
 
 6. **Run `yarn test` at the root of project's folder to see if everything works.**
 
+## Configure your Mock Endpoints and keys
+
+1. Clone our [Postman Collection](https://www.getpostman.com/collections/94b1e6c1c57979fe26c3) in your account.
+
+2. Follow [Postman instructions](https://learning.getpostman.com/docs/postman/mock-servers/setting-up-mock/) to create a Mock Server of your cloned collection.
+
+3. After getting your Mock Server URL modify [.env.staging file](.env.staging) and replace your Postman ID  => `{YOUR-MOCK-SERVER-ID}` (no brackets needed).
+
+4. Create a [Google Maps API Key](https://developers.google.com/maps/documentation/android-sdk/get-api-key) and replace it in `{YOUR-GOOGLE-MAPS-API-KEY}` to make maps work on Android.
+
+## Notes
 [prettier](https://prettier.io/) is used to format the code. Be sure husky is running when committing code.

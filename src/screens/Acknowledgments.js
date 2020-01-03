@@ -12,7 +12,7 @@ import SimpleToast from '../components/SimpleToast'
 const ICON_SIZE = 18
 const BUILD_NUMBER = DeviceInfo.getBuildNumber()
 const APP_VERSION = DeviceInfo.getVersion()
-const TWEET_TEXT = 'Yo uso transporteCDMX. @LaAgenciaCDMX y @PPmerino deberían apoyar este proyecto'
+const TWEET_TEXT = 'Yo uso transporteCDMX. @LaAgenciaCDMX debería apoyar este proyecto'
 const TWEET = `intent/tweet?in_reply_to=1212203981080072198&text=${encodeURI(TWEET_TEXT)}`
 
 const openSourceLink = () => {
