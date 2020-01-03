@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VehicleFeatures it renders correctly 1`] = `
+<ForwardRef
+  PaginationComponent={[Function]}
+  autoplay={false}
+  autoplayDelay={3}
+  autoplayInvertDirection={false}
+  autoplayLoop={false}
+  data={Array []}
+  disableGesture={false}
+  index={0}
+  pagingEnabled={false}
+  renderAll={false}
+  showPagination={false}
+  style={
+    Object {
+      "marginTop": 17,
+      "paddingLeft": 17,
+    }
+  }
+  vertical={false}
+  viewabilityConfig={Object {}}
+>
+  <withTheme(Card)
+    onPress={[Function]}
+    style={
+      Object {
+        "height": 600.3000000000001,
+        "marginBottom": 17,
+        "marginRight": 17,
+        "width": 600,
+      }
+    }
+  >
+    <withTheme(Card.Cover)
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/impoundLot.jpg",
+        }
+      }
+      style={
+        Object {
+          "height": 373.52000000000004,
+        }
+      }
+    />
+    <Card.Content>
+      <Subheading
+        style={
+          Object {
+            "marginTop": 11.22,
+          }
+        }
+      >
+        [missing "en.impound_lots" translation]
+      </Subheading>
+      <Caption>
+        [missing "en.impound_lots_description" translation]
+      </Caption>
+    </Card.Content>
+  </withTheme(Card)>
+  <withTheme(Card)
+    onPress={[Function]}
+    style={
+      Object {
+        "height": 600.3000000000001,
+        "marginBottom": 17,
+        "marginRight": 17,
+        "width": 600,
+      }
+    }
+  >
+    <withTheme(Card.Cover)
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/verificentros.jpg",
+        }
+      }
+      style={
+        Object {
+          "height": 373.52000000000004,
+        }
+      }
+    />
+    <Card.Content>
+      <Subheading
+        style={
+          Object {
+            "marginTop": 11.22,
+          }
+        }
+      >
+        [missing "en.verificentros" translation]
+      </Subheading>
+      <Caption>
+        [missing "en.verificentros_description" translation]
+      </Caption>
+    </Card.Content>
+  </withTheme(Card)>
+  <View
+    style={
+      Object {
+        "width": 75,
+      }
+    }
+  />
+</ForwardRef>
+`;

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader it renders correctly when NOT visible 1`] = `""`;
+
+exports[`Loader it renders correctly when visible 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+      Object {
+        "margin": 17,
+      },
+      undefined,
+    ]
+  }
+>
+  <withTheme(ActivityIndicator)
+    animating={true}
+    color="#042EC6"
+  />
+  <Caption
+    style={
+      Array [
+        Object {
+          "marginTop": 17,
+        },
+        undefined,
+      ]
+    }
+  >
+    [missing "en.loading" translation]
+  </Caption>
+</View>
+`;

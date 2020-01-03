@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MetrobusStationDetail it renders correctly WITH Metrobus schedule 1`] = `
+<FlatList
+  ListEmptyComponent={[Function]}
+  ListFooterComponent={[Function]}
+  ListHeaderComponent={[Function]}
+  data={
+    Array [
+      Object {
+        "coordinates": Object {
+          "latitude": 19,
+          "latitudeDelta": 0.01,
+          "longitude": -79,
+          "longitudeDelta": 0.01,
+        },
+        "distance": 2020,
+        "eta": "2 min",
+        "formattedDate": "2020-01-01",
+        "id": 1234567,
+        "name": "This a name",
+      },
+    ]
+  }
+  disableVirtualization={false}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  numColumns={1}
+  onEndReachedThreshold={2}
+  onRefresh={[Function]}
+  refreshing={false}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  style={
+    Array [
+      Object {
+        "height": "100%",
+      },
+      Object {
+        "padding": 17,
+      },
+    ]
+  }
+  updateCellsBatchingPeriod={50}
+  windowSize={21}
+/>
+`;
+
+exports[`MetrobusStationDetail it renders correctly WITH error 1`] = `
+<Memo(SimplePlaceholder)
+  imageURL={
+    Object {
+      "testUri": "../../../src/assets/images/network.png",
+    }
+  }
+  text="[missing \\"en.error\\" translation]"
+/>
+`;
+
+exports[`MetrobusStationDetail it renders correctly WITHOUT Metrobus schedule 1`] = `
+<FlatList
+  ListEmptyComponent={[Function]}
+  ListFooterComponent={[Function]}
+  ListHeaderComponent={[Function]}
+  data={Array []}
+  disableVirtualization={false}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  numColumns={1}
+  onEndReachedThreshold={2}
+  onRefresh={[Function]}
+  refreshing={false}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  style={
+    Array [
+      Object {
+        "height": "100%",
+      },
+      Object {
+        "padding": 17,
+      },
+    ]
+  }
+  updateCellsBatchingPeriod={50}
+  windowSize={21}
+/>
+`;
+
+exports[`MetrobusStationDetail it renders correctly while loading 1`] = `
+<Memo(Loader)
+  color="#042EC6"
+  containerStyle={
+    Object {
+      "flex": 1,
+    }
+  }
+  visible={true}
+/>
+`;

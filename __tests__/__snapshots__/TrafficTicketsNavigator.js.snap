@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TrafficTicketsNavigator it renders correctly 1`] = `
+<Fragment>
+  <Memo(NavigationRow)
+    hideBorder={true}
+    iconColor="peru"
+    iconName="gavel"
+    isLoading={false}
+    navigationDetail={1}
+    onPress={[Function]}
+    text="[missing \\"en.traffic_tickets\\" translation]"
+  />
+</Fragment>
+`;
+
+exports[`TrafficTicketsNavigator it renders correctly when is loading 1`] = `
+<Fragment>
+  <Memo(NavigationRow)
+    hideBorder={true}
+    iconColor="peru"
+    iconName="gavel"
+    isLoading={true}
+    navigationDetail="[missing \\"en.loading\\" translation]"
+    onPress={[Function]}
+    text="[missing \\"en.traffic_tickets\\" translation]"
+  />
+</Fragment>
+`;
+
+exports[`TrafficTicketsNavigator it renders correctly when it has an error 1`] = `
+<Fragment>
+  <Memo(NavigationRow)
+    hideBorder={true}
+    iconColor="peru"
+    iconName="gavel"
+    isLoading={false}
+    navigationDetail="[missing \\"en.error\\" translation]"
+    onPress={null}
+    text="[missing \\"en.traffic_tickets\\" translation]"
+  />
+</Fragment>
+`;

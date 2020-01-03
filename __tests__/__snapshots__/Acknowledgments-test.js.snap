@@ -1,0 +1,252 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Acknowledgments it renders correctly 1`] = `
+<Fragment>
+  <StatusBar
+    animated={false}
+    backgroundColor="#FFF"
+    barStyle="dark-content"
+    showHideTransition="fade"
+  />
+  <ScrollViewMock
+    style={
+      Object {
+        "padding": 17,
+      }
+    }
+  >
+    <Headline
+      style={
+        Array [
+          Object {
+            "marginBottom": 17,
+          },
+          Object {
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Code for Mexico
+    </Headline>
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/programming_code.png",
+        }
+      }
+      style={
+        Object {
+          "height": 200,
+          "resizeMode": "contain",
+          "width": "100%",
+        }
+      }
+    />
+    <Paragraph
+      style={
+        Array [
+          Object {
+            "marginTop": 17,
+          },
+          Object {
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      [missing "en.code_for_mexico_project" translation]
+    </Paragraph>
+    <Paragraph
+      style={
+        Array [
+          Object {
+            "marginVertical": 17,
+          },
+          Object {
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      [missing "en.support_us_with_tweet" translation]
+    </Paragraph>
+    <withTheme(Button)
+      color="#042EC6"
+      onPress={[Function]}
+    >
+      [missing "en.send_support_tweet" translation]
+    </withTheme(Button)>
+    <withTheme(Divider)
+      style={
+        Array [
+          Object {
+            "marginTop": 34,
+          },
+          Object {
+            "marginBottom": 17,
+          },
+        ]
+      }
+    />
+    <Subheading
+      style={
+        Object {
+          "marginBottom": 11.22,
+        }
+      }
+    >
+      [missing "en.our_team" translation]
+    </Subheading>
+    <Paragraph>
+      [missing "en.main_maintainer" translation]: @kernel_init (Twitter)
+    </Paragraph>
+    <Paragraph>
+      [missing "en.collaborator" translation]: @danpliego (Twitter)
+    </Paragraph>
+    <Subheading
+      style={
+        Array [
+          Object {
+            "marginTop": 17,
+          },
+          Object {
+            "marginBottom": 11.22,
+          },
+        ]
+      }
+    >
+      [missing "en.special_thanks" translation]
+    </Subheading>
+    <Caption>
+      [missing "en.images" translation]
+    </Caption>
+    <Paragraph>
+      @ndetito (Instagram - Corralones)
+    </Paragraph>
+    <Paragraph>
+      @alexistostado (Unsplash - Verificentros)
+    </Paragraph>
+    <Paragraph>
+      manypixels.co
+    </Paragraph>
+    <Caption
+      style={
+        Object {
+          "marginTop": 17,
+        }
+      }
+    >
+      [missing "en.open_source_code" translation]
+    </Caption>
+    <View
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+          },
+          Object {
+            "alignItems": "center",
+          },
+        ]
+      }
+    >
+      <Paragraph
+        onPress={[Function]}
+        style={
+          Object {
+            "textDecorationLine": "underline",
+          }
+        }
+      >
+        GitHub
+      </Paragraph>
+      <IconClass
+        brand={false}
+        brands={true}
+        light={false}
+        name="github"
+        regular={false}
+        size={18}
+        solid={false}
+        style={
+          Object {
+            "paddingLeft": 11.22,
+          }
+        }
+      />
+    </View>
+    <Caption
+      style={
+        Object {
+          "marginTop": 17,
+        }
+      }
+    >
+      [missing "en.contact_support" translation]
+    </Caption>
+    <Paragraph
+      onPress={[Function]}
+      style={
+        Object {
+          "textDecorationLine": "underline",
+        }
+      }
+    >
+      [missing "en.government_support" translation]
+    </Paragraph>
+    <Paragraph
+      onPress={[Function]}
+      style={
+        Array [
+          Object {
+            "textDecorationLine": "underline",
+          },
+          Object {
+            "paddingTop": 11.22,
+          },
+        ]
+      }
+    >
+      [missing "en.app_support" translation]
+    </Paragraph>
+    <View
+      style={
+        Array [
+          Object {
+            "marginVertical": 34,
+          },
+          Object {
+            "justifyContent": "center",
+          },
+        ]
+      }
+    >
+      <Caption
+        style={
+          Object {
+            "textAlign": "center",
+          }
+        }
+      >
+        app version
+      </Caption>
+      <Caption
+        style={
+          Object {
+            "textAlign": "center",
+          }
+        }
+      >
+        build number
+      </Caption>
+      <withTheme(Button)
+        color="#042EC6"
+        onPress={[Function]}
+      >
+        [missing "en.delete_cache" translation]
+      </withTheme(Button)>
+    </View>
+  </ScrollViewMock>
+</Fragment>
+`;

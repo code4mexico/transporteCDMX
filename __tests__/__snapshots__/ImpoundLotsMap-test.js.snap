@@ -1,0 +1,546 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImpoundLotsMap it renders correctly 1`] = `
+<Fragment>
+  <StatusBar
+    animated={false}
+    backgroundColor="#FFF"
+    barStyle="dark-content"
+    showHideTransition="fade"
+  />
+  <MapView
+    initialRegion={
+      Object {
+        "latitude": 19.39,
+        "latitudeDelta": 0.3,
+        "longitude": -99.135,
+        "longitudeDelta": 0.3,
+      }
+    }
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.4251245,
+          "latitudeDelta": 0.01,
+          "longitude": -99.1385779,
+          "longitudeDelta": 0.01,
+        }
+      }
+      key="Centro Histórico"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="Centro Histórico"
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.413325,
+          "latitudeDelta": 0.01,
+          "longitude": -99.134242,
+          "longitudeDelta": 0.01,
+        }
+      }
+      key="Obrera"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="Obrera"
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.4670702,
+          "latitudeDelta": 0.01,
+          "longitude": -99.0971625,
+          "longitudeDelta": 0.01,
+        }
+      }
+      key="Zarco"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="Zarco"
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.5007451,
+          "latitudeDelta": 0.01,
+          "longitude": -99.1199599,
+          "longitudeDelta": 0.01,
+        }
+      }
+      key="Indios Verdes"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="Indios Verdes"
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.5098794,
+          "latitudeDelta": 0.01,
+          "longitude": -99.1914599,
+          "longitudeDelta": 0.01,
+        }
+      }
+      key="Culturas"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="Culturas"
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.4849162,
+          "latitudeDelta": 0.01,
+          "longitude": -99.2167098,
+          "longitudeDelta": 0.01,
+        }
+      }
+      key="Las Armas"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="Las Armas"
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.444414,
+          "latitudeDelta": 0.01,
+          "longitude": -99.216638,
+          "longitudeDelta": 0.01,
+        }
+      }
+      key="Salinillas"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="Salinillas"
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.393674,
+          "latitudeDelta": 0.01,
+          "longitude": -99.192761,
+          "longitudeDelta": 0.01,
+        }
+      }
+      key="Canarios"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="Canarios"
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.393099,
+          "latitudeDelta": 0.01,
+          "longitude": -99.189609,
+          "longitudeDelta": 0.01,
+        }
+      }
+      key="Grutas"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="Grutas"
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.3523729,
+          "latitudeDelta": 0.01,
+          "longitude": -99.2071363,
+          "longitudeDelta": 0.01,
+        }
+      }
+      key="Las Águilas"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="Las Águilas"
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.2504011,
+          "latitudeDelta": 0.01,
+          "longitude": -99.1087501,
+          "longitudeDelta": 0.01,
+        }
+      }
+      key="Xochimilco"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="Xochimilco"
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.2794286,
+          "latitudeDelta": 0.01,
+          "longitude": -99.0008488,
+          "longitudeDelta": 0.01,
+        }
+      }
+      key="Tláhuac"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="Tláhuac"
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.28298,
+          "latitudeDelta": 0.01,
+          "longitude": -99.064421,
+          "longitudeDelta": 0.01,
+        }
+      }
+      key="Piraña"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="Piraña"
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.285224,
+          "latitudeDelta": 0.01,
+          "longitude": -99.066266,
+          "longitudeDelta": 0.01,
+        }
+      }
+      key="Piraña II"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="Piraña II"
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.3659531,
+          "latitudeDelta": 0.01,
+          "longitude": -99.028889,
+          "longitudeDelta": 0.01,
+        }
+      }
+      key="Santa Cruz Meyehualco"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="Santa Cruz Meyehualco"
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.384471,
+          "latitudeDelta": 0.01,
+          "longitude": -99.0467398,
+          "longitudeDelta": 0.01,
+        }
+      }
+      key="Módulo 39"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="Módulo 39"
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.444414,
+          "latitudeDelta": 0.01,
+          "longitude": -99.216638,
+          "longitudeDelta": 0.01,
+        }
+      }
+      key="Fuerte Loreto"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="Fuerte Loreto"
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.3819019,
+          "latitudeDelta": 0.01,
+          "longitude": -99.0994487,
+          "longitudeDelta": 0.01,
+        }
+      }
+      key="Central de Abastos"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="Central de Abastos"
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.406591,
+          "latitudeDelta": 0.01,
+          "longitude": -99.1029429,
+          "longitudeDelta": 0.01,
+        }
+      }
+      key="Añil"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="Añil"
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.392448,
+          "latitudeDelta": 0.01,
+          "longitude": -99.114376,
+          "longitudeDelta": 0.01,
+        }
+      }
+      key="Troncoso"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="Troncoso"
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.386063,
+          "latitudeDelta": 0.01,
+          "longitude": -99.121506,
+          "longitudeDelta": 0.01,
+        }
+      }
+      key="La Viga"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="La Viga"
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.2919075,
+          "latitudeDelta": 0.01,
+          "longitude": -99.108113,
+          "longitudeDelta": 0.01,
+        }
+      }
+      key="Cuemánco"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="Cuemánco"
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.262145,
+          "latitudeDelta": 0.01,
+          "longitude": -99.125684,
+          "longitudeDelta": 0.01,
+        }
+      }
+      key="La Noria"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="La Noria"
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.262145,
+          "latitudeDelta": 0.01,
+          "longitude": -99.125684,
+          "longitudeDelta": 0.01,
+        }
+      }
+      key="Río San Joaquín"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="Río San Joaquín"
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.5058857,
+          "latitudeDelta": 0.01,
+          "longitude": -99.1508433,
+          "longitudeDelta": 0.01,
+        }
+      }
+      key="Cien Metros"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="Cien Metros"
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.3523729,
+          "latitudeDelta": 0.01,
+          "longitude": -99.2071363,
+          "longitudeDelta": 0.01,
+        }
+      }
+      key="Velódromo"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="Velódromo"
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.3685849,
+          "latitudeDelta": 0.01,
+          "longitude": -99.2579902,
+          "longitudeDelta": 0.01,
+        }
+      }
+      key="Santa Fé"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="Santa Fé"
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.3007996,
+          "latitudeDelta": 0.01,
+          "longitude": -99.1445559,
+          "longitudeDelta": 0.01,
+        }
+      }
+      key="Coyoacán"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="Coyoacán"
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.462035,
+          "latitudeDelta": 0.01,
+          "longitude": -99.15726,
+          "longitudeDelta": 0.01,
+        }
+      }
+      key="Fresno"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="Fresno"
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.3020093,
+          "latitudeDelta": 0.01,
+          "longitude": -99.2719374,
+          "longitudeDelta": 0.01,
+        }
+      }
+      key="Tierra Unida"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="Tierra Unida"
+    />
+  </MapView>
+  <RBSheet
+    animationType="none"
+    closeOnDragDown={true}
+    closeOnPressBack={true}
+    closeOnPressMask={true}
+    customStyles={Object {}}
+    duration={300}
+    height={733.7}
+    minClosingHeight={0}
+    onClose={null}
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "margin": 17,
+          },
+          Object {
+            "marginBottom": 34,
+          },
+        ]
+      }
+    >
+      <Title
+        style={
+          Object {
+            "color": "#042EC6",
+          }
+        }
+      />
+      <Paragraph />
+      <View
+        style={
+          Array [
+            Object {
+              "justifyContent": "space-between",
+            },
+            Object {
+              "flexDirection": "row",
+            },
+            Object {
+              "marginTop": 17,
+            },
+          ]
+        }
+      >
+        <withTheme(Button)
+          color="#042EC6"
+          onPress={[Function]}
+          style={
+            Array [
+              Object {
+                "alignSelf": "flex-end",
+              },
+              Object {
+                "marginBottom": 17,
+              },
+              Object {
+                "height": 50,
+              },
+            ]
+          }
+        >
+          [missing "en.directions" translation]
+        </withTheme(Button)>
+      </View>
+    </View>
+  </RBSheet>
+</Fragment>
+`;

@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react'
-import { View, Text, FlatList } from 'react-native'
+import { View, FlatList } from 'react-native'
 import moment from 'moment'
 import { sharedStyles } from '../styles'
 import Loader from '../components/Loader'

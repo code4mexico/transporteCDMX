@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MetrobusSchedule it renders correctly 1`] = `
+<withTheme(Card)
+  style={
+    Object {
+      "marginBottom": 17,
+    }
+  }
+>
+  <Card.Content>
+    <View
+      style={
+        Array [
+          Object {
+            "flex": 1,
+          },
+          Object {
+            "justifyContent": "space-between",
+          },
+          Object {
+            "flexDirection": "row",
+          },
+        ]
+      }
+    >
+      <Paragraph
+        style={
+          Array [
+            Object {
+              "color": "#042EC6",
+            },
+            Object {
+              "color": "#AAA",
+            },
+          ]
+        }
+      >
+        2 min
+      </Paragraph>
+      <Caption>
+        [missing "en.number" translation]: 1234567
+      </Caption>
+    </View>
+    <Headline>
+      This a name
+    </Headline>
+    <Paragraph>
+      [missing "en.distance" translation]: 2.02 KM
+    </Paragraph>
+  </Card.Content>
+  <Card.Actions
+    style={
+      Object {
+        "justifyContent": "flex-end",
+      }
+    }
+  >
+    <withTheme(Button)
+      color="#AAA"
+      onPress={[Function]}
+    >
+      [missing "en.view_on_map" translation]
+    </withTheme(Button)>
+  </Card.Actions>
+</withTheme(Card)>
+`;

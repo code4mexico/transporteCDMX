@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListHeader it renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": 17,
+      },
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <Caption>
+    Header text
+  </Caption>
+</View>
+`;

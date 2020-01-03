@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Vehicles it renders correctly initially 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#EDEDED",
+    }
+  }
+>
+  <StatusBar
+    animated={false}
+    backgroundColor="#FFF"
+    barStyle="dark-content"
+    showHideTransition="fade"
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "paddingHorizontal": 11.22,
+        "paddingTop": 17,
+      }
+    }
+  >
+    <withTheme(Card)
+      style={
+        Object {
+          "height": 50,
+          "marginBottom": 17,
+          "paddingRight": 11.22,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <withTheme(IconButton)
+          animated={true}
+          color="#042EC6"
+          icon="magnify"
+          onPress={[Function]}
+        />
+        <TextInput
+          allowFontScaling={true}
+          autoCompleteType="off"
+          autoCorrect={false}
+          blurOnSubmit={true}
+          clearButtonMode="while-editing"
+          disabled={false}
+          onChangeText={[Function]}
+          onSubmitEditing={[Function]}
+          placeholder="[missing \\"en.type_your_plate\\" translation]"
+          placeholderTextColor="#A1A1A1"
+          rejectResponderTermination={true}
+          spellCheck={false}
+          style={
+            Object {
+              "flex": 1,
+              "height": 50,
+            }
+          }
+          underlineColorAndroid="transparent"
+          value=""
+        />
+      </View>
+    </withTheme(Card)>
+    <Caption>
+      [missing "en.vehicle_search_description" translation]
+    </Caption>
+  </View>
+  <Memo(VehicleFeatures) />
+  <View
+    style={
+      Object {
+        "opacity": 0,
+      }
+    }
+  >
+    <ImpoundLotNavigator
+      plateText=""
+    />
+    <TrafficTicketsNavigator
+      plateText=""
+    />
+    <withTheme(Button)
+      color="#042EC6"
+      onPress={[Function]}
+      style={
+        Object {
+          "marginTop": 17,
+        }
+      }
+    >
+      [missing "en.go_back" translation]
+    </withTheme(Button)>
+  </View>
+  <Memo(Loader)
+    visible={false}
+  />
+</View>
+`;
+
+exports[`Vehicles it renders correctly when search is enabled 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#EDEDED",
+    }
+  }
+>
+  <StatusBar
+    animated={false}
+    backgroundColor="#FFF"
+    barStyle="dark-content"
+    showHideTransition="fade"
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "paddingHorizontal": 11.22,
+        "paddingTop": 17,
+      }
+    }
+  >
+    <withTheme(Card)
+      style={
+        Object {
+          "height": 50,
+          "marginBottom": 17,
+          "paddingRight": 11.22,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <withTheme(IconButton)
+          animated={true}
+          color="#042EC6"
+          icon="magnify"
+          onPress={[Function]}
+        />
+        <TextInput
+          allowFontScaling={true}
+          autoCompleteType="off"
+          autoCorrect={false}
+          blurOnSubmit={true}
+          clearButtonMode="while-editing"
+          disabled={false}
+          onChangeText={[Function]}
+          onSubmitEditing={[Function]}
+          placeholder="[missing \\"en.type_your_plate\\" translation]"
+          placeholderTextColor="#A1A1A1"
+          rejectResponderTermination={true}
+          spellCheck={false}
+          style={
+            Object {
+              "flex": 1,
+              "height": 50,
+            }
+          }
+          underlineColorAndroid="transparent"
+          value=""
+        />
+      </View>
+    </withTheme(Card)>
+  </View>
+  <View
+    style={null}
+  >
+    <ImpoundLotNavigator
+      plateText=""
+    />
+    <TrafficTicketsNavigator
+      plateText=""
+    />
+    <withTheme(Button)
+      color="#042EC6"
+      onPress={[Function]}
+      style={
+        Object {
+          "marginTop": 17,
+        }
+      }
+    >
+      [missing "en.go_back" translation]
+    </withTheme(Button)>
+  </View>
+  <Memo(Loader)
+    visible={false}
+  />
+</View>
+`;

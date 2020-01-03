@@ -1,0 +1,406 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavigationRow it renders correctly when active 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFF",
+    }
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={false}
+    onPress={[Function]}
+    style={
+      Array [
+        Object {
+          "justifyContent": "space-between",
+        },
+        Object {
+          "flexDirection": "row",
+        },
+        Object {
+          "alignItems": "center",
+        },
+        Object {
+          "height": 50,
+        },
+      ]
+    }
+  >
+    <IconClass
+      brand={false}
+      color="#AAA"
+      light={false}
+      name="home"
+      regular={false}
+      size={20}
+      solid={true}
+      style={
+        Object {
+          "marginHorizontal": 17,
+        }
+      }
+    />
+    <Paragraph
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      Navigation
+    </Paragraph>
+    <View
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+          },
+          Object {
+            "marginHorizontal": 11.22,
+          },
+          Object {
+            "alignItems": "center",
+          },
+        ]
+      }
+    >
+      <Paragraph
+        style={
+          Array [
+            Object {
+              "marginHorizontal": 11.22,
+            },
+            Object {
+              "color": "#A1A1A1",
+            },
+          ]
+        }
+      >
+        Detail
+      </Paragraph>
+      <IconClass
+        brand={false}
+        color="#E5E5E5"
+        light={false}
+        name="chevron-right"
+        regular={false}
+        size={20}
+        solid={true}
+      />
+    </View>
+  </TouchableOpacity>
+  <View
+    style={
+      Array [
+        Object {
+          "borderBottomColor": "#E5E5E5",
+          "borderBottomWidth": 1,
+        },
+        Object {
+          "marginLeft": 17,
+        },
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`NavigationRow it renders correctly when disabled 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFF",
+    }
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={true}
+    style={
+      Array [
+        Object {
+          "justifyContent": "space-between",
+        },
+        Object {
+          "flexDirection": "row",
+        },
+        Object {
+          "alignItems": "center",
+        },
+        Object {
+          "height": 50,
+        },
+      ]
+    }
+  >
+    <IconClass
+      brand={false}
+      color="#AAA"
+      light={false}
+      name="home"
+      regular={false}
+      size={20}
+      solid={true}
+      style={
+        Object {
+          "marginHorizontal": 17,
+        }
+      }
+    />
+    <Paragraph
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      Navigation
+    </Paragraph>
+    <View
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+          },
+          Object {
+            "marginHorizontal": 11.22,
+          },
+          Object {
+            "alignItems": "center",
+          },
+        ]
+      }
+    >
+      <Paragraph
+        style={
+          Array [
+            Object {
+              "marginHorizontal": 11.22,
+            },
+            Object {
+              "color": "#A1A1A1",
+            },
+          ]
+        }
+      />
+    </View>
+  </TouchableOpacity>
+  <View
+    style={
+      Array [
+        Object {
+          "borderBottomColor": "#E5E5E5",
+          "borderBottomWidth": 1,
+        },
+        Object {
+          "marginLeft": 17,
+        },
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`NavigationRow it renders correctly when loading 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFF",
+    }
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={false}
+    onPress={[Function]}
+    style={
+      Array [
+        Object {
+          "justifyContent": "space-between",
+        },
+        Object {
+          "flexDirection": "row",
+        },
+        Object {
+          "alignItems": "center",
+        },
+        Object {
+          "height": 50,
+        },
+      ]
+    }
+  >
+    <IconClass
+      brand={false}
+      color="#AAA"
+      light={false}
+      name="home"
+      regular={false}
+      size={20}
+      solid={true}
+      style={
+        Object {
+          "marginHorizontal": 17,
+        }
+      }
+    />
+    <Paragraph
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      Navigation
+    </Paragraph>
+    <View
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+          },
+          Object {
+            "marginHorizontal": 11.22,
+          },
+          Object {
+            "alignItems": "center",
+          },
+        ]
+      }
+    >
+      <Paragraph
+        style={
+          Array [
+            Object {
+              "marginHorizontal": 11.22,
+            },
+            Object {
+              "color": "#A1A1A1",
+            },
+          ]
+        }
+      />
+      <withTheme(ActivityIndicator)
+        animating={true}
+        color="#042EC6"
+        style={
+          Object {
+            "marginRight": 5.61,
+          }
+        }
+      />
+    </View>
+  </TouchableOpacity>
+  <View
+    style={
+      Array [
+        Object {
+          "borderBottomColor": "#E5E5E5",
+          "borderBottomWidth": 1,
+        },
+        Object {
+          "marginLeft": 17,
+        },
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`NavigationRow it renders correctly without border 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFF",
+    }
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={false}
+    onPress={[Function]}
+    style={
+      Array [
+        Object {
+          "justifyContent": "space-between",
+        },
+        Object {
+          "flexDirection": "row",
+        },
+        Object {
+          "alignItems": "center",
+        },
+        Object {
+          "height": 50,
+        },
+      ]
+    }
+  >
+    <IconClass
+      brand={false}
+      color="#AAA"
+      light={false}
+      name="home"
+      regular={false}
+      size={20}
+      solid={true}
+      style={
+        Object {
+          "marginHorizontal": 17,
+        }
+      }
+    />
+    <Paragraph
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      Navigation
+    </Paragraph>
+    <View
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+          },
+          Object {
+            "marginHorizontal": 11.22,
+          },
+          Object {
+            "alignItems": "center",
+          },
+        ]
+      }
+    >
+      <Paragraph
+        style={
+          Array [
+            Object {
+              "marginHorizontal": 11.22,
+            },
+            Object {
+              "color": "#A1A1A1",
+            },
+          ]
+        }
+      >
+        Detail
+      </Paragraph>
+      <IconClass
+        brand={false}
+        color="#E5E5E5"
+        light={false}
+        name="chevron-right"
+        regular={false}
+        size={20}
+        solid={true}
+      />
+    </View>
+  </TouchableOpacity>
+</View>
+`;

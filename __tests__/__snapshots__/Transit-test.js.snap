@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Transit it renders correctly while NOT loading 1`] = `
+<Fragment>
+  <StatusBar
+    animated={false}
+    backgroundColor="#FFF"
+    barStyle="dark-content"
+    showHideTransition="fade"
+  />
+  <MapView
+    initialRegion={
+      Object {
+        "latitude": 19.42,
+        "latitudeDelta": 0.22,
+        "longitude": -99.135,
+        "longitudeDelta": 0.22,
+      }
+    }
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19,
+          "latitudeDelta": 0.01,
+          "longitude": -79,
+          "longitudeDelta": 0.01,
+        }
+      }
+      key="7654321"
+      onPress={[Function]}
+      pinColor="#AAA"
+      stopPropagation={false}
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19,
+          "latitudeDelta": 0.01,
+          "longitude": -79,
+          "longitudeDelta": 0.01,
+        }
+      }
+      key="7654321"
+      onPress={[Function]}
+      pinColor="#AAA"
+      stopPropagation={false}
+    />
+  </MapView>
+  <Memo(ErrorOverlay)
+    onPress={[Function]}
+    showOverlay={false}
+  />
+  <Memo(LoadingOverlay)
+    loaderColor="#FFF"
+    showOverlay={false}
+  />
+</Fragment>
+`;
+
+exports[`Transit it renders correctly while loading 1`] = `
+<Fragment>
+  <StatusBar
+    animated={false}
+    backgroundColor="#FFF"
+    barStyle="dark-content"
+    showHideTransition="fade"
+  />
+  <MapView
+    initialRegion={
+      Object {
+        "latitude": 19.42,
+        "latitudeDelta": 0.22,
+        "longitude": -99.135,
+        "longitudeDelta": 0.22,
+      }
+    }
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  />
+  <Memo(ErrorOverlay)
+    onPress={[Function]}
+    showOverlay={false}
+  />
+  <Memo(LoadingOverlay)
+    loaderColor="#FFF"
+    showOverlay={true}
+  />
+</Fragment>
+`;
+
+exports[`Transit it renders correctly whit error 1`] = `
+<Fragment>
+  <StatusBar
+    animated={false}
+    backgroundColor="#FFF"
+    barStyle="dark-content"
+    showHideTransition="fade"
+  />
+  <MapView
+    initialRegion={
+      Object {
+        "latitude": 19.42,
+        "latitudeDelta": 0.22,
+        "longitude": -99.135,
+        "longitudeDelta": 0.22,
+      }
+    }
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  />
+  <Memo(ErrorOverlay)
+    onPress={[Function]}
+    showOverlay={true}
+  />
+  <Memo(LoadingOverlay)
+    loaderColor="#FFF"
+    showOverlay={false}
+  />
+</Fragment>
+`;

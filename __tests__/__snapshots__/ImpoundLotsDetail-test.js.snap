@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImpoundLotsDetail it renders correctly WITH Impound Lot details 1`] = `
+<FlatList
+  ListEmptyComponent={[Function]}
+  ListHeaderComponent={[Function]}
+  data={
+    Array [
+      Object {
+        "address": "This is an address",
+        "code": "2",
+        "coordinates": Object {
+          "latitude": 19,
+          "latitudeDelta": 0.01,
+          "longitude": -79,
+          "longitudeDelta": 0.01,
+        },
+        "date": "2020-01-01",
+        "formattedDate": "2020-01-01 00:00",
+        "formattedStatus": "Status",
+        "hour": "00:00",
+        "id": 1234567,
+        "name": "This a name",
+        "phone": "5555555",
+        "showMap": false,
+      },
+      Object {
+        "address": "This is an address",
+        "code": "0",
+        "coordinates": Object {
+          "latitude": 19,
+          "latitudeDelta": 0.01,
+          "longitude": -79,
+          "longitudeDelta": 0.01,
+        },
+        "date": "2020-01-01",
+        "formattedDate": "2020-01-01 00:00",
+        "formattedStatus": "Status",
+        "hour": "00:00",
+        "id": 1234567,
+        "name": "This a name",
+        "phone": "5555555",
+        "showMap": true,
+      },
+    ]
+  }
+  disableVirtualization={false}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  numColumns={1}
+  onEndReachedThreshold={2}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  updateCellsBatchingPeriod={50}
+  windowSize={21}
+/>
+`;
+
+exports[`ImpoundLotsDetail it renders correctly WITHOUT Impound Lot details 1`] = `
+<FlatList
+  ListEmptyComponent={[Function]}
+  ListHeaderComponent={[Function]}
+  data={Array []}
+  disableVirtualization={false}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  numColumns={1}
+  onEndReachedThreshold={2}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  updateCellsBatchingPeriod={50}
+  windowSize={21}
+/>
+`;

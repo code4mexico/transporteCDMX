@@ -1,0 +1,867 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VerificentrosMap it renders correctly 1`] = `
+<Fragment>
+  <StatusBar
+    animated={false}
+    backgroundColor="#FFF"
+    barStyle="dark-content"
+    showHideTransition="fade"
+  />
+  <MapView
+    initialRegion={
+      Object {
+        "latitude": 19.39,
+        "latitudeDelta": 0.3,
+        "longitude": -99.135,
+        "longitudeDelta": 0.3,
+      }
+    }
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.3492648,
+          "longitude": -99.3043745,
+        }
+      }
+      key="CJ36"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="GRUPO CONTADERO, S. A. DE C. V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.3608342,
+          "longitude": -99.1299367,
+        }
+      }
+      key="IZ37"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="MAC 2, S.A DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.3563331,
+          "longitude": -99.0057653,
+        }
+      }
+      key="IZ38"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="MAC 3, S.A DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.3384683,
+          "longitude": -99.112252,
+        }
+      }
+      key="IZ39"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="MAC 4, S.A DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.4416191,
+          "longitude": -99.163929,
+        }
+      }
+      key="CU40"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="VERIFICENTROS PROVIDA, S. A. DE C. V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.3798121,
+          "longitude": -99.2480751,
+        }
+      }
+      key="AO41"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="IMPULSORA ECOLÓGICA SANTA FE S.A. DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.2685139,
+          "longitude": -99.1266339,
+        }
+      }
+      key="XO43"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="CONSULTORÍA PRO AMBIENTAL, S.A. DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.2975155,
+          "longitude": -99.1496868,
+        }
+      }
+      key="TL44"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="MECANICA AMBIENTAL, S.A. DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.3534522,
+          "longitude": -99.0801276,
+        }
+      }
+      key="IZ45"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="COMPAÑÍA EMPRESARIAL VEDOZA, S.A. DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.3277639,
+          "longitude": -99.1372439,
+        }
+      }
+      key="CO46"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="COMPAÑÍA EMPRESARIAL VEDOZA, S.A. DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.2997039,
+          "longitude": -99.0444041,
+        }
+      }
+      key="TH47"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="SUMINISTROS Y MAQUINARIA KEBEC, S.A. DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.4024613,
+          "longitude": -99.1253901,
+        }
+      }
+      key="IT48"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="SUMINISTROS Y MAQUINARIA KEBEC, S.A. DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.4645096,
+          "longitude": -99.158086,
+        }
+      }
+      key="AZ49"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="ESTACIONAMIENTO RICE, S. A."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.3887941,
+          "longitude": -99.1484857,
+        }
+      }
+      key="BJ50"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="VICENTE SERGIO PEREA FLORES"
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.4361857,
+          "longitude": -99.1022964,
+        }
+      }
+      key="VC51"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="ALEJANDRO MARTÍNEZ BRIBIESCA"
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.4981901,
+          "longitude": -99.0956947,
+        }
+      }
+      key="GM52"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="INGENIERÍA Y VERIFICACIÓN PANTITLÁN, S.A. DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.4021269,
+          "longitude": -99.1682316,
+        }
+      }
+      key="CU53"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="GESTIÓN DEL AIRE, S.A. DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.4404876,
+          "longitude": -99.1485259,
+        }
+      }
+      key="CU54"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="DIAGNOSTICO DE EMISIONES, S.A. DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.3593258,
+          "longitude": -99.1747686,
+        }
+      }
+      key="AO58"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="ASEROEMPRESA, S.A DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.394051,
+          "longitude": -99.0813887,
+        }
+      }
+      key="IT32"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="CIUDAD MAXIPLUS, S. A. DE C. V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.3847424,
+          "longitude": -99.1924325,
+        }
+      }
+      key="AO33"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="CIUDAD MAXIPLUS, S. A. DE C. V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.309111,
+          "longitude": -99.231279,
+        }
+      }
+      key="MC34"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="COORDINACIÓN AMBIENTAL, S. A. DE C. V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.4558938,
+          "longitude": -99.1642776,
+        }
+      }
+      key="MH35"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="SERVICIO DE MEDICIÓN ORGANIZADA DE GASES, S. A. DE C. V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.4521111,
+          "longitude": -99.2179735,
+        }
+      }
+      key="MH01"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="CONTROL ATMOSFÉRICO DE MÉXICO, S.A. DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.4647343,
+          "longitude": -99.0840572,
+        }
+      }
+      key="GM02"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="MAC 1, S.A DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.4142886,
+          "longitude": -99.1324994,
+        }
+      }
+      key="CU03"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="ECO AMBIENTAL CUAUHTÉMOC, S.A DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.4790081,
+          "longitude": -99.1959989,
+        }
+      }
+      key="AZ04"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="VERIFICACIÓN INTEGRAL DE EMISIONES, S.A. DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.4800266,
+          "longitude": -99.1312633,
+        }
+      }
+      key="GM05"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="RONI, S.A DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.3653982,
+          "longitude": -99.2067469,
+        }
+      }
+      key="AO06"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="VERIFICACIONES CENTENARIO, S.A. DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.2831406,
+          "longitude": -99.2173807,
+        }
+      }
+      key="TL07"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="VERIFICACIONES CENTENARIO, S.A. DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.2548463,
+          "longitude": -99.1179779,
+        }
+      }
+      key="XO08"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="VERIFICACIONES CENTENARIO, S.A. DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.4446709,
+          "longitude": -99.0908205,
+        }
+      }
+      key="VC09"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="VERIFICACIONES CENTENARIO, S.A. DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.3357372,
+          "longitude": -99.1485353,
+        }
+      }
+      key="CO10"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="ARTE AUTOMOTRÍZ, S. DE R.L. DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.4459065,
+          "longitude": -99.1389256,
+        }
+      }
+      key="CU11"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="VERIFICENTRO, S.A. DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.4193776,
+          "longitude": -99.0574428,
+        }
+      }
+      key="IT12"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="INGENIERÍA Y VERIFICACIÓN PANTITLÁN, S.A. DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.35535,
+          "longitude": -99.0853635,
+        }
+      }
+      key="IZ13"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="POWER CARS MUNDO, S. A. DE C. V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.290118,
+          "longitude": -99.1156821,
+        }
+      }
+      key="TL14"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="MARÍA CAROLINA AGOFF"
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.3946609,
+          "longitude": -99.1169329,
+        }
+      }
+      key="IT16"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="POWER CARS MUNDO, S. A. DE C. V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.4692653,
+          "longitude": -99.1463078,
+        }
+      }
+      key="AZ17"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="POWER CARS MUNDO, S. A. DE C. V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.4638048,
+          "longitude": -99.1932017,
+        }
+      }
+      key="MH19"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="EXCELENCIA REFACCIONARIA AVE FENIX, S. A. DE C. V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.5006499,
+          "longitude": -99.1617603,
+        }
+      }
+      key="AZ20"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="EXCELENCIA REFACCIONARIA AVE FENIX, S. A. DE C. V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.3722132,
+          "longitude": -99.1468196,
+        }
+      }
+      key="BJ21"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="EXCELENCIA REFACCIONARIA AVE FENIX, S. A. DE C. V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.4593967,
+          "longitude": -99.1971377,
+        }
+      }
+      key="MH22"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="JET VAN CAR RENTAL S.A. DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.3804027,
+          "longitude": -99.0900989,
+        }
+      }
+      key="IZ23"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="DISTRIBUIDORA MIVEP S.A. DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.3336032,
+          "longitude": -99.1512955,
+        }
+      }
+      key="CO24"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="CONTROL ATMOSFÉRICO DE MÉXICO, S.A. DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.4803419,
+          "longitude": -99.1488127,
+        }
+      }
+      key="AZ25"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="CONTROL ATMOSFÉRICO DE MÉXICO, S.A. DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.3035256,
+          "longitude": -99.0641866,
+        }
+      }
+      key="TH26"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="CONTROL ATMOSFÉRICO DE MÉXICO, S.A. DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.393931,
+          "longitude": -99.1624481,
+        }
+      }
+      key="BJ27"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="CONTROL ATMOSFÉRICO DE MÉXICO, S.A. DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.3411415,
+          "longitude": -99.2071883,
+        }
+      }
+      key="AO28"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="CONTROL ATMOSFÉRICO DE MÉXICO, S.A. DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.2493816,
+          "longitude": -99.1132081,
+        }
+      }
+      key="XO29"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="CIUDAD MAXIPLUS, S. A. DE C. V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.3801587,
+          "longitude": -99.1994721,
+        }
+      }
+      key="AO30"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="CIUDAD MAXIPLUS, S. A. DE C. V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.3083047,
+          "longitude": -99.0762779,
+        }
+      }
+      key="IZ31"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="CIUDAD MAXIPLUS, S. A. DE C. V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.3699384,
+          "longitude": -99.0839469,
+        }
+      }
+      key="IZ57"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="MEDINDUSTRIAS, S.A. DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.3651887,
+          "longitude": -99.0189563,
+        }
+      }
+      key="IZ59"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="SOLUCIONES EMPRESARIALES DRAKO, S DE R.L. DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.4680556,
+          "longitude": -99.1128076,
+        }
+      }
+      key="GM60"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="JOSÉ RAFAEL OCAÑA UMBRAL"
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.2831549,
+          "longitude": -99.0109563,
+        }
+      }
+      key="TH61"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="SOLUCIONES EMPRESARIALES DRAKO, S DE R.L. DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.4001129,
+          "longitude": -99.0941066,
+        }
+      }
+      key="IT62"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="DESARROLLO Y ASESORÍA APLICADA NOVO, S.A. DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.4208067,
+          "longitude": -99.1369636,
+        }
+      }
+      key="CU63"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="DESARROLLO Y ASESORÍA APLICADA NOVO, S.A. DE C.V."
+    />
+    <MapMarker
+      coordinate={
+        Object {
+          "latitude": 19.3951034,
+          "longitude": -99.1366867,
+        }
+      }
+      key="BJ67"
+      onPress={[Function]}
+      pinColor="#042EC6"
+      stopPropagation={false}
+      title="AUTO SERVICIO ESPINO, S.A."
+    />
+  </MapView>
+  <RBSheet
+    animationType="none"
+    closeOnDragDown={true}
+    closeOnPressBack={true}
+    closeOnPressMask={true}
+    customStyles={Object {}}
+    duration={300}
+    height={933.8}
+    minClosingHeight={0}
+    onClose={null}
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "margin": 17,
+          },
+          Object {
+            "marginBottom": 34,
+          },
+        ]
+      }
+    >
+      <Title
+        style={
+          Object {
+            "color": "#042EC6",
+          }
+        }
+      >
+        [missing "en.car_types" translation]:
+      </Title>
+      <Subheading
+        style={
+          Object {
+            "color": "#042EC6",
+          }
+        }
+      />
+      <Paragraph />
+      <View
+        style={
+          Object {
+            "marginTop": 17,
+          }
+        }
+      >
+        <withTheme(Button)
+          color="#042EC6"
+          onPress={[Function]}
+          style={
+            Object {
+              "marginBottom": 17,
+            }
+          }
+        >
+          [missing "en.directions" translation]
+        </withTheme(Button)>
+        <withTheme(Button)
+          color="#042EC6"
+          onPress={[Function]}
+          style={
+            Object {
+              "marginBottom": 17,
+            }
+          }
+        >
+          [missing "en.schedule_appointment" translation]
+        </withTheme(Button)>
+      </View>
+    </View>
+  </RBSheet>
+</Fragment>
+`;

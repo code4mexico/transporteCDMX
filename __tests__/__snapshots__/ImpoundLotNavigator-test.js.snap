@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImpoundLotNavigator it renders correctly when NOT impounded 1`] = `
+<Fragment>
+  <Memo(NavigationRow)
+    iconColor="cornflowerblue"
+    iconName="car"
+    isLoading={false}
+    navigationDetail="[missing \\"en.not_impounded\\" translation]"
+    onPress={[Function]}
+    text="[missing \\"en.impound_lot\\" translation]"
+  />
+</Fragment>
+`;
+
+exports[`ImpoundLotNavigator it renders correctly when impounded 1`] = `
+<Fragment>
+  <Memo(NavigationRow)
+    iconColor="cornflowerblue"
+    iconName="car"
+    isLoading={false}
+    navigationDetail="[missing \\"en.impounded\\" translation]"
+    onPress={[Function]}
+    text="[missing \\"en.impound_lot\\" translation]"
+  />
+</Fragment>
+`;
+
+exports[`ImpoundLotNavigator it renders correctly when is loading 1`] = `
+<Fragment>
+  <Memo(NavigationRow)
+    iconColor="cornflowerblue"
+    iconName="car"
+    isLoading={true}
+    navigationDetail="[missing \\"en.loading\\" translation]"
+    onPress={[Function]}
+    text="[missing \\"en.impound_lot\\" translation]"
+  />
+</Fragment>
+`;
+
+exports[`ImpoundLotNavigator it renders correctly when it has an error 1`] = `
+<Fragment>
+  <Memo(NavigationRow)
+    iconColor="cornflowerblue"
+    iconName="car"
+    isLoading={false}
+    navigationDetail="[missing \\"en.error\\" translation]"
+    onPress={null}
+    text="[missing \\"en.impound_lot\\" translation]"
+  />
+</Fragment>
+`;

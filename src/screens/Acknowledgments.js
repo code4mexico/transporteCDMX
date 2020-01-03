@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import { StatusBar, Text, ScrollView, Image, StyleSheet, Linking, View } from 'react-native'
+import { StatusBar, ScrollView, Image, StyleSheet, Linking, View } from 'react-native'
 import { Button, Caption, Headline, Subheading, Divider, Paragraph } from 'react-native-paper'
 import DeviceInfo from 'react-native-device-info'
 import Icon from 'react-native-vector-icons/FontAwesome5'
@@ -74,7 +74,7 @@ const Acknowledgments = () => {
         <Divider style={[sharedStyles.mt6, sharedStyles.mb3]} />
         <Subheading style={sharedStyles.mb2}>{translate('our_team')}</Subheading>
         <Paragraph>{`${translate('main_maintainer')}: @kernel_init (Twitter)`}</Paragraph>
-        <Paragraph>{`${translate('collaborator')}: @kernel_init (Twitter)`}</Paragraph>
+        <Paragraph>{`${translate('collaborator')}: @danpliego (Twitter)`}</Paragraph>
         <Subheading style={[sharedStyles.mt3, sharedStyles.mb2]}>
           {translate('special_thanks')}
         </Subheading>

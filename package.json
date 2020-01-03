@@ -21,6 +21,7 @@
     "ios-se": "ENVFILE=.env react-native run-ios --simulator \"iPhone SE\" --scheme transporteCDMX",
     "start": "react-native start",
     "test": "jest",
+    "write-snapshots": "jest --updateSnapshot",
     "lint": "eslint .",
     "prettier": "prettier --write"
   },
@@ -81,7 +82,23 @@
     "react-test-renderer": "16.9.0"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "setupFiles": [
+      "./jest-setup.js",
+      "./__mocks__/react-native-device-info.js",
+      "./__mocks__/@react-native-community/async-storage-backend-legacy.js",
+      "./__mocks__/@react-native-community/async-storage.js",
+      "./__mocks__/moment.js"
+    ],
+    "testPathIgnorePatterns": [
+      "/*-fixture.js"
+    ],
+    "transformIgnorePatterns": [
+      "node_modules/(?!react-native|)/"
+    ]
   },
   "lint-staged": {
     "*.js": [

@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SimplePlaceholder it renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginHorizontal": 17,
+      },
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "width": "100%",
+        },
+        Object {
+          "height": "58%",
+        },
+      ]
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/programming_code.png",
+        }
+      }
+      style={
+        Object {
+          "height": "100%",
+          "resizeMode": "contain",
+          "width": "100%",
+        }
+      }
+    />
+  </View>
+  <Caption
+    style={
+      Array [
+        Object {
+          "marginTop": 17,
+        },
+        Object {
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    Placeholder
+  </Caption>
+</View>
+`;
+
+exports[`SimplePlaceholder it renders correctly with fullHeight 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginHorizontal": 17,
+      },
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "width": "100%",
+        },
+        Object {
+          "height": 280,
+        },
+      ]
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/programming_code.png",
+        }
+      }
+      style={
+        Object {
+          "height": "100%",
+          "resizeMode": "contain",
+          "width": "100%",
+        }
+      }
+    />
+  </View>
+  <Caption
+    style={
+      Array [
+        Object {
+          "marginTop": 17,
+        },
+        Object {
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    Placeholder
+  </Caption>
+</View>
+`;
