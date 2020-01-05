@@ -32,7 +32,7 @@ exports[`ImpoundLot it renders correctly WITH map 1`] = `
       <Paragraph
         style={
           Object {
-            "color": "#042EC6",
+            "color": "#2B45AC",
           }
         }
       >
@@ -65,13 +65,13 @@ exports[`ImpoundLot it renders correctly WITH map 1`] = `
     }
   >
     <withTheme(Button)
-      color="#042EC6"
+      color="#2B45AC"
       onPress={[Function]}
     >
       [missing "en.call" translation]
     </withTheme(Button)>
     <withTheme(Button)
-      color="#042EC6"
+      color="#2B45AC"
       onPress={[Function]}
     >
       [missing "en.directions" translation]
@@ -112,7 +112,7 @@ exports[`ImpoundLot it renders correctly WITHOUT map 1`] = `
       <Paragraph
         style={
           Object {
-            "color": "#042EC6",
+            "color": "#2B45AC",
           }
         }
       >

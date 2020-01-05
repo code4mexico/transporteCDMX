@@ -45,7 +45,7 @@ exports[`ErrorOverlay it renders correctly 1`] = `
   <withTheme(Button)
     labelStyle={
       Object {
-        "color": "#042EC6",
+        "color": "#2B45AC",
       }
     }
     mode="contained"
@@ -55,7 +55,7 @@ exports[`ErrorOverlay it renders correctly 1`] = `
           "scale": 1,
         },
         "colors": Object {
-          "accent": "#042EC6",
+          "accent": "#2B45AC",
           "backdrop": "rgba(0, 0, 0, 0.5)",
           "background": "#EDEDED",
           "bgBackground": Object {
@@ -80,7 +80,7 @@ exports[`ErrorOverlay it renders correctly 1`] = `
             "backgroundColor": "rgba(255,255,255,0.5)",
           },
           "bgSecondary": Object {
-            "backgroundColor": "#042EC6",
+            "backgroundColor": "#2B45AC",
           },
           "bgWhite": Object {
             "backgroundColor": "#FFF",
@@ -100,7 +100,7 @@ exports[`ErrorOverlay it renders correctly 1`] = `
             "color": "rgba(255,255,255,0.5)",
           },
           "colorSecondary": Object {
-            "color": "#042EC6",
+            "color": "#2B45AC",
           },
           "colorWhite": Object {
             "color": "#FFF",
@@ -116,7 +116,7 @@ exports[`ErrorOverlay it renders correctly 1`] = `
           "placeholder": "rgba(0, 0, 0, 0.54)",
           "primary": "#FFF",
           "primaryOpacity": "rgba(255,255,255,0.5)",
-          "secondary": "#042EC6",
+          "secondary": "#2B45AC",
           "surface": "#ffffff",
           "text": "#000000",
           "white": "#FFF",

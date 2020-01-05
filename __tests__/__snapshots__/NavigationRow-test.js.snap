@@ -285,7 +285,7 @@ exports[`NavigationRow it renders correctly when loading 1`] = `
       />
       <withTheme(ActivityIndicator)
         animating={true}
-        color="#042EC6"
+        color="#2B45AC"
         style={
           Object {
             "marginRight": 5.61,

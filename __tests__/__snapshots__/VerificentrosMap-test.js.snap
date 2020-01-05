@@ -32,7 +32,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="CJ36"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="GRUPO CONTADERO, S. A. DE C. V."
     />
@@ -45,7 +45,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="IZ37"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="MAC 2, S.A DE C.V."
     />
@@ -58,7 +58,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="IZ38"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="MAC 3, S.A DE C.V."
     />
@@ -71,7 +71,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="IZ39"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="MAC 4, S.A DE C.V."
     />
@@ -84,7 +84,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="CU40"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="VERIFICENTROS PROVIDA, S. A. DE C. V."
     />
@@ -97,7 +97,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="AO41"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="IMPULSORA ECOLÓGICA SANTA FE S.A. DE C.V."
     />
@@ -110,7 +110,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="XO43"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="CONSULTORÍA PRO AMBIENTAL, S.A. DE C.V."
     />
@@ -123,7 +123,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="TL44"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="MECANICA AMBIENTAL, S.A. DE C.V."
     />
@@ -136,7 +136,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="IZ45"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="COMPAÑÍA EMPRESARIAL VEDOZA, S.A. DE C.V."
     />
@@ -149,7 +149,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="CO46"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="COMPAÑÍA EMPRESARIAL VEDOZA, S.A. DE C.V."
     />
@@ -162,7 +162,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="TH47"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="SUMINISTROS Y MAQUINARIA KEBEC, S.A. DE C.V."
     />
@@ -175,7 +175,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="IT48"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="SUMINISTROS Y MAQUINARIA KEBEC, S.A. DE C.V."
     />
@@ -188,7 +188,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="AZ49"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="ESTACIONAMIENTO RICE, S. A."
     />
@@ -201,7 +201,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="BJ50"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="VICENTE SERGIO PEREA FLORES"
     />
@@ -214,7 +214,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="VC51"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="ALEJANDRO MARTÍNEZ BRIBIESCA"
     />
@@ -227,7 +227,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="GM52"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="INGENIERÍA Y VERIFICACIÓN PANTITLÁN, S.A. DE C.V."
     />
@@ -240,7 +240,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="CU53"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="GESTIÓN DEL AIRE, S.A. DE C.V."
     />
@@ -253,7 +253,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="CU54"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="DIAGNOSTICO DE EMISIONES, S.A. DE C.V."
     />
@@ -266,7 +266,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="AO58"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="ASEROEMPRESA, S.A DE C.V."
     />
@@ -279,7 +279,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="IT32"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="CIUDAD MAXIPLUS, S. A. DE C. V."
     />
@@ -292,7 +292,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="AO33"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="CIUDAD MAXIPLUS, S. A. DE C. V."
     />
@@ -305,7 +305,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="MC34"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="COORDINACIÓN AMBIENTAL, S. A. DE C. V."
     />
@@ -318,7 +318,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="MH35"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="SERVICIO DE MEDICIÓN ORGANIZADA DE GASES, S. A. DE C. V."
     />
@@ -331,7 +331,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="MH01"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="CONTROL ATMOSFÉRICO DE MÉXICO, S.A. DE C.V."
     />
@@ -344,7 +344,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="GM02"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="MAC 1, S.A DE C.V."
     />
@@ -357,7 +357,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="CU03"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="ECO AMBIENTAL CUAUHTÉMOC, S.A DE C.V."
     />
@@ -370,7 +370,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="AZ04"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="VERIFICACIÓN INTEGRAL DE EMISIONES, S.A. DE C.V."
     />
@@ -383,7 +383,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="GM05"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="RONI, S.A DE C.V."
     />
@@ -396,7 +396,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="AO06"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="VERIFICACIONES CENTENARIO, S.A. DE C.V."
     />
@@ -409,7 +409,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="TL07"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="VERIFICACIONES CENTENARIO, S.A. DE C.V."
     />
@@ -422,7 +422,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="XO08"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="VERIFICACIONES CENTENARIO, S.A. DE C.V."
     />
@@ -435,7 +435,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="VC09"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="VERIFICACIONES CENTENARIO, S.A. DE C.V."
     />
@@ -448,7 +448,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="CO10"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="ARTE AUTOMOTRÍZ, S. DE R.L. DE C.V."
     />
@@ -461,7 +461,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="CU11"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="VERIFICENTRO, S.A. DE C.V."
     />
@@ -474,7 +474,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="IT12"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="INGENIERÍA Y VERIFICACIÓN PANTITLÁN, S.A. DE C.V."
     />
@@ -487,7 +487,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="IZ13"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="POWER CARS MUNDO, S. A. DE C. V."
     />
@@ -500,7 +500,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="TL14"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="MARÍA CAROLINA AGOFF"
     />
@@ -513,7 +513,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="IT16"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="POWER CARS MUNDO, S. A. DE C. V."
     />
@@ -526,7 +526,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="AZ17"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="POWER CARS MUNDO, S. A. DE C. V."
     />
@@ -539,7 +539,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="MH19"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="EXCELENCIA REFACCIONARIA AVE FENIX, S. A. DE C. V."
     />
@@ -552,7 +552,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="AZ20"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="EXCELENCIA REFACCIONARIA AVE FENIX, S. A. DE C. V."
     />
@@ -565,7 +565,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="BJ21"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="EXCELENCIA REFACCIONARIA AVE FENIX, S. A. DE C. V."
     />
@@ -578,7 +578,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="MH22"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="JET VAN CAR RENTAL S.A. DE C.V."
     />
@@ -591,7 +591,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="IZ23"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="DISTRIBUIDORA MIVEP S.A. DE C.V."
     />
@@ -604,7 +604,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="CO24"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="CONTROL ATMOSFÉRICO DE MÉXICO, S.A. DE C.V."
     />
@@ -617,7 +617,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="AZ25"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="CONTROL ATMOSFÉRICO DE MÉXICO, S.A. DE C.V."
     />
@@ -630,7 +630,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="TH26"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="CONTROL ATMOSFÉRICO DE MÉXICO, S.A. DE C.V."
     />
@@ -643,7 +643,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="BJ27"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="CONTROL ATMOSFÉRICO DE MÉXICO, S.A. DE C.V."
     />
@@ -656,7 +656,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="AO28"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="CONTROL ATMOSFÉRICO DE MÉXICO, S.A. DE C.V."
     />
@@ -669,7 +669,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="XO29"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="CIUDAD MAXIPLUS, S. A. DE C. V."
     />
@@ -682,7 +682,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="AO30"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="CIUDAD MAXIPLUS, S. A. DE C. V."
     />
@@ -695,7 +695,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="IZ31"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="CIUDAD MAXIPLUS, S. A. DE C. V."
     />
@@ -708,7 +708,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="IZ57"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="MEDINDUSTRIAS, S.A. DE C.V."
     />
@@ -721,7 +721,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="IZ59"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="SOLUCIONES EMPRESARIALES DRAKO, S DE R.L. DE C.V."
     />
@@ -734,7 +734,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="GM60"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="JOSÉ RAFAEL OCAÑA UMBRAL"
     />
@@ -747,7 +747,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="TH61"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="SOLUCIONES EMPRESARIALES DRAKO, S DE R.L. DE C.V."
     />
@@ -760,7 +760,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="IT62"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="DESARROLLO Y ASESORÍA APLICADA NOVO, S.A. DE C.V."
     />
@@ -773,7 +773,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="CU63"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="DESARROLLO Y ASESORÍA APLICADA NOVO, S.A. DE C.V."
     />
@@ -786,7 +786,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       }
       key="BJ67"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="AUTO SERVICIO ESPINO, S.A."
     />
@@ -817,7 +817,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       <Title
         style={
           Object {
-            "color": "#042EC6",
+            "color": "#2B45AC",
           }
         }
       >
@@ -826,7 +826,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       <Subheading
         style={
           Object {
-            "color": "#042EC6",
+            "color": "#2B45AC",
           }
         }
       />
@@ -839,7 +839,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
         }
       >
         <withTheme(Button)
-          color="#042EC6"
+          color="#2B45AC"
           onPress={[Function]}
           style={
             Object {
@@ -850,7 +850,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
           [missing "en.directions" translation]
         </withTheme(Button)>
         <withTheme(Button)
-          color="#042EC6"
+          color="#2B45AC"
           onPress={[Function]}
           style={
             Object {

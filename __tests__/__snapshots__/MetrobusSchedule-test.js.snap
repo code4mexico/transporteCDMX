@@ -28,7 +28,7 @@ exports[`MetrobusSchedule it renders correctly 1`] = `
         style={
           Array [
             Object {
-              "color": "#042EC6",
+              "color": "#2B45AC",
             },
             Object {
               "color": "#AAA",

@@ -46,7 +46,7 @@ exports[`TrafficTicket it renders correctly 1`] = `
       <Paragraph
         style={
           Object {
-            "color": "#042EC6",
+            "color": "#2B45AC",
           }
         }
       >
@@ -66,7 +66,7 @@ exports[`TrafficTicket it renders correctly 1`] = `
       <Paragraph
         style={
           Object {
-            "color": "#042EC6",
+            "color": "#2B45AC",
           }
         }
       >
@@ -85,7 +85,7 @@ exports[`TrafficTicket it renders correctly 1`] = `
     }
   >
     <withTheme(Button)
-      color="#042EC6"
+      color="#2B45AC"
       onPress={[Function]}
     >
       [missing "en.pay" translation]
