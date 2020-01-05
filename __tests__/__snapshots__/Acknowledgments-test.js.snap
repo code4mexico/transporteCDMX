@@ -72,7 +72,7 @@ exports[`Acknowledgments it renders correctly 1`] = `
       [missing "en.support_us_with_tweet" translation]
     </Paragraph>
     <withTheme(Button)
-      color="#042EC6"
+      color="#2B45AC"
       onPress={[Function]}
     >
       [missing "en.send_support_tweet" translation]
@@ -241,7 +241,7 @@ exports[`Acknowledgments it renders correctly 1`] = `
         build number
       </Caption>
       <withTheme(Button)
-        color="#042EC6"
+        color="#2B45AC"
         onPress={[Function]}
       >
         [missing "en.delete_cache" translation]

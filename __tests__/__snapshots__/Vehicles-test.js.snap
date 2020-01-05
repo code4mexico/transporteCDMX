@@ -43,7 +43,7 @@ exports[`Vehicles it renders correctly initially 1`] = `
       >
         <withTheme(IconButton)
           animated={true}
-          color="#042EC6"
+          color="#2B45AC"
           icon="magnify"
           onPress={[Function]}
         />
@@ -90,7 +90,7 @@ exports[`Vehicles it renders correctly initially 1`] = `
       plateText=""
     />
     <withTheme(Button)
-      color="#042EC6"
+      color="#2B45AC"
       onPress={[Function]}
       style={
         Object {
@@ -150,7 +150,7 @@ exports[`Vehicles it renders correctly when search is enabled 1`] = `
       >
         <withTheme(IconButton)
           animated={true}
-          color="#042EC6"
+          color="#2B45AC"
           icon="magnify"
           onPress={[Function]}
         />
@@ -189,7 +189,7 @@ exports[`Vehicles it renders correctly when search is enabled 1`] = `
       plateText=""
     />
     <withTheme(Button)
-      color="#042EC6"
+      color="#2B45AC"
       onPress={[Function]}
       style={
         Object {

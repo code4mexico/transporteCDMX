@@ -19,7 +19,7 @@ exports[`Loader it renders correctly when visible 1`] = `
 >
   <withTheme(ActivityIndicator)
     animating={true}
-    color="#042EC6"
+    color="#2B45AC"
   />
   <Caption
     style={

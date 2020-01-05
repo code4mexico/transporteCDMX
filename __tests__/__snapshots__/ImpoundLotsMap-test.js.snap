@@ -34,7 +34,7 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
       }
       key="Centro Histórico"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="Centro Histórico"
     />
@@ -49,7 +49,7 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
       }
       key="Obrera"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="Obrera"
     />
@@ -64,7 +64,7 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
       }
       key="Zarco"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="Zarco"
     />
@@ -79,7 +79,7 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
       }
       key="Indios Verdes"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="Indios Verdes"
     />
@@ -94,7 +94,7 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
       }
       key="Culturas"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="Culturas"
     />
@@ -109,7 +109,7 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
       }
       key="Las Armas"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="Las Armas"
     />
@@ -124,7 +124,7 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
       }
       key="Salinillas"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="Salinillas"
     />
@@ -139,7 +139,7 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
       }
       key="Canarios"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="Canarios"
     />
@@ -154,7 +154,7 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
       }
       key="Grutas"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="Grutas"
     />
@@ -169,7 +169,7 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
       }
       key="Las Águilas"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="Las Águilas"
     />
@@ -184,7 +184,7 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
       }
       key="Xochimilco"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="Xochimilco"
     />
@@ -199,7 +199,7 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
       }
       key="Tláhuac"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="Tláhuac"
     />
@@ -214,7 +214,7 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
       }
       key="Piraña"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="Piraña"
     />
@@ -229,7 +229,7 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
       }
       key="Piraña II"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="Piraña II"
     />
@@ -244,7 +244,7 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
       }
       key="Santa Cruz Meyehualco"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="Santa Cruz Meyehualco"
     />
@@ -259,7 +259,7 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
       }
       key="Módulo 39"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="Módulo 39"
     />
@@ -274,7 +274,7 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
       }
       key="Fuerte Loreto"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="Fuerte Loreto"
     />
@@ -289,7 +289,7 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
       }
       key="Central de Abastos"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="Central de Abastos"
     />
@@ -304,7 +304,7 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
       }
       key="Añil"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="Añil"
     />
@@ -319,7 +319,7 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
       }
       key="Troncoso"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="Troncoso"
     />
@@ -334,7 +334,7 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
       }
       key="La Viga"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="La Viga"
     />
@@ -349,7 +349,7 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
       }
       key="Cuemánco"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="Cuemánco"
     />
@@ -364,7 +364,7 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
       }
       key="La Noria"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="La Noria"
     />
@@ -379,7 +379,7 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
       }
       key="Río San Joaquín"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="Río San Joaquín"
     />
@@ -394,7 +394,7 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
       }
       key="Cien Metros"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="Cien Metros"
     />
@@ -409,7 +409,7 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
       }
       key="Velódromo"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="Velódromo"
     />
@@ -424,7 +424,7 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
       }
       key="Santa Fé"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="Santa Fé"
     />
@@ -439,7 +439,7 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
       }
       key="Coyoacán"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="Coyoacán"
     />
@@ -454,7 +454,7 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
       }
       key="Fresno"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="Fresno"
     />
@@ -469,7 +469,7 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
       }
       key="Tierra Unida"
       onPress={[Function]}
-      pinColor="#042EC6"
+      pinColor="#2B45AC"
       stopPropagation={false}
       title="Tierra Unida"
     />
@@ -500,7 +500,7 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
       <Title
         style={
           Object {
-            "color": "#042EC6",
+            "color": "#2B45AC",
           }
         }
       />
@@ -521,7 +521,7 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
         }
       >
         <withTheme(Button)
-          color="#042EC6"
+          color="#2B45AC"
           onPress={[Function]}
           style={
             Array [

@@ -6,9 +6,9 @@ const colorConstants = {
   mediumGray: '#A1A1A1',
   primary: '#FFF',
   primaryOpacity: hexToRgbA('#FFF', 0.5),
-  secondary: '#042EC6',
+  secondary: '#2B45AC',
   background: '#EDEDED',
-  accent: '#042EC6',
+  accent: '#2B45AC',
   white: '#FFF',
 }
 
