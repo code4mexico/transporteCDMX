@@ -1,6 +1,7 @@
 import React, { PureComponent, Fragment } from 'react'
 import MapView, { Marker } from 'react-native-maps'
 import { StatusBar } from 'react-native'
+import SplashScreen from 'react-native-splash-screen'
 import LoadingOverlay from '../components/LoadingOverlay'
 import ErrorOverlay from '../components/ErrorOverlay'
 import theme, { sharedStyles } from '../styles'
@@ -27,6 +28,7 @@ class Transit extends PureComponent {
   metrobusLines = null
 
   async componentDidMount() {
+    SplashScreen.hide()
     this.metrobusLines = await storage.get(METROBUS_STORAGE_KEY)
     // TODO: We need to ask if ids are prone to change
     if (!this.metrobusLines) {
