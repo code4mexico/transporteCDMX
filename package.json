@@ -17,8 +17,12 @@
   "contributors": [],
   "scripts": {
     "android": "ENVFILE=.env.staging react-native run-android",
+    "android-prod": "ENVFILE=.env react-native run-android",
+    "build-android-prod": "cd ./android && ./gradlew app:bundleRelease",
     "ios": "ENVFILE=.env.staging react-native run-ios --scheme transporteCDMX-Staging",
+    "ios-prod": "ENVFILE=.env react-native run-ios --scheme transporteCDMX",
     "ios-se": "ENVFILE=.env.staging react-native run-ios --simulator \"iPhone SE\" --scheme transporteCDMX-Staging",
+    "ios-se-prod": "ENVFILE=.env react-native run-ios --simulator \"iPhone SE\" --scheme transporteCDMX",
     "start": "react-native start",
     "test": "jest",
     "write-snapshots": "jest --updateSnapshot",
@@ -52,6 +56,7 @@
     "react-native-root-toast": "3.2.0",
     "react-native-safe-area-context": "0.6.1",
     "react-native-screens": "2.0.0-alpha.22",
+    "react-native-splash-screen": "3.2.0",
     "react-native-swiper-flatlist": "2.0.3",
     "react-native-vector-icons": "6.6.0",
     "yarn": "1.21.1"
