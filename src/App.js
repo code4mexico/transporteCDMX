@@ -1,4 +1,5 @@
 import 'react-native-gesture-handler'
+// import crashlytics from '@react-native-firebase/crashlytics'
 import { enableScreens } from 'react-native-screens'
 import React, { PureComponent } from 'react'
 import { PixelRatio } from 'react-native'

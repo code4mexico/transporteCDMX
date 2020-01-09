@@ -1,4 +1,8 @@
 apply plugin: "com.android.application"
+apply plugin: 'io.fabric'
+crashlytics {
+  enableNdk true
+}
 
 // TODO: Remember to change me if environments are provided. We are using production ¯\_(ツ)_/¯
 project.ext.envConfigFiles = [
@@ -138,7 +142,7 @@ android {
         applicationId "com.transportecdmx"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 20200102
+        versionCode 20200105
         versionName "1.0"
     }
     splits {
@@ -192,6 +196,7 @@ dependencies {
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02'
     implementation 'com.google.android.gms:play-services-base:17.0.0' // DEPENDENCY: rn-maps
     implementation 'com.google.android.gms:play-services-maps:17.0.0' // DEPENDENCY: rn-maps
+    implementation 'com.google.firebase:firebase-analytics:17.2.0'
 
     if (enableHermes) {
         def hermesPath = "../../node_modules/hermes-engine/android/";
@@ -210,3 +215,4 @@ task copyDownloadableDepsToLibs(type: Copy) {
 }
 
 apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)
+apply plugin: 'com.google.gms.google-services'
