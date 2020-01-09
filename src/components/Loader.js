@@ -1,5 +1,6 @@
 import React, { memo } from 'react'
 import { View } from 'react-native'
+import PropTypes from 'prop-types'
 import { ActivityIndicator, Caption } from 'react-native-paper'
 import { translate } from '../i18n'
 import theme, { sharedStyles } from '../styles'
@@ -14,6 +15,13 @@ const Loader = ({ visible, textStyle, color = theme.colors.accent, containerStyl
     )
   }
   return null
+}
+
+Loader.propTypes = {
+  visible: PropTypes.bool,
+  textStyle: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
+  color: PropTypes.string,
+  containerStyle: PropTypes.PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
 }
 
 export default memo(Loader)

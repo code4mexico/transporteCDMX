@@ -1,4 +1,5 @@
 import React, { PureComponent } from 'react'
+import PropTypes from 'prop-types'
 import MapView, { Marker } from 'react-native-maps'
 import { sharedStyles } from '../styles'
 
@@ -27,6 +28,11 @@ class MetrobusMap extends PureComponent {
       </MapView>
     )
   }
+}
+
+MetrobusMap.propTypes = {
+  route: PropTypes.object,
+  navigation: PropTypes.object,
 }
 
 export default MetrobusMap

@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react'
 import { TextInput, StatusBar, StyleSheet, View } from 'react-native'
+import PropTypes from 'prop-types'
 import { IconButton, Card, Caption, Button } from 'react-native-paper'
 import VehicleFeatures from '../components/VehicleFeatures'
 import ImpoundLotNavigator from '../components/VehicleSections/ImpoundLotNavigator'
@@ -136,5 +137,9 @@ const styles = StyleSheet.create({
     height: 50,
   },
 })
+
+Vehicles.propTypes = {
+  navigation: PropTypes.object,
+}
 
 export default Vehicles

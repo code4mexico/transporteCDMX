@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { FlatList, View } from 'react-native'
 import { keyExtractor } from '../utils/list'
 import ImpoundLot from '../components/ImpoundLot'
@@ -28,6 +29,10 @@ const ImpoundLotsDetail = props => {
       ListEmptyComponent={_renderEmptyPlaceholder}
     />
   )
+}
+
+ImpoundLotsDetail.propTypes = {
+  route: PropTypes.object,
 }
 
 export default ImpoundLotsDetail

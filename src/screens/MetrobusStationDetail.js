@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react'
 import { View, FlatList } from 'react-native'
+import PropTypes from 'prop-types'
 import moment from 'moment'
 import { sharedStyles } from '../styles'
 import Loader from '../components/Loader'
@@ -131,6 +132,11 @@ class MetrobusStationDetail extends PureComponent {
       />
     )
   }
+}
+
+MetrobusStationDetail.propTypes = {
+  route: PropTypes.object,
+  navigation: PropTypes.object,
 }
 
 export default MetrobusStationDetail

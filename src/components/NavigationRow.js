@@ -1,5 +1,6 @@
 import React, { memo } from 'react'
 import { View, TouchableOpacity, StyleSheet } from 'react-native'
+import PropTypes from 'prop-types'
 import Icon from 'react-native-vector-icons/FontAwesome5'
 import { Paragraph, ActivityIndicator } from 'react-native-paper'
 import theme, { sharedStyles } from '../styles'
@@ -49,5 +50,16 @@ const NavigationRow = ({
 const styles = StyleSheet.create({
   container: { height: 50 },
 })
+
+NavigationRow.propTypes = {
+  onPress: PropTypes.func,
+  iconName: PropTypes.string,
+  iconColor: PropTypes.string,
+  iconSize: PropTypes.number,
+  text: PropTypes.string,
+  navigationDetail: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  hideBorder: PropTypes.bool,
+  isLoading: PropTypes.bool,
+}
 
 export default memo(NavigationRow)

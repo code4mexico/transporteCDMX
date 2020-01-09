@@ -1,6 +1,8 @@
 import React, { PureComponent } from 'react'
 import { View, StyleSheet, Linking } from 'react-native'
+import PropTypes from 'prop-types'
 import { Button, Card, Caption, Paragraph } from 'react-native-paper'
+import TrafficTicketModel from '../models/TrafficTicket'
 import { translate } from '../i18n'
 import theme, { sharedStyles } from '../styles'
 
@@ -44,5 +46,9 @@ const styles = StyleSheet.create({
     color: theme.colors.accent,
   },
 })
+
+TrafficTicket.propTypes = {
+  ticket: PropTypes.instanceOf(TrafficTicketModel),
+}
 
 export default TrafficTicket

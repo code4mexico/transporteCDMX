@@ -1,5 +1,6 @@
 import React, { memo } from 'react'
 import { View, Image, StyleSheet } from 'react-native'
+import PropTypes from 'prop-types'
 import { Caption } from 'react-native-paper'
 import { sharedStyles } from '../styles'
 
@@ -30,5 +31,11 @@ const styles = StyleSheet.create({
     height: '58%',
   },
 })
+
+SimplePlaceholder.propTypes = {
+  text: PropTypes.string,
+  imageURL: PropTypes.number,
+  fullHeight: PropTypes.bool,
+}
 
 export default memo(SimplePlaceholder)

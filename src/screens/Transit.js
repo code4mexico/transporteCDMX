@@ -1,4 +1,5 @@
 import React, { PureComponent, Fragment } from 'react'
+import PropTypes from 'prop-types'
 import MapView, { Marker } from 'react-native-maps'
 import { StatusBar } from 'react-native'
 import SplashScreen from 'react-native-splash-screen'
@@ -97,6 +98,10 @@ class Transit extends PureComponent {
       </Fragment>
     )
   }
+}
+
+Transit.propTypes = {
+  navigation: PropTypes.object,
 }
 
 export default Transit

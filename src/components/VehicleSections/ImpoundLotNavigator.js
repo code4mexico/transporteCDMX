@@ -1,4 +1,5 @@
 import React, { PureComponent, Fragment } from 'react'
+import PropTypes from 'prop-types'
 import NavigationRow from '../NavigationRow'
 import { translate } from '../../i18n'
 import { getImpoundLots } from '../../api/endpoints'
@@ -82,6 +83,11 @@ class ImpoundLotNavigator extends PureComponent {
       </Fragment>
     )
   }
+}
+
+ImpoundLotNavigator.propTypes = {
+  navigation: PropTypes.object,
+  plateText: PropTypes.string,
 }
 
 export default ImpoundLotNavigator

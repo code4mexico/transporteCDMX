@@ -1,6 +1,8 @@
 import React, { PureComponent, Fragment } from 'react'
+import PropTypes from 'prop-types'
 import { View, StyleSheet, Linking } from 'react-native'
 import { Button, Caption, Card, Paragraph } from 'react-native-paper'
+import ImpoundLotModel from '../models/ImpoundLot'
 import { translate } from '../i18n'
 import theme, { sharedStyles } from '../styles'
 import { openMapApp } from '../utils/location'
@@ -66,5 +68,9 @@ const styles = StyleSheet.create({
     color: theme.colors.accent,
   },
 })
+
+ImpoundLot.propTypes = {
+  impoundLot: PropTypes.instanceOf(ImpoundLotModel),
+}
 
 export default ImpoundLot

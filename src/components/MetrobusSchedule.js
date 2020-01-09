@@ -1,6 +1,8 @@
 import React, { PureComponent } from 'react'
 import { StyleSheet, View } from 'react-native'
+import PropTypes from 'prop-types'
 import { Button, Caption, Card, Headline, Paragraph } from 'react-native-paper'
+import MetrobusModel from '../models/Metrobus'
 import theme, { sharedStyles } from '../styles'
 import { translate } from '../i18n'
 
@@ -47,5 +49,11 @@ const styles = StyleSheet.create({
     color: theme.colors.accent,
   },
 })
+
+MetrobusSchedule.propTypes = {
+  metrobus: PropTypes.instanceOf(MetrobusModel),
+  lineColor: PropTypes.string,
+  navigation: PropTypes.object,
+}
 
 export default MetrobusSchedule

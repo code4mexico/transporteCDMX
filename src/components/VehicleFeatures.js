@@ -1,6 +1,7 @@
 import React, { memo } from 'react'
 import SwiperFlatList from 'react-native-swiper-flatlist'
 import { Caption, Card, Subheading } from 'react-native-paper'
+import PropTypes from 'prop-types'
 import { translate } from '../i18n'
 import { StyleSheet, View } from 'react-native'
 import { sharedStyles } from '../styles'
@@ -57,5 +58,9 @@ const styles = StyleSheet.create({
     width: responsiveWidth(10),
   },
 })
+
+VehicleFeatures.propTypes = {
+  navigation: PropTypes.object,
+}
 
 export default memo(VehicleFeatures)

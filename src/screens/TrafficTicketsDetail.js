@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import { FlatList, View } from 'react-native'
+import PropTypes from 'prop-types'
 import { Caption } from 'react-native-paper'
 import TrafficTicket from '../components/TrafficTicket'
 import SimplePlaceholder from '../components/SimplePlaceholder'
@@ -51,6 +52,10 @@ const TrafficTicketsDetail = props => {
       ListEmptyComponent={_renderEmptyPlaceholder}
     />
   )
+}
+
+TrafficTicketsDetail.propTypes = {
+  route: PropTypes.object,
 }
 
 export default TrafficTicketsDetail

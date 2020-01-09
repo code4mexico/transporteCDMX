@@ -1,5 +1,6 @@
 import React, { memo } from 'react'
 import { StyleSheet, View } from 'react-native'
+import PropTypes from 'prop-types'
 import Loader from './Loader'
 import theme, { sharedStyles } from '../styles'
 
@@ -24,5 +25,10 @@ const styles = StyleSheet.create({
     left: 0,
   },
 })
+
+Loader.propTypes = {
+  showOverlay: PropTypes.bool,
+  loaderColor: PropTypes.string,
+}
 
 export default memo(LoadingOverlay)

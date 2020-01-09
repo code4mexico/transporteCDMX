@@ -1,5 +1,6 @@
 import React, { memo } from 'react'
 import { StyleSheet, View } from 'react-native'
+import PropTypes from 'prop-types'
 import { Button, Subheading } from 'react-native-paper'
 import theme, { sharedStyles } from '../styles'
 import { translate } from '../i18n'
@@ -42,5 +43,10 @@ const styles = StyleSheet.create({
     left: 0,
   },
 })
+
+ErrorOverlay.propTypes = {
+  showOverlay: PropTypes.bool,
+  onPress: PropTypes.func.isRequired,
+}
 
 export default memo(ErrorOverlay)
