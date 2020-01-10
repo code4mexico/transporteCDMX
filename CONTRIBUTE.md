@@ -30,7 +30,7 @@ For a pull request to get merged it needs to have the following things:
 
 1. **Fork transporteCDMX in your github account**
 
-2. **Clone objection**
+2. **Clone TransporteCDMX**
 
 ```bash
 git clone git@github.com:<your-account>/transporteCDMX.git
