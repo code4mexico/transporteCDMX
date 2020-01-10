@@ -39,7 +39,10 @@ git clone git@github.com:<your-account>/transporteCDMX.git
 
 3. **Run `yarn install` at the root of project's folder**
 
-4. **Run `pod install` at the root of [ios](ios) folder**
+4. **Link required packages**
+   - `react-native link react-native-config`
+   
+5. **Run `pod install` at the root of [ios](ios) folder**
 
 6. **Run `yarn test` at the root of project's folder to see if everything works.**
 
