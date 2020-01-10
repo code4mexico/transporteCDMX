@@ -1,6 +1,6 @@
 # TransporteCDMX
 This an open source project created by [Code for Mexico](https://codeformexico.com). Any contributions to this repo are welcomed. Just create a fork and then create a Pull Request with your proposed changes.
-Keep in mind we have a [contribution guide](CONTRIBUTE.md) where you will find everything to get started.
+Keep in mind we have a [contribution guide](CONTRIBUTING.md) where you will find everything to get started.
 
 ### About this project
 TransporteCDMX was born in the process of creating a better all-in-one [Mexico City's app](https://adip.cdmx.gob.mx/comunicacion/nota/la-adip-presenta-alameda-central-la-aplicacion-unica-de-la-ciudad-de-mexico). We decided to move out all government services related to transport from App CDMX (formerly Alameda Central). We believe that you will only create high quality products if your problem is framed.
@@ -41,7 +41,7 @@ Our main reason is because Mexico City's capacity is under its optimal capacity.
 We want to this project to be alive for many years so we will respect all the developers that work at Mexico City's government.
 Just put yourself in their position. You don't want any ugly boss yelling at you because city services are down.
 
-On the other hand, you can find our mocks endpoints in our [contribution guide](CONTRIBUTE.md). If you create other open source solution with this information we will evaluate along with the government if we can give you access to our endpoints.
+On the other hand, you can find our mocks endpoints in our [contribution guide](CONTRIBUTING.md). If you create other open source solution with this information we will evaluate along with the government if we can give you access to our endpoints.
 
 ### License
 You can find our code license [here](LICENSE).
