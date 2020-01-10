@@ -4,7 +4,7 @@
     "react-native/react-native": true,
     "browser": true
   },
-  "plugins": ["react", "react-native", "flowtype", "prettier", "standard"],
+  "plugins": ["react", "react-native", "flowtype", "prettier", "standard", "react-hooks"],
   "extends": [
     "airbnb",
     "eslint:recommended",
@@ -23,6 +23,8 @@
     "react/prefer-stateless-function": [0],
     "react/destructuring-assignment": [0],
     "react/display-name": [0],
-    "no-underscore-dangle": "off"
+    "no-underscore-dangle": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
   }
 }
