@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import { StatusBar, ScrollView, Image, StyleSheet, Linking, View } from 'react-native'
 import { Button, Caption, Headline, Subheading, Divider, Paragraph } from 'react-native-paper'
 import DeviceInfo from 'react-native-device-info'
@@ -42,7 +42,7 @@ const deleteCache = async () => {
 
 const Acknowledgments = () => {
   return (
-    <Fragment>
+    <>
       <StatusBar barStyle="dark-content" backgroundColor={theme.colors.primary} />
       <ScrollView style={sharedStyles.p3}>
         <Headline style={[sharedStyles.mb3, sharedStyles.textAlignCenter]}>
@@ -91,7 +91,7 @@ const Acknowledgments = () => {
           </Button>
         </View>
       </ScrollView>
-    </Fragment>
+    </>
   )
 }
 

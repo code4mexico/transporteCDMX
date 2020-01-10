@@ -1,4 +1,4 @@
-import React, { PureComponent, Fragment } from 'react'
+import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
 import NavigationRow from '../NavigationRow'
 import { translate } from '../../i18n'
@@ -71,7 +71,7 @@ class TrafficTicketsNavigator extends PureComponent {
 
   render() {
     return (
-      <Fragment>
+      <>
         <NavigationRow
           onPress={this.state.error ? null : this._goToInfractions}
           iconName="gavel"
@@ -81,7 +81,7 @@ class TrafficTicketsNavigator extends PureComponent {
           isLoading={this.state.isLoading}
           hideBorder
         />
-      </Fragment>
+      </>
     )
   }
 }

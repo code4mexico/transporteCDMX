@@ -1,4 +1,4 @@
-import React, { PureComponent, Fragment } from 'react'
+import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
 import { View, StyleSheet, Linking } from 'react-native'
 import { Button, Caption, Card, Paragraph } from 'react-native-paper'
@@ -19,14 +19,14 @@ class ImpoundLot extends PureComponent {
   _renderButtons = () => {
     if (this.props.impoundLot.showMap) {
       return (
-        <Fragment>
+        <>
           <Button color={theme.colors.accent} onPress={this._onCallPressed}>
             {translate('call')}
           </Button>
           <Button color={theme.colors.accent} onPress={this._onDirectionsPressed}>
             {translate('directions')}
           </Button>
-        </Fragment>
+        </>
       )
     }
     return null

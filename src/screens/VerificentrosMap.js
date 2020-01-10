@@ -1,4 +1,4 @@
-import React, { PureComponent, Fragment } from 'react'
+import React, { PureComponent } from 'react'
 import MapView, { Marker } from 'react-native-maps'
 import { Linking, StatusBar, StyleSheet, View } from 'react-native'
 import RBSheet from 'react-native-raw-bottom-sheet'
@@ -93,7 +93,7 @@ class VerificentrosMap extends PureComponent {
 
   render() {
     return (
-      <Fragment>
+      <>
         <StatusBar barStyle="dark-content" backgroundColor={theme.colors.primary} />
         <MapView initialRegion={DEFAULT_MAP_REGION} style={sharedStyles.flex1}>
           {this._renderMarkers()}
@@ -115,7 +115,7 @@ class VerificentrosMap extends PureComponent {
             </View>
           </View>
         </RBSheet>
-      </Fragment>
+      </>
     )
   }
 }

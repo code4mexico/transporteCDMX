@@ -1,4 +1,4 @@
-import React, { PureComponent, Fragment } from 'react'
+import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
 import MapView, { Marker } from 'react-native-maps'
 import { StatusBar } from 'react-native'
@@ -88,14 +88,14 @@ class Transit extends PureComponent {
 
   render() {
     return (
-      <Fragment>
+      <>
         <StatusBar barStyle="dark-content" backgroundColor={theme.colors.primary} />
         <MapView initialRegion={DEFAULT_MAP_REGION} style={sharedStyles.flex1}>
           {this._renderLinesMarkers()}
         </MapView>
         <ErrorOverlay showOverlay={this.state.error} onPress={this._fetchMetrobusLines} />
         <LoadingOverlay showOverlay={this.state.isLoading} loaderColor={theme.colors.primary} />
-      </Fragment>
+      </>
     )
   }
 }
