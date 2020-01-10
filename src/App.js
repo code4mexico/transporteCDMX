@@ -151,7 +151,7 @@ class App extends PureComponent {
           <Tab.Screen
             name="Transit"
             component={TransitStack}
-            options={tabOptions(translate('transit'), 'subway')}
+            options={tabOptions(translate('metrobus'), 'subway')}
           />
           {/* // TODO: It's not implemented
           <Tab.Screen

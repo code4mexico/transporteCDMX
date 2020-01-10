@@ -65,7 +65,7 @@
 		09C7DB09A0884EB5A5F99E11 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
 		0B886E201514401C41E903BE /* Pods-transporteCDMX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-transporteCDMX.release.xcconfig"; path = "Target Support Files/Pods-transporteCDMX/Pods-transporteCDMX.release.xcconfig"; sourceTree = "<group>"; };
 		0D3395B97D6B4B87A933CDAA /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* Transporte CDMX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Transporte CDMX.app"; path = transporteCDMX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* transporteCDMX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = transporteCDMX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = transporteCDMX/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = transporteCDMX/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = transporteCDMX/Images.xcassets; sourceTree = "<group>"; };
@@ -256,7 +256,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Transporte CDMX.app */,
+				13B07F961A680F5B00A75B9A /* transporteCDMX.app */,
 				00E356EE1AD99517003FC87E /* transporteCDMXTests.xctest */,
 				2D02E47B1E0B4A5D006451C7 /* transporteCDMX-tvOS.app */,
 				2D02E4901E0B4A5D006451C7 /* transporteCDMX-tvOSTests.xctest */,
@@ -307,7 +307,7 @@
 			);
 			name = transporteCDMX;
 			productName = transporteCDMX;
-			productReference = 13B07F961A680F5B00A75B9A /* Transporte CDMX.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* transporteCDMX.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2D02E47A1E0B4A5D006451C7 /* transporteCDMX-tvOS */ = {
@@ -795,11 +795,12 @@
 			baseConfigurationReference = F49CEAA000BD150C33FAC20B /* Pods-transporteCDMX.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 20190108;
+				CURRENT_PROJECT_VERSION = 20190109;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = 8V83L59KX7;
 				INFOPLIST_FILE = transporteCDMX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -816,10 +817,11 @@
 			baseConfigurationReference = 0B886E201514401C41E903BE /* Pods-transporteCDMX.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 20190108;
+				CURRENT_PROJECT_VERSION = 20190109;
 				DEVELOPMENT_TEAM = 8V83L59KX7;
 				INFOPLIST_FILE = transporteCDMX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
