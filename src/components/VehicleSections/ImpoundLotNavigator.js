@@ -1,4 +1,4 @@
-import React, { PureComponent, Fragment } from 'react'
+import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
 import NavigationRow from '../NavigationRow'
 import { translate } from '../../i18n'
@@ -71,7 +71,7 @@ class ImpoundLotNavigator extends PureComponent {
 
   render() {
     return (
-      <Fragment>
+      <>
         <NavigationRow
           onPress={this.state.error ? null : this._goToImpoundLots}
           iconName="car"
@@ -80,7 +80,7 @@ class ImpoundLotNavigator extends PureComponent {
           text={translate('impound_lot')}
           isLoading={this.state.isLoading}
         />
-      </Fragment>
+      </>
     )
   }
 }

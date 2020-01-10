@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import { FlatList, View } from 'react-native'
 import PropTypes from 'prop-types'
 import { Caption } from 'react-native-paper'
@@ -32,14 +32,15 @@ const TrafficTicketsDetail = props => {
   const _renderTotalInfractions = () => {
     if (trafficTickets?.length) {
       return (
-        <Fragment>
+        <>
           <View style={[sharedStyles.alignItemsCenter, sharedStyles.py2]}>
             <Caption>{_getCountText(trafficTickets.length)}</Caption>
             <Caption>{translate('fine_calculation')}</Caption>
           </View>
-        </Fragment>
+        </>
       )
     }
+
     return null
   }
 
