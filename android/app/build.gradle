@@ -142,8 +142,8 @@ android {
         applicationId "com.transportecdmx"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 20200109
-        versionName "1.0.1"
+        versionCode 2020011100
+        versionName "1.0.3"
     }
     splits {
         abi {
@@ -190,6 +190,7 @@ android {
 }
 
 dependencies {
+    implementation project(':react-native-config')
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "com.facebook.react:react-native:+"  // From node_modules
     implementation 'androidx.appcompat:appcompat:1.1.0-rc01'
