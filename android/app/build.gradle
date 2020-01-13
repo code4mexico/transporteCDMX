@@ -142,8 +142,8 @@ android {
         applicationId "com.transportecdmx"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 2020011100
-        versionName "1.0.3"
+        versionCode 2020011102
+        versionName "1.1"
     }
     splits {
         abi {
