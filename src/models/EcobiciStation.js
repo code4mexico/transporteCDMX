@@ -121,4 +121,24 @@ export default class EcobiciStation {
 
     return theme.colors.mediumGray
   }
+
+  calculatePinColor(bikesOrSlots) {
+    if (this._status === CLOSED_STATUS) {
+      return theme.colors.mediumGray
+    }
+
+    if (bikesOrSlots === 0) {
+      return theme.colors.danger
+    }
+
+    if (bikesOrSlots <= MINIMUM_BIKE_COUNT) {
+      return theme.colors.warning
+    }
+
+    if (bikesOrSlots) {
+      return this._stationType === ELECTRIC_TYPE ? theme.colors.accent : theme.colors.success
+    }
+
+    return theme.colors.mediumGray
+  }
 }

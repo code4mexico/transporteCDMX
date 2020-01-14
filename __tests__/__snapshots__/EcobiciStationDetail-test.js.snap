@@ -8,6 +8,9 @@ exports[`EcobiciStationDetail it renders correctly 1`] = `
     }
   }
 >
+  <Memo(ListHeader)
+    text="[missing \\"en.last_updated\\" translation] - 07:19:56 PM"
+  />
   <Title
     style={
       Object {
@@ -22,9 +25,6 @@ exports[`EcobiciStationDetail it renders correctly 1`] = `
       Array [
         Object {
           "textAlign": "center",
-        },
-        Object {
-          "color": "#2B45AC",
         },
         Object {
           "marginTop": 17,
@@ -61,7 +61,13 @@ exports[`EcobiciStationDetail it renders correctly 1`] = `
         ]
       }
     >
-      <Title>
+      <Title
+        style={
+          Object {
+            "color": [MockFunction],
+          }
+        }
+      >
         [missing "en.bikes" translation]: 3
       </Title>
     </View>
@@ -80,7 +86,13 @@ exports[`EcobiciStationDetail it renders correctly 1`] = `
         ]
       }
     >
-      <Title>
+      <Title
+        style={
+          Object {
+            "color": [MockFunction],
+          }
+        }
+      >
         [missing "en.slots" translation]: 24
       </Title>
     </View>
@@ -208,6 +220,9 @@ exports[`EcobiciStationDetail it renders correctly when loading 1`] = `
     }
   }
 >
+  <Memo(ListHeader)
+    text="[missing \\"en.last_updated\\" translation] - 07:19:56 PM"
+  />
   <Title
     style={
       Object {
@@ -222,9 +237,6 @@ exports[`EcobiciStationDetail it renders correctly when loading 1`] = `
       Array [
         Object {
           "textAlign": "center",
-        },
-        Object {
-          "color": "#2B45AC",
         },
         Object {
           "marginTop": 17,
@@ -261,7 +273,13 @@ exports[`EcobiciStationDetail it renders correctly when loading 1`] = `
         ]
       }
     >
-      <Title>
+      <Title
+        style={
+          Object {
+            "color": [MockFunction],
+          }
+        }
+      >
         [missing "en.bikes" translation]: 3
       </Title>
     </View>
@@ -280,7 +298,13 @@ exports[`EcobiciStationDetail it renders correctly when loading 1`] = `
         ]
       }
     >
-      <Title>
+      <Title
+        style={
+          Object {
+            "color": [MockFunction],
+          }
+        }
+      >
         [missing "en.slots" translation]: 24
       </Title>
     </View>

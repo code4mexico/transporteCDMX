@@ -11,6 +11,7 @@ describe('EcobiciStationDetail', () => {
       <EcobiciStationDetail
         station={ecobiciStationFixture}
         fetchEcobiciStations={fetchEcobiciStations}
+        lastUpdate="07:19:56 PM"
       />,
     )
     expect(wrapper).toMatchSnapshot()
@@ -21,6 +22,7 @@ describe('EcobiciStationDetail', () => {
       <EcobiciStationDetail
         station={ecobiciStationFixture}
         fetchEcobiciStations={fetchEcobiciStations}
+        lastUpdate="07:19:56 PM"
         isLoading
       />,
     )
