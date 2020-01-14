@@ -12,6 +12,7 @@ import { getEcobiciStations } from '../api/endpoints'
 import { HTTP_NO_CONTENT, HTTP_SUCCESS } from '../api/request'
 import { translate } from '../i18n'
 import SimpleToast from '../components/SimpleToast'
+import moment from 'moment'
 
 const DEFAULT_MAP_REGION = {
   latitude: 19.399,
@@ -46,9 +47,10 @@ class Ecobici extends PureComponent {
   state = {
     activeMarker: {},
     ecobiciStations: DEFAULT_ECOBICI_STATIONS,
-    serverLoaded: false,
-    isLoading: true,
     error: false,
+    isLoading: true,
+    lastUpdate: null,
+    serverLoaded: false,
   }
 
   componentDidMount() {
@@ -60,9 +62,20 @@ class Ecobici extends PureComponent {
       const ecobiciStations = ecobiciResponse.data.response.stations.map(stationResponse => {
         return new EcobiciStationModel(stationResponse)
       })
-      this.setState({ ecobiciStations, error: false, isLoading: false, serverLoaded: true })
+      this.setState({
+        ecobiciStations,
+        error: false,
+        isLoading: false,
+        serverLoaded: true,
+        lastUpdate: moment().format('hh:mm:ss A '),
+      })
     } else {
-      this.setState({ ecobiciStations: DEFAULT_ECOBICI_STATIONS, error: true, isLoading: false })
+      this.setState({
+        ecobiciStations: DEFAULT_ECOBICI_STATIONS,
+        error: true,
+        isLoading: false,
+        lastUpdate: 'Error',
+      })
     }
   }
 
@@ -70,9 +83,19 @@ class Ecobici extends PureComponent {
     if (ecobiciResponse?.data?.code === HTTP_SUCCESS) {
       this._ecobiciResponseSuccess(ecobiciResponse)
     } else if (ecobiciResponse?.data?.code === HTTP_NO_CONTENT) {
-      this.setState({ ecobiciStations: DEFAULT_ECOBICI_STATIONS, error: false, isLoading: false })
+      this.setState({
+        ecobiciStations: DEFAULT_ECOBICI_STATIONS,
+        error: false,
+        isLoading: false,
+        lastUpdate: 'Error',
+      })
     } else {
-      this.setState({ ecobiciStations: DEFAULT_ECOBICI_STATIONS, error: true, isLoading: false })
+      this.setState({
+        ecobiciStations: DEFAULT_ECOBICI_STATIONS,
+        error: true,
+        isLoading: false,
+        lastUpdate: 'Error',
+      })
     }
   }
 
@@ -81,7 +104,7 @@ class Ecobici extends PureComponent {
     try {
       this._ecobiciResponseHanlder(await getEcobiciStations())
     } catch (e) {
-      this.setState({ isLoading: false, error: true })
+      this.setState({ isLoading: false, error: true, lastUpdate: 'Error' })
     }
   }
 
@@ -155,6 +178,7 @@ class Ecobici extends PureComponent {
             station={this.state.activeMarker}
             fetchEcobiciStations={this._fetchEcobiciStations}
             isLoading={this.state.isLoading}
+            lastUpdate={this.state.lastUpdate}
           />
         </RBSheet>
       </>

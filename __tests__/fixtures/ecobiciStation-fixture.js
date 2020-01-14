@@ -18,6 +18,7 @@ const ecobiciStationFixture = {
   neighborhoodCode: 'HIP',
   status: 'Estatus de la estación: Abierta',
   pinColor: '#A1A1A1',
+  calculatePinColor: jest.fn,
 }
 
 export default ecobiciStationFixture

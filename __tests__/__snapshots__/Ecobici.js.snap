@@ -6278,6 +6278,7 @@ exports[`Ecobici it renders correctly while NOT loading 1`] = `
     <Memo(EcobiciStationDetail)
       fetchEcobiciStations={[Function]}
       isLoading={false}
+      lastUpdate={null}
       station={Object {}}
     />
   </RBSheet>
@@ -12591,6 +12592,7 @@ exports[`Ecobici it renders correctly while loading 1`] = `
     <Memo(EcobiciStationDetail)
       fetchEcobiciStations={[Function]}
       isLoading={true}
+      lastUpdate={null}
       station={Object {}}
     />
   </RBSheet>
@@ -19008,6 +19010,7 @@ exports[`Ecobici it renders correctly whit error 1`] = `
     <Memo(EcobiciStationDetail)
       fetchEcobiciStations={[Function]}
       isLoading={false}
+      lastUpdate={null}
       station={Object {}}
     />
   </RBSheet>
