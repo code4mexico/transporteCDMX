@@ -3,9 +3,14 @@
 exports[`EcobiciStationDetail it renders correctly 1`] = `
 <View
   style={
-    Object {
-      "padding": 17,
-    }
+    Array [
+      Object {
+        "margin": 17,
+      },
+      Object {
+        "height": "100%",
+      },
+    ]
   }
 >
   <Memo(ListHeader)
@@ -215,9 +220,14 @@ exports[`EcobiciStationDetail it renders correctly 1`] = `
 exports[`EcobiciStationDetail it renders correctly when loading 1`] = `
 <View
   style={
-    Object {
-      "padding": 17,
-    }
+    Array [
+      Object {
+        "margin": 17,
+      },
+      Object {
+        "height": "100%",
+      },
+    ]
   }
 >
   <Memo(ListHeader)
@@ -316,7 +326,7 @@ exports[`EcobiciStationDetail it renders correctly when loading 1`] = `
       }
     }
     mode="text"
-    onPress={[Function]}
+    onPress={null}
     style={
       Object {
         "marginTop": 17,

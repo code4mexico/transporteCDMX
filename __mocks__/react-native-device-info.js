@@ -1,3 +1,5 @@
+/* eslint-disable no-undef */
+
 jest.mock('react-native-device-info', () => {
   return {
     getModel: jest.fn(() => 'phone model'),

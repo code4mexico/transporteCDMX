@@ -104,7 +104,7 @@ class VerificentrosMap extends PureComponent {
           }}
           height={responsiveHeight(70)}
           closeOnDragDown>
-          <View style={[sharedStyles.m3, sharedStyles.mb6]}>
+          <View style={[sharedStyles.m3, sharedStyles.mb6, sharedStyles.fullRelativeHeight]}>
             <Title style={styles.section}>{`${translate('car_types')}:`}</Title>
             <Subheading style={styles.section}>{this.state.activeMarker.gasType}</Subheading>
             <Paragraph>{this.state.activeMarker.address}</Paragraph>

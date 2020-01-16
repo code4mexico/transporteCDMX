@@ -47,7 +47,7 @@ class ImpoundLot extends PureComponent {
   render() {
     const { impoundLot } = this.props
     return (
-      <Card style={[sharedStyles.mx3, sharedStyles.mb3]}>
+      <Card style={[sharedStyles.mx3, sharedStyles.mb3, sharedStyles.fullRelativeHeight]}>
         <Card.Content>
           <View style={[sharedStyles.flex1, sharedStyles.spaceBetween, sharedStyles.flexDRow]}>
             <Paragraph style={styles.section}>{impoundLot.formattedStatus}</Paragraph>

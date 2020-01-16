@@ -6271,7 +6271,7 @@ exports[`Ecobici it renders correctly while NOT loading 1`] = `
     closeOnPressMask={true}
     customStyles={Object {}}
     duration={300}
-    height={600.3000000000001}
+    height={800.4}
     minClosingHeight={0}
     onClose={null}
   >
@@ -12585,7 +12585,7 @@ exports[`Ecobici it renders correctly while loading 1`] = `
     closeOnPressMask={true}
     customStyles={Object {}}
     duration={300}
-    height={600.3000000000001}
+    height={800.4}
     minClosingHeight={0}
     onClose={null}
   >
@@ -18993,7 +18993,6 @@ exports[`Ecobici it renders correctly whit error 1`] = `
       }
     >
       [missing "en.retry" translation]
-       
     </withTheme(Button)>
   </View>
   <RBSheet
@@ -19003,7 +19002,7 @@ exports[`Ecobici it renders correctly whit error 1`] = `
     closeOnPressMask={true}
     customStyles={Object {}}
     duration={300}
-    height={600.3000000000001}
+    height={800.4}
     minClosingHeight={0}
     onClose={null}
   >

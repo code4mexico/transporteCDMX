@@ -10,6 +10,9 @@ exports[`ImpoundLot it renders correctly WITH map 1`] = `
       Object {
         "marginBottom": 17,
       },
+      Object {
+        "height": "100%",
+      },
     ]
   }
 >
@@ -89,6 +92,9 @@ exports[`ImpoundLot it renders correctly WITHOUT map 1`] = `
       },
       Object {
         "marginBottom": 17,
+      },
+      Object {
+        "height": "100%",
       },
     ]
   }

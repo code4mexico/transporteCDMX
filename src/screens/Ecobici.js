@@ -1,4 +1,5 @@
 import React, { PureComponent } from 'react'
+import moment from 'moment'
 import MapView, { Marker } from 'react-native-maps'
 import { StatusBar, StyleSheet, View } from 'react-native'
 import { Button, Subheading, ActivityIndicator } from 'react-native-paper'
@@ -12,7 +13,7 @@ import { getEcobiciStations } from '../api/endpoints'
 import { HTTP_NO_CONTENT, HTTP_SUCCESS } from '../api/request'
 import { translate } from '../i18n'
 import SimpleToast from '../components/SimpleToast'
-import moment from 'moment'
+import { DEVICE_IS } from '../utils/device'
 
 const DEFAULT_MAP_REGION = {
   latitude: 19.399,
@@ -27,6 +28,7 @@ const formatEcobiciStations = stations => {
 }
 
 const DEFAULT_ECOBICI_STATIONS = formatEcobiciStations(ECOBICI_STATIONS_JSON)
+const SHOW_TOAST_ON_TOP = true
 
 const styles = StyleSheet.create({
   loaderContainer: {
@@ -57,24 +59,37 @@ class Ecobici extends PureComponent {
     this._fetchEcobiciStations()
   }
 
+  _clearAndSetMarkers = setMarkerCallback => {
+    // [] clears default pins on Android. We need to find a better solution
+    if (DEVICE_IS.ANDROID) {
+      this.setState({ ecobiciStations: [] }, setMarkerCallback)
+    } else {
+      setMarkerCallback()
+    }
+  }
+
   _ecobiciResponseSuccess = ecobiciResponse => {
     if (ecobiciResponse?.data?.response?.stations) {
       const ecobiciStations = ecobiciResponse.data.response.stations.map(stationResponse => {
         return new EcobiciStationModel(stationResponse)
       })
-      this.setState({
-        ecobiciStations,
-        error: false,
-        isLoading: false,
-        serverLoaded: true,
-        lastUpdate: moment().format('hh:mm:ss A '),
+      this._clearAndSetMarkers(() => {
+        this.setState({
+          ecobiciStations,
+          error: false,
+          isLoading: false,
+          serverLoaded: true,
+          lastUpdate: moment().format('hh:mm:ss A '),
+        })
       })
     } else {
-      this.setState({
-        ecobiciStations: DEFAULT_ECOBICI_STATIONS,
-        error: true,
-        isLoading: false,
-        lastUpdate: 'Error',
+      this._clearAndSetMarkers(() => {
+        this.setState({
+          ecobiciStations: DEFAULT_ECOBICI_STATIONS,
+          error: true,
+          isLoading: false,
+          lastUpdate: 'Error',
+        })
       })
     }
   }
@@ -83,18 +98,22 @@ class Ecobici extends PureComponent {
     if (ecobiciResponse?.data?.code === HTTP_SUCCESS) {
       this._ecobiciResponseSuccess(ecobiciResponse)
     } else if (ecobiciResponse?.data?.code === HTTP_NO_CONTENT) {
-      this.setState({
-        ecobiciStations: DEFAULT_ECOBICI_STATIONS,
-        error: false,
-        isLoading: false,
-        lastUpdate: 'Error',
+      this._clearAndSetMarkers(() => {
+        this.setState({
+          ecobiciStations: DEFAULT_ECOBICI_STATIONS,
+          error: false,
+          isLoading: false,
+          lastUpdate: 'Error',
+        })
       })
     } else {
-      this.setState({
-        ecobiciStations: DEFAULT_ECOBICI_STATIONS,
-        error: true,
-        isLoading: false,
-        lastUpdate: 'Error',
+      this._clearAndSetMarkers(() => {
+        this.setState({
+          ecobiciStations: DEFAULT_ECOBICI_STATIONS,
+          error: true,
+          isLoading: false,
+          lastUpdate: 'Error',
+        })
       })
     }
   }
@@ -116,7 +135,7 @@ class Ecobici extends PureComponent {
           this.RBSheet.open()
         }
       } else {
-        SimpleToast(translate('stations_load_needed'))
+        SimpleToast(translate('stations_load_needed'), SHOW_TOAST_ON_TOP)
       }
     }
   }
@@ -151,7 +170,7 @@ class Ecobici extends PureComponent {
               labelStyle={theme.colors.colorSecondary}
               mode="contained"
               onPress={this._fetchEcobiciStations}>
-              {translate('retry')}{' '}
+              {translate('retry')}
             </Button>
           )}
         </View>
@@ -172,7 +191,7 @@ class Ecobici extends PureComponent {
           ref={ref => {
             this.RBSheet = ref
           }}
-          height={responsiveHeight(45)}
+          height={responsiveHeight(60)}
           closeOnDragDown>
           <EcobiciStationDetail
             station={this.state.activeMarker}

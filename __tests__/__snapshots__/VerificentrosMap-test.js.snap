@@ -811,6 +811,9 @@ exports[`VerificentrosMap it renders correctly 1`] = `
           Object {
             "marginBottom": 34,
           },
+          Object {
+            "height": "100%",
+          },
         ]
       }
     >

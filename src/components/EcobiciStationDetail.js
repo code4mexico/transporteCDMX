@@ -9,7 +9,7 @@ import ListHeader from './ListHeader'
 
 const EcobiciStationDetail = ({ station, fetchEcobiciStations, isLoading, lastUpdate }) => {
   return (
-    <View style={sharedStyles.p3}>
+    <View style={[sharedStyles.m3, sharedStyles.fullRelativeHeight]}>
       <ListHeader text={`${translate('last_updated')} - ${lastUpdate}`} />
       <Title style={sharedStyles.textAlignCenter}>{station.status}</Title>
       <Title style={[sharedStyles.textAlignCenter, sharedStyles.mt3]}>{station.stationType}</Title>
@@ -34,7 +34,7 @@ const EcobiciStationDetail = ({ station, fetchEcobiciStations, isLoading, lastUp
         mode="text"
         style={sharedStyles.mt3}
         labelStyle={theme.colors.colorSecondary}
-        onPress={fetchEcobiciStations}>
+        onPress={isLoading ? null : fetchEcobiciStations}>
         {isLoading ? translate('loading_stations') : translate('reload_information')}
       </Button>
     </View>

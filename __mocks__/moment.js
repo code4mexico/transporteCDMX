@@ -1,3 +1,5 @@
+/* eslint-disable no-undef */
+
 jest.mock('moment', () => {
   return jest.fn(() => {
     return {
