@@ -7,21 +7,14 @@ TransporteCDMX was born in the process of creating a better all-in-one [Mexico C
 
 #### Main features
 1. Get Metrobus schedule by stations.
-2. Impound Lot and traffic tickets search by car plate.
-3. Impound Lots map and information.
-4. Verificentros map, information and deep linking to create appointments.
+2. Get Ecobici available bikes and slots by station.
+3. Impound Lot and traffic tickets search by car plate.
+4. Impound Lots map and information.
+5. Verificentros map, information and deep linking to create appointments.
 
 #### Features we will develop
-1. Be able to search and filter Metrobus lines.
-2. Replace Metrobus pins with [Polylines](https://github.com/react-native-community/react-native-maps/blob/master/docs/polyline.md).
-3. Automatic refresh on metrobus station schedule.
-4. Show user's location on every map.
-5. Metro (subway), light rail and RTP stops and stations.
-7. Ecobici.
-8. Get environmental check vehicle information. (API)
-9. No-drive days information and notifications.
-10. Improve Verificentros appointments. (API)
-11. e2e tests.
+
+If you feel we should include a new feature please check our [Development plan](https://github.com/code4mexico/transporteCDMX/projects/1) and create a issue if needed.
 
 ### Code for Mexico
 We are in the process of creating our NGO in the meanwhile we will fulfill our objective under this name. We are mainly developers and designers that uses code and design to change Mexico's social problems. We know that our social problems need multidisciplinary solutions so we are not closed to other professional profiles, but a collaboration depends if your profile matches one of our current projects.
