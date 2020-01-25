@@ -4,6 +4,7 @@
   "app_support": "TransporteCDMX support",
   "bikes": "Bikes",
   "call": "Call",
+  "cancel": "Cancel",
   "car_types": "Car types",
   "closed": "closed",
   "code_for_mexico_project": "TransporteCDMX - open source project created by Code for Mexico. You can get more info at codeformexico.com",
@@ -25,7 +26,7 @@
   "error_unavailable": "Service unavailable, contact support",
   "error_unprocessable": "We couldn't process your info, contact support",
   "fine": "Fine",
-  "fine_calculation": "Amounts calculated with 2019 minimum salary",
+  "fine_calculation": "Amounts calculated with 2020 minimum salary",
   "folio": "Folio",
   "fourth_gen_bike_station": "4th gen bike station",
   "go_back": "Go back",
@@ -61,6 +62,7 @@
   "retry": "Retry",
   "schedule_appointment": "Schedule appointment",
   "send_support_tweet": "Send tweet",
+  "settings": "Settings",
   "slots": "Slots",
   "special_thanks": "Special thanks",
   "station_status": "Station status",
@@ -77,5 +79,7 @@
   "verificentros": "Verificentros",
   "verificentros_description": "Search and create appointments in your closest Verificentro",
   "view_on_map": "View on map",
+  "we_need_location_instructions": "If you want to give us access change your settings",
+  "we_need_location_permissions": "You canceled our access to your location",
   "without_traffic_tickets": "Without traffic tickets"
 }

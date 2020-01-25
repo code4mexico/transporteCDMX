@@ -4,6 +4,7 @@
   "app_support": "Soporte de TransporteCDMX",
   "bikes": "Bicicletas",
   "call": "Llamar",
+  "cancel": "Cancelar",
   "car_types": "Tipos de vehículos",
   "closed": "cerrada",
   "code_for_mexico_project": "TransporteCDMX - proyecto de código abierto creado por Code for Mexico. Puedes cononcer más en codeformexico.com",
@@ -25,7 +26,7 @@
   "error_unavailable": "El servicio no está disponible, contacta al soporte",
   "error_unprocessable": "No pudimos procesar tu información, contacta al soporte",
   "fine": "Sanción",
-  "fine_calculation": "Calculado con el salario mínimo del 2019",
+  "fine_calculation": "Calculado con el salario mínimo del 2020",
   "folio": "Folio",
   "fourth_gen_bike_station": "Estación de bicicletas de 4ta generación",
   "go_back": "Regresar",
@@ -61,6 +62,7 @@
   "retry": "Reintentar",
   "schedule_appointment": "Agendar cita",
   "send_support_tweet": "Enviar tweet",
+  "settings": "Configuraciones",
   "slots": "Espacios",
   "special_thanks": "Agradecimientos especiales",
   "station_status": "Estatus de la estación",
@@ -77,5 +79,7 @@
   "verificentros": "Verificentros",
   "verificentros_description": "Busca y agenda citas en el verificentro más cercano",
   "view_on_map": "Ver en mapa",
+  "we_need_location_instructions": "Si quisieras darnos acceso tendrás que hacerlo desde las configuraciones",
+  "we_need_location_permissions": "No tenemos acceso a tu ubicación",
   "without_traffic_tickets": "Sin multas"
 }

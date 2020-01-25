@@ -95,7 +95,11 @@ class VerificentrosMap extends PureComponent {
     return (
       <>
         <StatusBar barStyle="dark-content" backgroundColor={theme.colors.primary} />
-        <MapView initialRegion={DEFAULT_MAP_REGION} style={sharedStyles.flex1}>
+        <MapView
+          initialRegion={DEFAULT_MAP_REGION}
+          style={sharedStyles.flex1}
+          showsUserLocation
+          followsUserLocation>
           {this._renderMarkers()}
         </MapView>
         <RBSheet

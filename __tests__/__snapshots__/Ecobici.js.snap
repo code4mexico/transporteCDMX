@@ -9,6 +9,7 @@ exports[`Ecobici it renders correctly while NOT loading 1`] = `
     showHideTransition="fade"
   />
   <MapView
+    followsUserLocation={true}
     initialRegion={
       Object {
         "latitude": 19.399,
@@ -17,6 +18,7 @@ exports[`Ecobici it renders correctly while NOT loading 1`] = `
         "longitudeDelta": 0.09,
       }
     }
+    showsUserLocation={true}
     style={
       Object {
         "flex": 1,
@@ -6294,6 +6296,7 @@ exports[`Ecobici it renders correctly while loading 1`] = `
     showHideTransition="fade"
   />
   <MapView
+    followsUserLocation={true}
     initialRegion={
       Object {
         "latitude": 19.399,
@@ -6302,6 +6305,7 @@ exports[`Ecobici it renders correctly while loading 1`] = `
         "longitudeDelta": 0.09,
       }
     }
+    showsUserLocation={true}
     style={
       Object {
         "flex": 1,
@@ -12608,6 +12612,7 @@ exports[`Ecobici it renders correctly whit error 1`] = `
     showHideTransition="fade"
   />
   <MapView
+    followsUserLocation={true}
     initialRegion={
       Object {
         "latitude": 19.399,
@@ -12616,6 +12621,7 @@ exports[`Ecobici it renders correctly whit error 1`] = `
         "longitudeDelta": 0.09,
       }
     }
+    showsUserLocation={true}
     style={
       Object {
         "flex": 1,

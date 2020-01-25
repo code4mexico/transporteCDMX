@@ -1,7 +1,7 @@
 import moment from 'moment'
 
 // TODO: We need to create a dictionary of year -> UMA relationship
-const UMA = 84.49
+const UMA = 86.88
 
 export default class TrafficTicket {
   constructor(trafficTicketResponse, carPlate) {
