@@ -10,6 +10,7 @@ import storage from '../models/storage'
 import { getMetroBusLines } from '../api/endpoints'
 import { HTTP_NO_CONTENT, HTTP_SUCCESS } from '../api/request'
 import MetrobusLine from '../models/MetrobusLine'
+import { getLocationPermission } from '../utils/location'
 
 const METROBUS_STORAGE_KEY = '@metrobusLines'
 const DEFAULT_MAP_REGION = {
@@ -30,6 +31,7 @@ class Transit extends PureComponent {
 
   async componentDidMount() {
     SplashScreen.hide()
+    getLocationPermission()
     this.metrobusLines = await storage.get(METROBUS_STORAGE_KEY)
     // TODO: We need to ask if ids are prone to change
     if (!this.metrobusLines) {
@@ -90,7 +92,11 @@ class Transit extends PureComponent {
     return (
       <>
         <StatusBar barStyle="dark-content" backgroundColor={theme.colors.primary} />
-        <MapView initialRegion={DEFAULT_MAP_REGION} style={sharedStyles.flex1}>
+        <MapView
+          initialRegion={DEFAULT_MAP_REGION}
+          style={sharedStyles.flex1}
+          showsUserLocation
+          followsUserLocation>
           {this._renderLinesMarkers()}
         </MapView>
         <ErrorOverlay showOverlay={this.state.error} onPress={this._fetchMetrobusLines} />
