@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MapViewWithLocation it renders correctly 1`] = `
+<MapView
+  followsUserLocation={true}
+  onUserLocationChange={[Function]}
+  showsUserLocation={true}
+/>
+`;
+
+exports[`MapViewWithLocation it renders correctly with Children 1`] = `
+<MapView
+  followsUserLocation={true}
+  onUserLocationChange={[Function]}
+  showsUserLocation={true}
+>
+  <View />
+</MapView>
+`;

@@ -1,9 +1,10 @@
 import React, { PureComponent } from 'react'
-import MapView, { Marker } from 'react-native-maps'
+import { Marker } from 'react-native-maps'
 import { Linking, StatusBar, StyleSheet, View } from 'react-native'
 import { Title, Paragraph, Button } from 'react-native-paper'
 import RBSheet from 'react-native-raw-bottom-sheet'
 import { responsiveHeight } from 'react-native-responsive-dimensions'
+import MapViewWithLocation from '../components/MapViewWithLocation'
 import { DEFAULT_MAP_REGION, openMapApp } from '../utils/location'
 import theme, { sharedStyles } from '../styles'
 import IMPOUND_LOTS_JSON from '../assets/datasets/ImpoundLotsLocation.json'
@@ -77,9 +78,9 @@ class ImpoundLotsMap extends PureComponent {
     return (
       <>
         <StatusBar barStyle="dark-content" backgroundColor={theme.colors.primary} />
-        <MapView initialRegion={DEFAULT_MAP_REGION} style={sharedStyles.flex1} showsUserLocation>
+        <MapViewWithLocation initialRegion={DEFAULT_MAP_REGION} style={sharedStyles.flex1}>
           {this._renderMarkers()}
-        </MapView>
+        </MapViewWithLocation>
         <RBSheet
           ref={ref => {
             this.RBSheet = ref

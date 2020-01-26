@@ -8,7 +8,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
     barStyle="dark-content"
     showHideTransition="fade"
   />
-  <MapView
+  <MapViewWithLocation
     initialRegion={
       Object {
         "latitude": 19.39,
@@ -17,7 +17,6 @@ exports[`VerificentrosMap it renders correctly 1`] = `
         "longitudeDelta": 0.3,
       }
     }
-    showsUserLocation={true}
     style={
       Object {
         "flex": 1,
@@ -791,7 +790,7 @@ exports[`VerificentrosMap it renders correctly 1`] = `
       stopPropagation={false}
       title="AUTO SERVICIO ESPINO, S.A."
     />
-  </MapView>
+  </MapViewWithLocation>
   <RBSheet
     animationType="none"
     closeOnDragDown={true}

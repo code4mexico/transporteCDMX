@@ -1,10 +1,11 @@
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
-import MapView, { Marker } from 'react-native-maps'
+import { Marker } from 'react-native-maps'
 import { StatusBar } from 'react-native'
 import SplashScreen from 'react-native-splash-screen'
 import LoadingOverlay from '../components/LoadingOverlay'
 import ErrorOverlay from '../components/ErrorOverlay'
+import MapViewWithLocation from '../components/MapViewWithLocation'
 import theme, { sharedStyles } from '../styles'
 import storage from '../models/storage'
 import { getMetroBusLines } from '../api/endpoints'
@@ -22,9 +23,9 @@ const DEFAULT_MAP_REGION = {
 
 class Transit extends PureComponent {
   state = {
-    metrobusLines: null,
-    isLoading: true,
     error: false,
+    isLoading: true,
+    metrobusLines: null,
   }
 
   metrobusLines = null
@@ -92,9 +93,9 @@ class Transit extends PureComponent {
     return (
       <>
         <StatusBar barStyle="dark-content" backgroundColor={theme.colors.primary} />
-        <MapView initialRegion={DEFAULT_MAP_REGION} style={sharedStyles.flex1} showsUserLocation>
+        <MapViewWithLocation initialRegion={DEFAULT_MAP_REGION} style={sharedStyles.flex1}>
           {this._renderLinesMarkers()}
-        </MapView>
+        </MapViewWithLocation>
         <ErrorOverlay showOverlay={this.state.error} onPress={this._fetchMetrobusLines} />
         <LoadingOverlay showOverlay={this.state.isLoading} loaderColor={theme.colors.primary} />
       </>

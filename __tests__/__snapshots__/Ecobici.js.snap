@@ -8,7 +8,7 @@ exports[`Ecobici it renders correctly while NOT loading 1`] = `
     barStyle="dark-content"
     showHideTransition="fade"
   />
-  <MapView
+  <MapViewWithLocation
     initialRegion={
       Object {
         "latitude": 19.399,
@@ -17,7 +17,6 @@ exports[`Ecobici it renders correctly while NOT loading 1`] = `
         "longitudeDelta": 0.09,
       }
     }
-    showsUserLocation={true}
     style={
       Object {
         "flex": 1,
@@ -6264,7 +6263,7 @@ exports[`Ecobici it renders correctly while NOT loading 1`] = `
       stopPropagation={false}
       title="426 CERRADA DE POPOCATEPETL-AV. POPOCATEPETL (EJE "
     />
-  </MapView>
+  </MapViewWithLocation>
   <RBSheet
     animationType="none"
     closeOnDragDown={true}
@@ -6294,7 +6293,7 @@ exports[`Ecobici it renders correctly while loading 1`] = `
     barStyle="dark-content"
     showHideTransition="fade"
   />
-  <MapView
+  <MapViewWithLocation
     initialRegion={
       Object {
         "latitude": 19.399,
@@ -6303,7 +6302,6 @@ exports[`Ecobici it renders correctly while loading 1`] = `
         "longitudeDelta": 0.09,
       }
     }
-    showsUserLocation={true}
     style={
       Object {
         "flex": 1,
@@ -12550,7 +12548,7 @@ exports[`Ecobici it renders correctly while loading 1`] = `
       stopPropagation={false}
       title="426 CERRADA DE POPOCATEPETL-AV. POPOCATEPETL (EJE "
     />
-  </MapView>
+  </MapViewWithLocation>
   <View
     style={
       Object {
@@ -12609,7 +12607,7 @@ exports[`Ecobici it renders correctly whit error 1`] = `
     barStyle="dark-content"
     showHideTransition="fade"
   />
-  <MapView
+  <MapViewWithLocation
     initialRegion={
       Object {
         "latitude": 19.399,
@@ -12618,7 +12616,6 @@ exports[`Ecobici it renders correctly whit error 1`] = `
         "longitudeDelta": 0.09,
       }
     }
-    showsUserLocation={true}
     style={
       Object {
         "flex": 1,
@@ -18865,7 +18862,7 @@ exports[`Ecobici it renders correctly whit error 1`] = `
       stopPropagation={false}
       title="426 CERRADA DE POPOCATEPETL-AV. POPOCATEPETL (EJE "
     />
-  </MapView>
+  </MapViewWithLocation>
   <View
     style={
       Object {

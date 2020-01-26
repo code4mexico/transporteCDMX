@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
 import moment from 'moment'
-import MapView, { Marker } from 'react-native-maps'
+import { Marker } from 'react-native-maps'
 import { StatusBar, StyleSheet, View } from 'react-native'
 import { Button, Subheading, ActivityIndicator } from 'react-native-paper'
 import { responsiveHeight } from 'react-native-responsive-dimensions'
@@ -9,10 +9,11 @@ import theme, { sharedStyles } from '../styles'
 import ECOBICI_STATIONS_JSON from '../assets/datasets/EcobiciStationsLocation.json'
 import EcobiciStationModel from '../models/EcobiciStation'
 import EcobiciStationDetail from '../components/EcobiciStationDetail'
+import MapViewWithLocation from '../components/MapViewWithLocation'
+import SimpleToast from '../components/SimpleToast'
 import { getEcobiciStations } from '../api/endpoints'
 import { HTTP_NO_CONTENT, HTTP_SUCCESS } from '../api/request'
 import { translate } from '../i18n'
-import SimpleToast from '../components/SimpleToast'
 import { DEVICE_IS } from '../utils/device'
 
 const DEFAULT_MAP_REGION = {
@@ -183,9 +184,9 @@ class Ecobici extends PureComponent {
     return (
       <>
         <StatusBar barStyle="dark-content" backgroundColor={theme.colors.primary} />
-        <MapView initialRegion={DEFAULT_MAP_REGION} style={sharedStyles.flex1} showsUserLocation>
+        <MapViewWithLocation initialRegion={DEFAULT_MAP_REGION} style={sharedStyles.flex1}>
           {this._renderMarkers()}
-        </MapView>
+        </MapViewWithLocation>
         {this._renderLoader()}
         <RBSheet
           ref={ref => {

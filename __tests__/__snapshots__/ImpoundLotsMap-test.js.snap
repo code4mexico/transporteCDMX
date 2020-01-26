@@ -8,7 +8,7 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
     barStyle="dark-content"
     showHideTransition="fade"
   />
-  <MapView
+  <MapViewWithLocation
     initialRegion={
       Object {
         "latitude": 19.39,
@@ -17,7 +17,6 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
         "longitudeDelta": 0.3,
       }
     }
-    showsUserLocation={true}
     style={
       Object {
         "flex": 1,
@@ -474,7 +473,7 @@ exports[`ImpoundLotsMap it renders correctly 1`] = `
       stopPropagation={false}
       title="Tierra Unida"
     />
-  </MapView>
+  </MapViewWithLocation>
   <RBSheet
     animationType="none"
     closeOnDragDown={true}
