@@ -45,9 +45,9 @@
 	</dict>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>TransporteCDMX usa tu ubicación para ayudarte a llegar a tu destino</string>
-      <key>NSLocationAlwaysUsageDescription</key>
+	<key>NSLocationAlwaysUsageDescription</key>
 	<string>TransporteCDMX usa tu ubicación para ayudarte a llegar a tu destino</string>
-      <key>NSLocationWhenInUseUsageDescription</key>
+	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>TransporteCDMX usa tu ubicación para ayudarte a llegar a tu destino</string>
 	<key>UIAppFonts</key>
 	<array>
