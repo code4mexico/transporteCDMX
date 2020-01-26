@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`MetrobusMap it renders correctly 1`] = `
-<MapView
+<MapViewWithLocation
   initialRegion={
     Object {
       "latitude": 19,
@@ -10,7 +10,6 @@ exports[`MetrobusMap it renders correctly 1`] = `
       "longitudeDelta": 0.01,
     }
   }
-  showsUserLocation={true}
   style={
     Object {
       "flex": 1,
@@ -31,5 +30,5 @@ exports[`MetrobusMap it renders correctly 1`] = `
     stopPropagation={false}
     title="This a name"
   />
-</MapView>
+</MapViewWithLocation>
 `;

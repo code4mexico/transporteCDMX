@@ -1,7 +1,7 @@
 import { Alert, Linking } from 'react-native'
+import { check, request, openSettings, PERMISSIONS, RESULTS } from 'react-native-permissions'
 import { DEVICE_IS } from './device'
 import { translate } from '../i18n'
-import { check, request, openSettings, PERMISSIONS, RESULTS } from 'react-native-permissions'
 
 const APPLE_MAPS_URL_PREFIX = 'http://maps.apple.com/'
 const GOOGLE_MAPS_URL_PREFIX = DEVICE_IS.IOS ? 'comgooglemaps://' : 'geo://'
@@ -40,11 +40,16 @@ const openGoogleMaps = addressParams => {
   Linking.openURL(buildGoogleMapsUrl(addressParams)).catch(openMapAppErrorAlert)
 }
 
+const canOpenAppleMaps = addressParams => {
+  Linking.canOpenURL(APPLE_MAPS_TEST_URL)
+    .then(result => (result ? openAppleMaps(addressParams) : openMapAppErrorAlert()))
+    .catch(openMapAppErrorAlert)
+}
+
 const openMapApp = addressParams => {
   Linking.canOpenURL(GOOGLE_MAPS_TEST_URL)
-    .then(() => openGoogleMaps(addressParams))
-    .catch(() => Linking.canOpenURL(APPLE_MAPS_TEST_URL).then(() => openAppleMaps(addressParams)))
-    .catch(() => openMapAppErrorAlert())
+    .then(result => (result ? openGoogleMaps(addressParams) : canOpenAppleMaps(addressParams)))
+    .catch(openMapAppErrorAlert)
 }
 
 const locationDeniedAlert = () => {
@@ -68,13 +73,22 @@ const handleLocationPermissionResult = (result, successCallback) => {
 const requestLocation = () => {
   request(LOCATION_PERMISSION)
     .then(result => handleLocationPermissionResult(result, locationDeniedAlert))
-    .catch(_ => false)
+    .catch(() => false)
 }
 
 const getLocationPermission = () => {
   check(LOCATION_PERMISSION)
     .then(result => handleLocationPermissionResult(result, requestLocation))
-    .catch(_ => false)
+    .catch(() => false)
 }
 
-export { DEFAULT_MAP_REGION, openMapApp, getLocationPermission }
+const coordinateToRegion = coordinate => {
+  return {
+    latitude: coordinate.latitude,
+    longitude: coordinate.longitude,
+    latitudeDelta: 0.01,
+    longitudeDelta: 0.01,
+  }
+}
+
+export { DEFAULT_MAP_REGION, openMapApp, getLocationPermission, coordinateToRegion }

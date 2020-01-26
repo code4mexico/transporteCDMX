@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
-import MapView, { Marker } from 'react-native-maps'
+import { Marker } from 'react-native-maps'
+import MapViewWithLocation from '../components/MapViewWithLocation'
 import { sharedStyles } from '../styles'
 
 class MetrobusMap extends PureComponent {
@@ -23,9 +24,9 @@ class MetrobusMap extends PureComponent {
   render() {
     const { metrobus, lineColor } = this.props.route.params
     return (
-      <MapView initialRegion={metrobus.coordinates} style={sharedStyles.flex1} showsUserLocation>
+      <MapViewWithLocation initialRegion={metrobus.coordinates} style={sharedStyles.flex1}>
         {this._renderMarker(metrobus, lineColor)}
-      </MapView>
+      </MapViewWithLocation>
     )
   }
 }

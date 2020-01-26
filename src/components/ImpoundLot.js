@@ -9,7 +9,7 @@ import { openMapApp } from '../utils/location'
 
 class ImpoundLot extends PureComponent {
   _onCallPressed = () => {
-    Linking.openURL(`tel://${this.props.impoundLot.phone}`)
+    Linking.openURL(`tel://${this.props.impoundLot.phoneNumber}`)
   }
 
   _onDirectionsPressed = () => {
