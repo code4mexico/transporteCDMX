@@ -23,11 +23,7 @@ class MetrobusMap extends PureComponent {
   render() {
     const { metrobus, lineColor } = this.props.route.params
     return (
-      <MapView
-        initialRegion={metrobus.coordinates}
-        style={sharedStyles.flex1}
-        showsUserLocation
-        followsUserLocation>
+      <MapView initialRegion={metrobus.coordinates} style={sharedStyles.flex1} showsUserLocation>
         {this._renderMarker(metrobus, lineColor)}
       </MapView>
     )

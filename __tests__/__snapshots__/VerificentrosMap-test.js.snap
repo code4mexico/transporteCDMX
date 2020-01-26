@@ -9,7 +9,6 @@ exports[`VerificentrosMap it renders correctly 1`] = `
     showHideTransition="fade"
   />
   <MapView
-    followsUserLocation={true}
     initialRegion={
       Object {
         "latitude": 19.39,

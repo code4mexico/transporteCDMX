@@ -9,7 +9,6 @@ exports[`Transit it renders correctly while NOT loading 1`] = `
     showHideTransition="fade"
   />
   <MapView
-    followsUserLocation={true}
     initialRegion={
       Object {
         "latitude": 19.42,
@@ -74,7 +73,6 @@ exports[`Transit it renders correctly while loading 1`] = `
     showHideTransition="fade"
   />
   <MapView
-    followsUserLocation={true}
     initialRegion={
       Object {
         "latitude": 19.42,
@@ -110,7 +108,6 @@ exports[`Transit it renders correctly with error 1`] = `
     showHideTransition="fade"
   />
   <MapView
-    followsUserLocation={true}
     initialRegion={
       Object {
         "latitude": 19.42,

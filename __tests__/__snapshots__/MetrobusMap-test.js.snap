@@ -2,7 +2,6 @@
 
 exports[`MetrobusMap it renders correctly 1`] = `
 <MapView
-  followsUserLocation={true}
   initialRegion={
     Object {
       "latitude": 19,
