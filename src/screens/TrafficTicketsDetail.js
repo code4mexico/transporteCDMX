@@ -35,7 +35,6 @@ const TrafficTicketsDetail = props => {
         <>
           <View style={[sharedStyles.alignItemsCenter, sharedStyles.py2]}>
             <Caption>{_getCountText(trafficTickets.length)}</Caption>
-            <Caption>{translate('fine_calculation')}</Caption>
           </View>
         </>
       )
