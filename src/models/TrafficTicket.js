@@ -1,7 +1,19 @@
 import moment from 'moment'
 
-// TODO: We need to create a dictionary of year -> UMA relationship
-const UMA = 86.88
+const UMAS = {
+  2009: 54.8,
+  2010: 57.46,
+  2011: 59.82,
+  2012: 62.33,
+  2013: 64.76,
+  2014: 67.29,
+  2015: 70.1,
+  2016: 71.68,
+  2017: 75.49,
+  2018: 80.6,
+  2019: 84.49,
+  2020: 86.88,
+}
 
 export default class TrafficTicket {
   constructor(trafficTicketResponse, carPlate) {
@@ -52,7 +64,7 @@ export default class TrafficTicket {
   }
 
   formatFineAmount() {
-    return parseFloat(this._fine) * UMA
+    return parseFloat(this._fine) * UMAS[moment(this._date).year()]
   }
 
   formatFolio() {
